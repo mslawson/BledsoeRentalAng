@@ -29,10 +29,19 @@ app.controller('MainCtrl', ['$scope','productsBase', function ($scope, productsB
   	$scope.products = productsBase;
 
   	$scope.addProduct = function(){
-  		$scope.products.$add({
+  		var addp = $scope.products.$add({
   			productName: $scope.productName,
   			cost: $scope.cost
   		});
+
+  		$scope.productName = '';
+  		$scope.cost = '';
+
+  		if(addp){
+  			window.alert('saved');
+  		}else{
+  			window.alert('failed');
+  		}
   	};
 
 	}]);
