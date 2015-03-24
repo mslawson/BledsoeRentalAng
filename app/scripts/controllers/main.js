@@ -17,33 +17,27 @@
 //     ];
 //   });
 
+var app = angular.module('angfireApp');
 
-angular.module('angfireApp')
-  .controller('MainCtrl', ['$scope', '$firebaseArray', function ($scope, $firebaseArray) {
-  	var productsRef = new Firebase('https://bledsoe.firebaseio.com/');
+app.controller('MainCtrl', ['$scope','productsBase', function ($scope, productsBase) {
+  	// var productsRef = new Firebase('https://bledsoe.firebaseio.com/');
 
-  	$scope.products = $firebaseArray(productsRef);
-  	
-	}
+  	// var products = $firebaseArray(productsRef);
 
-]);	
+  	// // var products = $firebaseArray(productsRef);
 
+  	$scope.products = productsBase;
 
-  	// $scope.product = Product;
-   //  $scope.add = function() {
-   //   var save = Product.$add({
-   //    productName: $scope.productName,
-   //    cost: $scope.cost
-   //   });
+  	$scope.addProduct = function(){
+  		$scope.products.$add({
+  			productName: $scope.productName,
+  			cost: $scope.cost
+  		});
+  	};
 
-   //   $scope.productName = '';
-   //   $scope.cost = '';
+	}]);
 
-   //   if(save) {
-   //    alert('saved successfully');
-   //   } else {
-   //    alert('something went wrong');
-   //   }
+    
    // 	};
    // });
  

@@ -10,8 +10,8 @@
  * Main module of the application.
  */
 
-angular
-  .module('angfireApp', [
+var app = angular.module('angfireApp', 
+  [
     'firebase',
     'ngAnimate',
     'ngCookies',
@@ -20,13 +20,18 @@ angular
     'ngSanitize',
     'ngTouch',
     'firebase'
-  ])
-  .value('fbURL', 'https://bledsoe.firebaseio.com/')
-  .factory('Product', function (fbURL, $firebaseArray){
-    return $firebaseArray(new Firebase(fbURL));
-  })
+  ]);
 
-  .config(function ($routeProvider) {
+app.factory('productsBase', ['$firebaseArray',
+    function ($firebaseArray){
+
+      var ref = new Firebase('https://bledsoe.firebaseio.com/');
+
+      return $firebaseArray(ref);
+    }
+]);
+
+app.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
