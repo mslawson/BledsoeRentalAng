@@ -1,16 +1,19 @@
-<div class="jumbotron">
+<!-- <div class="jumbotron">
   <h1>'Allo, 'Allo!</h1>
   <p class="lead">
     <img src="images/yeoman.png" alt="I'm Yeoman"><br>
     Always a pleasure scaffolding your apps.
   </p>
   <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
+</div> -->
 <div>
   <table class="table">
   <thead>
     <th>Number</th>
-    <th>Name</th>
+    <th>Description</th>
+    <th>Minimum (3 hrs)</th>
+    <th>Daily</th>
+    <th>Weekly</th>
     <th>&nbsp;</th>
     <th>&nbsp;</th>
   </thead>
@@ -18,7 +21,21 @@
     <tr ng-repeat="product in products">
       <td>{{product.NUMBER}}</td>
       <td>{{product.NAME}}</td>
-      <td>
+
+      <!-- using if to not display $0 if no value -->
+      <td ng-if="product.THREEHOUR">{{product.THREEHOUR | currency}}</td>
+      <td ng-if="!product.THREEHOUR">&nbsp;</td>
+
+      <td>{{product.DAILY | currency}}</td>
+
+      <!-- using if to not display $0 if no value -->
+      <td ng-if="product.WEEKLY">{{product.WEEKLY | currency}}</td>
+      <td ng-if="!product.WEEKLY">&nbsp;</td>
+
+<!--       <td class="licnum" ng-if="participant.LicenseNumber">{{participant.LicenseNumber}}</td>
+<td class="licnum" ng-if="!participant.LicenseNumber">&nbsp;</td>
+      <td> -->
+
         <a href="#">Edit</a>
       </t>
       <td>
