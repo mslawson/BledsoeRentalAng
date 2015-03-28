@@ -7,6 +7,7 @@
   <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
 </div> -->
 <div>
+  <h5>Search: <input ng-model="query"></h5>
   <table class="table">
   <thead>
     <th>Number</th>
@@ -18,7 +19,7 @@
     <th>&nbsp;</th>
   </thead>
   <tbody>
-    <tr ng-repeat="product in products">
+    <tr ng-repeat="product in products | filter:query" >
       <td>{{product.NUMBER}}</td>
       <td>{{product.NAME}}</td>
 
@@ -32,9 +33,6 @@
       <td ng-if="product.WEEKLY">{{product.WEEKLY | currency}}</td>
       <td ng-if="!product.WEEKLY">&nbsp;</td>
 
-<!--       <td class="licnum" ng-if="participant.LicenseNumber">{{participant.LicenseNumber}}</td>
-<td class="licnum" ng-if="!participant.LicenseNumber">&nbsp;</td>
-      <td> -->
       <td>
         <a href="#">Edit</a>
       </td>
