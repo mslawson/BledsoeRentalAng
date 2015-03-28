@@ -37,9 +37,17 @@ app.config(function ($routeProvider) {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/home', {
+        templateUrl: 'views/home.html',
+        controller: 'MainCtrl'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
+      })
+      .when('/rental', {
+        templateUrl: 'views/rental.html',
+        controller: 'MainCtrl'
       })
       .otherwise({
         redirectTo: '/main'
