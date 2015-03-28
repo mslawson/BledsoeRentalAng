@@ -34,7 +34,7 @@ app.factory('productsBase', ['$firebaseArray',
 app.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/home.html',
         controller: 'MainCtrl'
       })
       .when('/home', {
@@ -50,6 +50,6 @@ app.config(function ($routeProvider) {
         controller: 'MainCtrl'
       })
       .otherwise({
-        redirectTo: '/main'
+        redirectTo: '/home'
       });
   });
