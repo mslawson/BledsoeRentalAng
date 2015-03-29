@@ -8,14 +8,6 @@
  * # MainCtrl
  * Controller of the angfireApp
  */
-// angular.module('angfireApp')
-//   .controller('MainCtrl', function ($scope) {
-//     $scope.awesomeThings = [
-//       'HTML5 Boilerplate',
-//       'AngularJS',
-//       'Karma'
-//     ];
-//   });
 
 var app = angular.module('angfireApp');
 
