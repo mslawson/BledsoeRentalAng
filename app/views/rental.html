@@ -3,9 +3,10 @@
 						<div id="page-bgbtm">
 							<div id="content">
 								<div class="post">
-									<h2 class="title" ng-if="categoryFilter == null || categoryFilter == '' ">Equipment Rental Rates & New Equipment News</h2>
-									<h2 class="title" ng-if="categoryFilter == 'Concrete'">Concrete Grinding</h2>
-									
+									<h2 class="title" ng-hide="categoryFilter == null || categoryFilter == ''">{{categoryFilter.Category}}</h2>
+									<h2 class="title" ng-show="categoryFilter == null || categoryFilter == '' ">Equipment Rental Rates & New Equipment News</h2>
+									<h2 class="title" ng-show="categoryFilter.Category == 'Concrete'">Concrete Grinding</h2>
+
 									<div class="entry">
 
 										<div>
