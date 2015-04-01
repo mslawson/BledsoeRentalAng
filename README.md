@@ -1,4 +1,4 @@
-Bledsoe Rentals - Updated Site
+## Bledsoe Rentals - Updated Site
 
 Updating the current Bledsoe Rentals site to search for rental items, create sub categories and possible party rental page redesign.
 
