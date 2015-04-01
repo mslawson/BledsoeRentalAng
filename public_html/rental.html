@@ -1,0 +1,213 @@
+
+				<div id="page" class="container">
+					<div id="page-bgtop">
+						<div id="page-bgbtm">
+							<div id="content">
+								<div class="post">
+									<h2 class="title">Equipment Rental Rates & New Equipment News</h2>
+
+									<h5>Search: <input ng-model="query"></h5>
+									<table class="table">
+										<thead>
+											<th>Number</th>
+											<th>Description</th>
+											<th>Minimum (3 hrs)</th>
+											<th>Daily</th>
+											<th>Weekly</th>
+											<th>&nbsp;</th>
+											<th>&nbsp;</th>
+										</thead>
+										<tbody>
+											<tr ng-repeat="product in products | filter:query" >
+												<td>{{product.NUMBER}}</td>
+												<td>{{product.NAME}}</td>
+
+												<!-- using if to not display $0 if no value -->
+												<td ng-if="product.THREEHOUR">{{product.THREEHOUR | currency}}</td>
+												<td ng-if="!product.THREEHOUR">&nbsp;</td>
+
+												<td>{{product.DAILY | currency}}</td>
+
+												<!-- using if to not display $0 if no value -->
+												<td ng-if="product.WEEKLY">{{product.WEEKLY | currency}}</td>
+												<td ng-if="!product.WEEKLY">&nbsp;</td>
+
+												<td>
+													<a href="#">Edit</a>
+												</td>
+												<td>
+													<a href="#">Remove</a>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								
+								<div class="entry">
+									<div id="box1">
+										<h3 class="text1">S450TX Mini Skid Steer</h3>
+										<p class="text2"></p>
+										<p><a href="#"><img src="images/equipment/s450.jpg" alt="" width="420" height="264" class="alignleft" /></a><p>Whether it’s on a commercial worksite or home project, the S450TX can 	
+											maneuver in and out of small spaces with ease. Featuring a 500 lb SAE-rated operating capacity and a tipping capacity of 1430 lb, the S450TX is well-suited to both                                         the needs of the rental customer and landscape contractor. The Kubota 24.8-horsepower diesel engine provide excellent 
+											torque performance and are designed for those who use attachments requiring greater engine torque. What’s more, the S450TX is track-driven, with a spring-cushioned operator platform for                                         added safety and comfort. Versatile and equipped with a 6’  dump height, this mini skid steer saves labor and time.</p>
+
+											<table class="stats" cellspacing="0">
+												<tr>
+													<td class="hed" align="center" colspan="1">-</p></strong></td>
+													<td class="hed" colspan="1">Description</p></strong></td>
+													<td class="hed" colspan="1">3/HRS</p></strong></td>
+													<td class="hed" colspan="1">Daily</p></strong></td>
+													<td class="hed" colspan="1">Weekly</p></strong></td>
+												</tr>
+												<tr><td><a href="/images/equipment/s450.jpg" class="highslide" onclick="return hs.expand(this)" title="5700 Floor Scraper" style="float:right; margin: 0 0 10px 15px">
+													<img src="/images/equipment/s450.jpg"  alt="Highslide JS" title="Click to enlarge" style="width: 40px;height:40px;"  /></td>
+													<td>DINGO / VEERMER MINI SKID</td>
+													<td>$108.00</td>
+													<td>$162.00</td>
+													<td>$487.00</td>
+												</tr>
+											</table></div>
+
+											<div class="divider">&nbsp;</div>
+
+
+
+											<div id="box1">
+												<h3 class="text1">Vermeer 4" x 30" Trencher</h3>
+												<p class="text2"></p>
+												<p><a href="#"><img src="images/equipment/rtx100.png" alt="" width="390" height="319" class="alignleft" /></a>Walk-behind trenchers are ideal for a variety
+													of projects, and now Vermeer has one that’s
+													so easy to use it hardly seems like work. The
+													RTX100 features the exclusive VZ steering
+													system, which makes steering a breeze —
+													even in the tightest of turns. With the
+													RTX100, users can maneuver easily into
+													confined jobsites and even counterrotate
+													from a stationary position.</p>
+													<p>Equipped with tracks, the RTX100 offers a whole new level
+														of flexibility and versatility for the jobsite. The
+														rubber tracks enhance floatation and tractive
+														effort when working in difficult ground
+														conditions. The RTX100 offers the durability and rugged
+														construction expected in Vermeer equipment,
+														and its easy operation makes it a smart choice for your rental needs.</p>
+
+														<table class="stats" cellspacing="0">
+															<tr>
+																<td class="hed" align="center" colspan="1">-</p></strong></td>
+																<td class="hed" colspan="1">Description</p></strong></td>
+																<td class="hed" colspan="1">3/HRS</p></strong></td>
+																<td class="hed" colspan="1">Daily</p></strong></td>
+																<td class="hed" colspan="1">Weekly</p></strong></td>
+															</tr>
+															<tr><td><a href="/images/highslide/heavy_equip/rtx100.png" class="highslide" onclick="return hs.expand(this)" title="5700 Floor Scraper" style="float:right; margin: 0 0 10px 15px">
+																<img src="/images/highslide/heavy_equip/rtx100.png"  alt="Highslide JS" title="Click to enlarge" style="width: 40px;height:40px;"  /></td>
+																<td>TRENCHER,    4 X 30</td>
+																<td>$108.00</td>
+																<td>$151.00</td>
+																<td>$454.00</td>
+															</tr>
+															<tr><td><a href="/images/highslide/heavy_equip/rt200.jpg" class="highslide" onclick="return hs.expand(this)" title="5700 Floor Scraper" style="float:right; margin: 0 0 10px 15px">
+																<img src="/images/highslide/heavy_equip/rt200.jpg"  alt="Highslide JS" title="Click to enlarge" style="width: 40px;height:40px;"  /></td>
+																<td>TRENCHER,    5 X 48</td>
+																<td>$130.00</td>
+																<td>$173.00</td>
+																<td>$519.00</td>
+															</tr></table>
+
+														</div>
+													</div>
+
+
+
+												</div>
+											</div>
+											<div id="sidebar">
+												<div id="box4">
+													<h2>Rental Categories</h2>
+													<div class="content">
+														<ul class="style2">
+															<li class="first"><a href="/rent-concrete.html">Concrete &amp; Masonry</a></li>
+															<li><a href="/rent-drills.html">Drills &amp; Hammers</a></li>
+															<li><a href="/rent-floor.html">Floor Maintenance</a></li>
+															<li><a href="/rent-gen.html">Generators & Pumps</a></li>
+															<li><a href="/rent-heating.html">Heating, Cooling & Steamers</a></li>
+															<li><a href="/rent-heq.html">Heavy Equipment</a></li>
+															<li><a href="/rent-jacks.html">Jacks & Hoisting Equipment</a></li>
+															<li><a href="/rent-ladders.html">Ladders & Scaffolding</a></li>
+															<li><a href="/rent-lawn.html">Lawn Equipment</a></li>
+															<li><a href="/rent-moving.html">Moving & Trucks</a></li>
+															<li><a href="/rent-party.html">Party Rentals</a></li>
+															<li><a href="/rent-paint.html">Paint and Spray</a></li>
+															<li><a href="/rent-plumbing.html">Plumbing & Sewer</a></li>
+															<li><a href="/rent-saws.html">Saws</a></li>
+														</ul>
+													</div>
+												</div>
+												<div id="box6">
+													<h2>Rental Categories</h2>
+													<div>	
+													</div>
+												</div>
+											</div>
+											<div class="clearfix">&nbsp;</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="footer-content" class="container">
+						<div id="three-columns">
+							<div id="box7">
+								<h2>Project Advice & Information</h2>
+								<ul class="style4">
+									<li class="first"><a href="/ad-lawn.html">All Lawns Need Attention Now!</a></li>
+									<li><a href="/ad-refinish.html">Refinishing Your Hardwood Floors!</a></li>
+
+									<li><a href="/ad-carpet.html">Deep Clean and Restore Your Carpets!</a></li>
+
+								</ul>
+							</div>
+							<div id="box8">
+								<h2>New Equipment @ Bledsoe Rentals</h2>
+								<div>
+									<ul class="style4">
+										<li class="first"><a href="/a600.html">Ermator A600, HEPA Air Scrubber</a></li>
+										<li><a href="/dirtdragon.html">Dirt Dragon, Hardwood Floor Cleaner</a></li>
+										<li><a href="/ad-windsor-carpet.html">Windsor Carpet Cleaner</a></li>
+										<li><a href="/ad-iscrub.html">iScrub 20" Ride on Floor Scrubber</a></li>
+
+
+									</ul>
+								</div>
+							</div>
+							<div id="box9">
+								<h2>Contact Us</h2>
+								<div class="content">
+									<ul class="style5">
+										<li><a href="#"><img src="images/homepage17.gif" width="32" height="32" alt="" /></a></li>
+										<li><a href="#"><img src="images/homepage18.gif" width="32" height="32" alt="" /></a></li>
+										<li><a href="#"><img src="images/homepage19.gif" width="32" height="32" alt="" /></a></li>
+										<li><a href="#"><img src="images/homepage20.gif" width="32" height="32" alt="" /></a></li>
+										<li><a href="#"><img src="images/homepage21.gif" width="32" height="32" alt="" /></a></li>
+									</ul>
+									<p>Bledsoe Rentals</p>
+									<p> 1300 NE Douglas St
+										<p> Lee's Summit, MO 64086
+											<p></p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer" class="container">
+				<p class="legal">© 2012 Bledsoe Equipment Inc. All rights reserved. </p>
+			</div>
+
+

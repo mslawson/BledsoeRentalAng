@@ -1,0 +1,160 @@
+				<div id="page" class="container">
+					<div id="page-bgtop">
+						<div id="page-bgbtm">
+							<div id="content">
+								<div class="post">
+									<!-- <h2 class="title" ng-hide="categoryFilter == null || categoryFilter == ''">{{categoryFilter.Category}}</h2> -->
+									<!-- <h2 class="title" ng-show="categoryFilter == null || categoryFilter == '' ">Equipment Rental Rates & New Equipment News</h2>
+									<h2 class="title" ng-show="categoryFilter.Category == 'Concrete'">Concrete Grinding / Masonry / Concrete Buggy / Concrete Tools</h2>
+									<h2 class="title" ng-show="categoryFilter.Category == 'Drills & Hammers'">CHIPPING HAMMERS / CORE DRILLS / JACK HAMMERS / ROTARY HAMMERS / FRAMING NAILERS</h2> -->
+
+									<!-- Header based on category selected -->
+									<div class="animate-switch-container" ng-switch="categoryFilter.Category">
+										<div class="animate-switch" ng-switch-when="Concrete"><h2 class="title">Concrete Grinding / Masonry / Concrete Buggy / Concrete Tools</h2></div>
+										<div class="animate-switch" ng-switch-when="Drills & Hammers"><h2 class="title">Chipping Hammers / Core Drills / Jack Hammers / Rotary Hammers / Framing Nailers</h2></div>
+
+										<!-- Default Category = All Equipment -->
+										<div class="animate-switch" ng-switch-default><h2 class="title"> Equipment Rental Rates & New Equipment News</h2></div>
+									</div>
+
+									<!-- Images based on category selected -->
+
+
+									<div class="entry">
+
+										<div>
+											<h5 class="text2">Search: &nbsp; <input ng-model="query"></h5>	
+										</div>
+
+										<table class="stats" cellspacing="0">
+											<thead>
+												<td class="hed" colspan="1" align="center">Number <p></p></td>
+												<td class="hed" colspan="1" align="center">Description <p></p></td>
+												<td class="hed" colspan="1" align="center">Minimum (3 hrs) <p></p></td>
+												<td class="hed" colspan="1" align="center">Daily <p></p></td>
+												<td class="hed" colspan="1" align="center">Weekly <p></p></td>
+											<!-- <th>&nbsp;</th>
+											<th>&nbsp;</th> -->
+										</thead>
+										<tbody>
+											<tr ng-repeat="product in products | filter:categoryFilter | filter:query | limitTo: 20 | orderBy: 'Name'" >
+												<td>{{product.Number}}</td>
+												<td>{{product.Name}}</td>
+
+												<!-- using if to not display $0 if no value -->
+												<td ng-if="product.ThreeHour">{{product.ThreeHour | currency}}</td>
+												<td ng-if="!product.ThreeHour">&nbsp;</td>
+
+												<td>{{product.Daily | currency}}</td>
+
+												<!-- using if to not display $0 if no value -->
+												<td ng-if="product.Weekly">{{product.Weekly | currency}}</td>
+												<td ng-if="!product.Weekly">&nbsp;</td>
+
+												<!-- <td>
+													<a href="#">Edit</a>
+												</td>
+												<td>
+													<a href="#">Remove</a>
+												</td> -->
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+
+						<div id="sidebar">
+							<div id="box4">
+								<h2>Rental Categories</h2>
+								<div class="content">
+									<ul class="style2">
+										<li class = "first" ng-click="panel.selectTab(1); categoryFilter=''" ng-class="{ active:panel.isSelected(1) }"> <a href="">All Equipment</a></li>
+
+										<li ng-click="panel.selectTab(2); categoryFilter={Category: 'Concrete'}" ng-class="{ active:panel.isSelected(2) }"><a href="">Concrete &amp; Masonry</a></li>
+
+										<li ng-click="panel.selectTab(3); categoryFilter={Category: 'Drills & Hammers'}" ng-class="{ active:panel.isSelected(3) }"><a href="">Drills &amp; Hammers</a></li>
+
+										<li ng-click="panel.selectTab(4); categoryFilter={Category: 'Flooring'}" ng-class="{ active:panel.isSelected(3) }"><a href="">Floor Maintenance</a></li>
+
+										<li><a href="/rent-gen.html">Generators & Pumps</a></li>
+
+										<li><a href="/rent-heating.html">Heating, Cooling & Steamers</a></li>
+										<li><a href="/rent-heq.html">Heavy Equipment</a></li>
+										<li><a href="/rent-jacks.html">Jacks & Hoisting Equipment</a></li>
+										<li><a href="/rent-ladders.html">Ladders & Scaffolding</a></li>
+										<li><a href="/rent-lawn.html">Lawn Equipment</a></li>
+										<li><a href="/rent-moving.html">Moving & Trucks</a></li>
+										<li><a href="/rent-party.html">Party Rentals</a></li>
+										<li><a href="/rent-paint.html">Paint and Spray</a></li>
+										<li><a href="/rent-plumbing.html">Plumbing & Sewer</a></li>
+										<li><a href="/rent-saws.html">Saws</a></li>
+									</ul>
+								</div>
+							</div>
+							<div id="box6">
+								<h2>Rental Categories</h2>
+								<div>	
+								</div>
+							</div>
+						</div>
+						<div class="clearfix">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer-content" class="container">
+		<div id="three-columns">
+			<div id="box7">
+				<h2>Project Advice & Information</h2>
+				<ul class="style4">
+					<li class="first"><a href="/ad-lawn.html">All Lawns Need Attention Now!</a></li>
+					<li><a href="/ad-refinish.html">Refinishing Your Hardwood Floors!</a></li>
+
+					<li><a href="/ad-carpet.html">Deep Clean and Restore Your Carpets!</a></li>
+
+				</ul>
+			</div>
+			<div id="box8">
+				<h2>New Equipment @ Bledsoe Rentals</h2>
+				<div>
+					<ul class="style4">
+						<li class="first"><a href="/a600.html">Ermator A600, HEPA Air Scrubber</a></li>
+						<li><a href="/dirtdragon.html">Dirt Dragon, Hardwood Floor Cleaner</a></li>
+						<li><a href="/ad-windsor-carpet.html">Windsor Carpet Cleaner</a></li>
+						<li><a href="/ad-iscrub.html">iScrub 20" Ride on Floor Scrubber</a></li>
+
+
+					</ul>
+				</div>
+			</div>
+			<div id="box9">
+				<h2>Contact Us</h2>
+				<div class="content">
+					<ul class="style5">
+						<li><a href="#"><img src="styles/images/homepage17.gif" width="32" height="32" alt="" /></a></li>
+						<li><a href="#"><img src="styles/images/homepage18.gif" width="32" height="32" alt="" /></a></li>
+						<li><a href="#"><img src="styles/images/homepage19.gif" width="32" height="32" alt="" /></a></li>
+						<li><a href="#"><img src="styles/images/homepage20.gif" width="32" height="32" alt="" /></a></li>
+						<li><a href="#"><img src="styles/images/homepage21.gif" width="32" height="32" alt="" /></a></li>
+					</ul>
+					<p>Bledsoe Rentals</p>
+					<p> 1300 NE Douglas St
+						<p> Lee's Summit, MO 64086
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+</div>
+<div id="footer" class="container">
+	<p class="legal">© 2012 Bledsoe Equipment Inc. All rights reserved. </p>
+</div>
+
+

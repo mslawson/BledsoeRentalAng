@@ -34,14 +34,22 @@ app.factory('productsBase', ['$firebaseArray',
 app.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/home.html',
+        controller: 'MainCtrl'
+      })
+      .when('/home', {
+        templateUrl: 'views/home.html',
         controller: 'MainCtrl'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/rental', {
+        templateUrl: 'views/rental.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
-        redirectTo: '/main'
+        redirectTo: '/'
       });
   });
