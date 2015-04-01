@@ -1,7 +1,12 @@
-# angfire
+Bledsoe Rentals - Updated Site
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
+Updating the current Bledsoe Rentals site to search for rental items, create sub categories and possible party rental page redesign.
+
+Original Bledsoe site can be seen at www.bledsoerentals.com
+
+This project utlizes AngularJS and Firebase (DB).
+
+Nots:
 
 ## Build & development
 
