@@ -50,6 +50,6 @@ app.config(function ($routeProvider) {
         controller: 'MainCtrl'
       })
       .otherwise({
-        redirectTo: '/home'
+        redirectTo: '/'
       });
   });

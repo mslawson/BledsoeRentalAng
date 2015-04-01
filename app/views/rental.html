@@ -3,9 +3,22 @@
 						<div id="page-bgbtm">
 							<div id="content">
 								<div class="post">
-									<h2 class="title" ng-hide="categoryFilter == null || categoryFilter == ''">{{categoryFilter.Category}}</h2>
-									<h2 class="title" ng-show="categoryFilter == null || categoryFilter == '' ">Equipment Rental Rates & New Equipment News</h2>
-									<h2 class="title" ng-show="categoryFilter.Category == 'Concrete'">Concrete Grinding</h2>
+									<!-- <h2 class="title" ng-hide="categoryFilter == null || categoryFilter == ''">{{categoryFilter.Category}}</h2> -->
+									<!-- <h2 class="title" ng-show="categoryFilter == null || categoryFilter == '' ">Equipment Rental Rates & New Equipment News</h2>
+									<h2 class="title" ng-show="categoryFilter.Category == 'Concrete'">Concrete Grinding / Masonry / Concrete Buggy / Concrete Tools</h2>
+									<h2 class="title" ng-show="categoryFilter.Category == 'Drills & Hammers'">CHIPPING HAMMERS / CORE DRILLS / JACK HAMMERS / ROTARY HAMMERS / FRAMING NAILERS</h2> -->
+
+									<!-- Header based on category selected -->
+									<div class="animate-switch-container" ng-switch="categoryFilter.Category">
+										<div class="animate-switch" ng-switch-when="Concrete"><h2 class="title">Concrete Grinding / Masonry / Concrete Buggy / Concrete Tools</h2></div>
+										<div class="animate-switch" ng-switch-when="Drills & Hammers"><h2 class="title">Chipping Hammers / Core Drills / Jack Hammers / Rotary Hammers / Framing Nailers</h2></div>
+
+										<!-- Default Category = All Equipment -->
+										<div class="animate-switch" ng-switch-default><h2 class="title"> Equipment Rental Rates & New Equipment News</h2></div>
+									</div>
+
+									<!-- Images based on category selected -->
+
 
 									<div class="entry">
 
@@ -24,7 +37,7 @@
 											<th>&nbsp;</th> -->
 										</thead>
 										<tbody>
-											<tr ng-repeat="product in products | filter:categoryFilter | filter:query" >
+											<tr ng-repeat="product in products | filter:categoryFilter | filter:query | limitTo: 20 | orderBy: 'Name'" >
 												<td>{{product.Number}}</td>
 												<td>{{product.Name}}</td>
 
