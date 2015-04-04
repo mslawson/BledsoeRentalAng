@@ -23,12 +23,24 @@ app.controller('MainCtrl', ['$scope','productsBase', function ($scope, productsB
 
   $scope.groups = [
     {
-      title: 'Dynamic Group Header - 1',
-      content: 'Dynamic Group Body - 1'
+      title: 'Concrete & Masonry',
+      content: [
+        {id:1, name:'Grinders'},
+        {id:2, name:'Polishers'},
+        {id:3, name:'Tools'}
+      ]
     },
     {
-      title: 'Dynamic Group Header - 2',
-      content: 'Dynamic Group Body - 2'
+      title: 'Drills & Hammers',
+      content: [
+        {id:1, name:'Dynamic Group Body - 1'}
+      ]
+    },
+    {
+      title: 'Floor Mainentance',
+      content: [
+        {id:1, name:'Dynamic Group Body - 1'}
+      ]
     }
   ];
 
@@ -37,6 +49,11 @@ app.controller('MainCtrl', ['$scope','productsBase', function ($scope, productsB
   $scope.addItem = function() {
     var newItemNo = $scope.items.length + 1;
     $scope.items.push('Item ' + newItemNo);
+  };
+
+  $scope.status = {
+    isFirstOpen: false,
+    isFirstDisabled: false
   };
 
 // logic for products

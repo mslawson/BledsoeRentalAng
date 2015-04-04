@@ -9,7 +9,7 @@ app.controller('dropdownController', ['$scope', function ($scope) {
 
   $scope.groups = [
     {
-      title: 'Dynamic Group Header - 1',
+      title: 'Concrete & Masonry',
       content: 'Dynamic Group Body - 1'
     },
     {
@@ -27,6 +27,6 @@ app.controller('dropdownController', ['$scope', function ($scope) {
 
   $scope.status = {
     isFirstOpen: true,
-    isFirstDisabled: false
+    isFirstDisabled: true
   };
 }]);
