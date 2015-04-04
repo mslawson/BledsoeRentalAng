@@ -1,3 +1,8 @@
+				<head>
+				  <!-- Optional theme -->
+ 
+				</head>
+
 				<div id="page" class="container">
 					<div id="page-bgtop">
 						<div id="page-bgbtm">
@@ -14,10 +19,10 @@
 									</div>
 
 									<div class="entry">
-										<div class="box1">
-											<!-- Images based on category selected -->
-											<div class="animate-switch-container" ng-switch="categoryFilter.Category">
-												<div class="animate-switch" ng-switch-when="Concrete">
+										<!-- <div class="box1">
+										<!-- Images based on category selected -->
+
+											<!-- 	<div ng-show="categoryFilter.Category == 'Concrete'">
 													<div id="slideshow" class="container">
 														<div class="viewer">
 															<div class="reel">
@@ -28,7 +33,7 @@
 																</div>	
 
 																<div class="slide"><img src="/images/banner/concrete/canycom.jpg" width="610" height="220" alt="" />
-																</div>
+														 		</div>
 
 																<div class="slide"><img src="/images/banner/concrete/edco.jpg" width="610" height="220" alt="" />
 																</div>	 	                                    										
@@ -36,7 +41,7 @@
 														</div>	
 													</div>
 												</div>
-												<div class="animate-switch" ng-switch-when="Drills & Hammers">
+												<div ng-show="categoryFilter.Category == 'Drills & Hammers'">
 													<div id="slideshow" class="container">
 														<div class="viewer">
 															<div class="reel">
@@ -49,24 +54,23 @@
 															</div>
 														</div>
 													</div>
-												</div>
+												</div> -->
 												<!-- Default Category = All Equipment -->
-												<div class="animate-switch" ng-switch-default></div>
-											</div>
-										</div>
+												<!-- 		<div></div> -->
 
+												<!-- </div> -->
 
-										<div>
-											<h5 class="text2">Search: &nbsp; <input ng-model="query"></h5>	
-										</div>
+												<div>
+													<h5 class="text2">Search: &nbsp; <input ng-model="query"></h5>	
+												</div>
 
-										<table class="stats" cellspacing="0">
-											<thead>
-												<td class="hed" colspan="1" align="center">Number <p></p></td>
-												<td class="hed" colspan="1" align="center">Description <p></p></td>
-												<td class="hed" colspan="1" align="center">Minimum (3 hrs) <p></p></td>
-												<td class="hed" colspan="1" align="center">Daily <p></p></td>
-												<td class="hed" colspan="1" align="center">Weekly <p></p></td>
+												<table class="stats" cellspacing="0">
+													<thead>
+														<td class="hed" colspan="1" align="center">Number <p></p></td>
+														<td class="hed" colspan="1" align="center">Description <p></p></td>
+														<td class="hed" colspan="1" align="center">Minimum (3 hrs) <p></p></td>
+														<td class="hed" colspan="1" align="center">Daily <p></p></td>
+														<td class="hed" colspan="1" align="center">Weekly <p></p></td>
 											<!-- <th>&nbsp;</th>
 											<th>&nbsp;</th> -->
 										</thead>
@@ -97,9 +101,42 @@
 								</div>
 							</div>
 						</div>
-						</div>
-							<div id="sidebar">
-								<div id="box4">
+
+
+						<div id="sidebar"> <!-- id sidebar -->
+							<div id="box4">  <!-- //id box4 -->
+								<div>
+									<p>
+										<button class="btn btn-default btn-sm" ng-click="status.open = !status.open">Toggle last panel</button>
+										<button class="btn btn-default btn-sm" ng-click="status.isFirstDisabled = ! status.isFirstDisabled">Enable / Disable first panel</button>
+									</p>
+
+									<label class="checkbox">
+										<input type="checkbox" ng-model="oneAtATime">
+										Open only one at a time
+									</label>
+									<accordion close-others="oneAtATime">
+										<accordion-group heading="Static Header, initially expanded" is-open=	"status.isFirstOpen" is-disabled="status.isFirstDisabled">
+											This content is straight in the template.
+										</accordion-group>
+										<accordion-group heading="{{group.title}}" ng-repeat="group in groups">
+											{{group.content}}
+										</accordion-group>
+										<accordion-group heading="Dynamic Body Content">
+										<p>The body of the accordion group grows to fit the contents</p>
+										<button class="btn btn-default btn-sm" ng-click="addItem()">Add Item</button>
+										<div ng-repeat="item in items">{{item}}</div>
+										</accordion-group>
+										<accordion-group is-open="status.open">
+										<accordion-heading>
+											I can have markup, too! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+										</accordion-heading>
+										This is just some content to illustrate fancy headings.
+										</accordion-group>
+									</accordion>
+								</div>
+
+
 									<h2>Rental Categories</h2>
 									<div class="content">
 										<ul class="style2">
@@ -190,5 +227,10 @@
 <div id="footer" class="container">
 	<p class="legal">© 2012 Bledsoe Equipment Inc. All rights reserved. </p>
 </div>
+
+	 // <!-- <script src="scripts/jquery-1.7.1.min.js"></script> -->
+   <!-- // <script src="scripts/jquery.slidertron-0.2.1.js"></script> -->
+   <!-- // <script src="scripts/init.js"></script> -->
+   <script src="scripts/ui-bootstrap-custom-tpls-0.12.1.js"></script>
 
 
