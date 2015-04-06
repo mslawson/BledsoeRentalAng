@@ -19,6 +19,7 @@ var app = angular.module('angfireApp',
     'ngRoute',
     'ngSanitize',
     'ngTouch',
+    'ui.bootstrap',
     'firebase'
   ]);
 
