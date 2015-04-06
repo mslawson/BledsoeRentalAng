@@ -72,7 +72,7 @@
 											<th>&nbsp;</th> -->
 										</thead>
 										<tbody>
-											<tr ng-repeat="product in products | filter:categoryFilter | filter:query | limitTo: 20 | orderBy: 'Name'" >
+											<tr ng-repeat="product in products | filter:currentCategory| filter:query | limitTo: 20 | orderBy: 'Name'" >
 												<td>{{product.Number}}</td>
 												<td>{{product.Name}}</td>
 
@@ -99,8 +99,8 @@
 							</div>
 						</div>
 
-						<div id="sidebar"> <!-- id sidebar -->
-							<div id="box4">  <!-- //id box4 -->
+						<div id="sidebar"> 
+							<div id="box4"> 
 								<div>
 									<!-- <p>
 										<button class="btn btn-default btn-sm" ng-click="status.open = !status.open">Toggle last panel</button>
@@ -111,40 +111,37 @@
 										<input type="checkbox" ng-model="oneAtATime">
 										Open only one at a time
 									</label> -->
-
-								
 									
 
 									<h2>Rental Categories</h2>
+
 									<accordion close-others="oneAtATime">
 										<br>
 										<accordion-group heading="All Equipment" is-open=	"status.isFirstOpen" is-disabled="status.isFirstDisabled">
-										<li><a href="#">All Equipment</a></li>
+											<accordion-heading>
+												<span ng-click="setCurrentCategory()">
+													All Equipment
+												</span>
+											</accordion-heading>
+												<li><a href="">All Equipment</a></li>
 										</accordion-group>
-									
-										<accordion-group heading="{{group.title}}" ng-repeat="group in groups">
-											<li ng-repeat="contents in group.content"><a href="#">{{contents.name}}</a></li>
-											
-										</accordion-group>
-										<accordion-group heading="Dynamic Body Content">
-										<p>The body of the accordion group grows to fit the contents</p>
-										<button class="btn btn-default btn-sm" ng-click="addItem()">Add Item</button>
-										<div ng-repeat="item in items">{{item}}</div>
-										</accordion-group>
-										<accordion-group  ng-repeat="group in groups">
-										<accordion-heading>
-											{{group.title}}<i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
-										</accordion-heading>
-										<li ng-repeat="contents in group.content"><a href="#">{{contents.name}}</a></li>
+
+										<accordion-group ng-repeat="group in groups">
+											<accordion-heading>
+												<span ng-click="setCurrentCategory(group.title)">
+													{{group.title}} 
+												</span>
+											</accordion-heading>
+											<li ng-click="setCurrentCategory(group.title)" ng-repeat="contents in group.content"><a href="">{{contents.name}}</a></li>				
 										</accordion-group>
 									</accordion>
+								
 								</div>
-
-
-									
 									<div class="content">
 										<ul class="style2">
 											<li class = "first" ng-click="panel.selectTab(1); categoryFilter=''" ng-class="{ active:panel.isSelected(1) }"> <a href="">All Equipment</a></li>
+
+											<li ng-click="categoryFilter={Category: 'Concrete'}"><a href="">Concrete &amp; Masonry</a></li>
 
 											<li ng-click="panel.selectTab(2); categoryFilter={Category: 'Concrete'}" ng-class="{ active:panel.isSelected(2) }"><a href="">Concrete &amp; Masonry</a></li>
 
