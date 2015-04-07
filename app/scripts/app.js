@@ -50,6 +50,10 @@ app.config(function ($routeProvider) {
         templateUrl: 'views/rental.html',
         controller: 'MainCtrl'
       })
+      .when('/amusement', {
+        templateUrl: 'views/amusement.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
