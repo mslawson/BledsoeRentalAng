@@ -55,11 +55,31 @@ app.config(function ($routeProvider) {
         controller: 'MainCtrl'
       })
       .when('/ad-lawn', {
-        templateUrl: 'views/ad-lawn.html',
+        templateUrl: 'views/advertisements/ad-lawn.html',
         controller: 'MainCtrl'
       })
       .when('/ad-refinish', {
-        templateUrl: 'views/ad-refinish.html',
+        templateUrl: 'views/advertisements/ad-refinish.html',
+        controller: 'MainCtrl'
+      })
+      .when('/ad-carpet', {
+        templateUrl: 'views/advertisements/ad-carpet.html',
+        controller: 'MainCtrl'
+      })
+      .when('/ad-a600', {
+        templateUrl: 'views/advertisements/ad-a600.html',
+        controller: 'MainCtrl'
+      })
+      .when('/ad-dirtdragon', {
+        templateUrl: 'views/advertisements/ad-dirtdragon.html',
+        controller: 'MainCtrl'
+      })
+      .when('/ad-windsor-carpet', {
+        templateUrl: 'views/advertisements/ad-windsor-carpet.html',
+        controller: 'MainCtrl'
+      })
+      .when('/ad-iscrub', {
+        templateUrl: 'views/advertisements/ad-iscrub.html',
         controller: 'MainCtrl'
       })
       .otherwise({
