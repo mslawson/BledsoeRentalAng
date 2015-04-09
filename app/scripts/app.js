@@ -54,6 +54,14 @@ app.config(function ($routeProvider) {
         templateUrl: 'views/amusement.html',
         controller: 'MainCtrl'
       })
+      .when('/ad-lawn', {
+        templateUrl: 'views/ad-lawn.html',
+        controller: 'MainCtrl'
+      })
+      .when('/ad-refinish', {
+        templateUrl: 'views/ad-refinish.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

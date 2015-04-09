@@ -276,7 +276,7 @@ html {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  line-height: 1.42857143;
+  /*line-height: 1.42857143;*/
   color: #333;
   background-color: #fff;
 }
@@ -351,7 +351,7 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -367,7 +367,7 @@ h6,
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
-}
+}*/
 h1 small,
 h2 small,
 h3 small,
@@ -446,10 +446,10 @@ h1,
 .h1 {
   font-size: 36px;
 }
-h2,
+/*h2,
 .h2 {
   font-size: 30px;
-}
+}*/
 h3,
 .h3 {
   font-size: 24px;
