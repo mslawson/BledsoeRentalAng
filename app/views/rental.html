@@ -7,7 +7,7 @@
 								<div class="post">
 
 									<!-- Header based on category selected -->
-									<div class="animate-switch-container" ng-switch="categoryFilter.Category">
+									<div class="animate-switch-container" ng-switch="currentCategory">
 										<div class="animate-switch" ng-switch-when="Concrete"><h2 class="title">Concrete Grinding / Masonry / Concrete Buggy / Concrete Tools</h2></div>
 										<div class="animate-switch" ng-switch-when="Drills & Hammers"><h2 class="title">Chipping Hammers / Core Drills / Jack Hammers / Rotary Hammers / Framing Nailers</h2></div>
 
@@ -15,8 +15,11 @@
 										<div class="animate-switch" ng-switch-default><h2 class="title"> Equipment Rental Rates & New Equipment News</h2></div>
 									</div>
 
+									<!-- NEED TO ADD OTHER CATEGORIES -->
+
 									<div class="entry">
 										<!-- <div class="box1">
+
 										<!-- Images based on category selected -->
 
 											<!-- 	<div ng-show="categoryFilter.Category == 'Concrete'">
@@ -58,12 +61,12 @@
 												<!-- </div> -->
 
 												<div>
-													<h5 class="text2">Search: &nbsp; <input ng-model="query"></h5>	
+													<h5 class="text2">Search {{groups.title}}: &nbsp; <input ng-model="query"></h5>	
 												</div>
 
 												<table class="stats" cellspacing="0">
 													<thead>
-														<td class="hed" colspan="1" align="center">Number <p></p></td>
+														<td class="hed" colspan="1" align="center">- <p></p></td>
 														<td class="hed" colspan="1" align="center">Description <p></p></td>
 														<td class="hed" colspan="1" align="center">Minimum (3 hrs) <p></p></td>
 														<td class="hed" colspan="1" align="center">Daily <p></p></td>
@@ -73,7 +76,7 @@
 										</thead>
 										<tbody>
 											<tr ng-repeat="product in products | filter:currentCategory| filter:query | limitTo: 20 | orderBy: 'Name'" >
-												<td>{{product.Number}}</td>
+												<td>&nbsp;</td>
 												<td>{{product.Name}}</td>
 
 												<!-- using if to not display $0 if no value -->
