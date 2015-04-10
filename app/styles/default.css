@@ -94,14 +94,19 @@ hr {
 	background: url(/images/bg1_05.gif) no-repeat left top;
 }
 
+ul.nav.navbar-nav {
+	width: 630px;
+
+}
+
 /** LOGO */
 
 #logo {
-	position: relative;
-	float: left;
-	width: 330px;
+	/*position: relative;
+	float: left;*/
+	/*width: 330px;*/
 	height: 115px;
-	padding: 55px 0px 0px 50px;
+	padding: 55px 0px 0px 30px;
 }
 
 #logo h1, #logo p {
@@ -132,9 +137,10 @@ hr {
 
 #menu {
 	float: right;
-	width: 580px;
+	width: 600px;
 	height: 175px;
-	padding: 0px 40px 0px 0px;
+
+	/*padding: 0px 40px 0px 0px;*/
 }
 
 #menu ul {
@@ -143,11 +149,17 @@ hr {
 	padding: 64px 0px 0px 0px;
 	list-style: none;
 	line-height: normal;
+		/*background-color: #3483B8;*/
+}
+
+li#firstNav{
+	padding-left: 20px;
 }
 
 #menu li {
 	float: left;
-	margin-left: 35px;
+	margin-left: 25px;
+	background-color: #2b7fb4;
 }
 
 #menu a {

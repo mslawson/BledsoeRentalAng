@@ -21,9 +21,14 @@
   // Logic for dropdown menu
   $scope.oneAtATime = true;
 
+
+
+ 
+
+
   $scope.groups = [
   {
-    title: 'Concrete',
+    title: 'Aerial Work Platforms, Ladders & Scaffolding',
     content: [
     {id:1, name:'Grinders'},
     {id:2, name:'Polishers'},
@@ -31,7 +36,71 @@
     ]
   },
   {
-    title: 'Drills & Hammers',
+    title: 'Air Compressors & Air Tools',
+    content: [
+    {id:1, name:'Grinders'},
+    {id:2, name:'Polishers'},
+    {id:3, name:'Tools'}
+    ]
+  },
+  {
+    title: 'Amusement & Party Rental',
+    content: [
+    {id:1, name:'Grinders'},
+    {id:2, name:'Polishers'},
+    {id:3, name:'Tools'}
+    ]
+  },
+  {
+    title: 'Compaction Equipment',
+    content: [
+    {id:1, name:'Grinders'},
+    {id:2, name:'Polishers'},
+    {id:3, name:'Tools'}
+    ]
+  },
+  {
+    title: 'Concrete & Masonry',
+    content: [
+    {id:1, name:'Grinders'},
+    {id:2, name:'Polishers'},
+    {id:3, name:'Tools'}
+    ]
+  },
+  {
+    title: 'Drills & Power Tools',
+    content: [
+    {id:1, name:'Grinders'},
+    {id:2, name:'Polishers'},
+    {id:3, name:'Tools'}
+    ]
+  },
+  {
+    title: 'Earthmoving Equipment',
+    content: [
+    {id:1, name:'Grinders'},
+    {id:2, name:'Polishers'},
+    {id:3, name:'Tools'}
+    ]
+  },
+  {
+    title: 'Generators & Light Towers',
+    content: [
+    {id:1, name:'Grinders'},
+    {id:2, name:'Polishers'},
+    {id:3, name:'Tools'}
+    ]
+  },
+  {
+    title: 'Heaters & Propane Equipment',
+    content: [
+    {id:1, name:'Grinders'},
+    {id:2, name:'Polishers'},
+    {id:3, name:'Tools'}
+    ]
+  },
+  {
+    title: 'Home Remodeling & Floor Care',
     content: [
     {id:1, name:'Drill item #1'},
     {id:2, name:'Drill item #2'},
@@ -39,73 +108,55 @@
     ]
   },
   {
-    title: 'Floor Mainentance',
+    title: 'Jacks & Material Handling',
     content: [
     {id:1, name:'Floor item #1'}
     ]
   },
   {
-    title: 'Generators & Pumps',
+    title: 'Lawn Equipment',
     content: [
     {id:1, name:'Generator item #1'}
     ]
   },
   {
-    title: 'Heating, Cooling & Steamers',
+    title: 'Moving Equipment',
     content: [
     {id:1, name:'Heating item #1'}
     ]
   },
   {
-    title: 'Heavy Equipment',
+    title: 'Plumbing Tools & Sewer Equipment',
     content: [
     {id:1, name:'Equipment item #1'}
     ]
   },
   {
-    title: 'Jacks & Hoisting Equipment',
+    title: 'Pressure Washers & Auto Scrubbers',
     content: [
     {id:1, name:'Hoisting item #1'}
     ]
   },
   {
-    title: 'Ladders & Scaffolding',
+    title: 'Surface Preparation',
     content: [
     {id:1, name:'Ladders item #1'}
     ]
   },
   {
-    title: 'Lawn Equipment',
+    title: 'Trucks & Trailers',
     content: [
     {id:1, name:'Lawn item #1'}
     ]
   },
   {
-    title: 'Moving & Trucks',
-    content: [
-    {id:1, name:'Moving item #1'}
-    ]
-  },
-  {
-    title: 'Party Rentals',
-    content: [
-    {id:1, name:'Party item #1'}
-    ]
-  },
-  {
-    title: 'Paints & Spray',
-    content: [
-    {id:1, name:'Paints item #1'}
-    ]
-  },
-  {
-    title: 'Plumbing & Sewer',
+    title: 'Vacuums, Blowers & Air Filtration',
     content: [
     {id:1, name:'Plumbing item #1'}
     ]
   },
   {
-    title: 'Saws',
+    title: 'Water Pumps',
     content: [
     {id:1, name:'Saws item #1'}
     ]

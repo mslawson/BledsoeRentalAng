@@ -54,6 +54,14 @@ app.config(function ($routeProvider) {
         templateUrl: 'views/amusement.html',
         controller: 'MainCtrl'
       })
+      .when('/propane', {
+        templateUrl: 'views/propane.html',
+        controller: 'MainCtrl'
+      })
+      .when('/ucart', {
+        templateUrl: 'views/ucart.html',
+        controller: 'MainCtrl'
+      })
       .when('/ad-lawn', {
         templateUrl: 'views/advertisements/ad-lawn.html',
         controller: 'MainCtrl'
