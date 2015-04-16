@@ -7,13 +7,19 @@
 								<div class="post">
 
 									<!-- Header based on category selected -->
-									<div class="animate-switch-container" ng-switch="currentCategory">
+									<h2 class='title' ng-if="currentCategory">{{currentCategory}}</h2>
+									<h2 class='title' ng-if="!currentCategory">All Equipment</h2>
+
+
+
+								<!-- 	<div class="animate-switch-container" ng-switch="currentCategory">
+
 										<div class="animate-switch" ng-switch-when="Concrete"><h2 class="title">Concrete Grinding / Masonry / Concrete Buggy / Concrete Tools</h2></div>
 										<div class="animate-switch" ng-switch-when="Drills & Hammers"><h2 class="title">Chipping Hammers / Core Drills / Jack Hammers / Rotary Hammers / Framing Nailers</h2></div>
 
-										<!-- Default Category = All Equipment -->
+										<!-- Default Category = All Equipment
 										<div class="animate-switch" ng-switch-default><h2 class="title"> Equipment Rental Rates & New Equipment News</h2></div>
-									</div>
+									</div> --> 
 
 									<!-- NEED TO ADD OTHER CATEGORIES -->
 
@@ -61,7 +67,12 @@
 												<!-- </div> -->
 
 												<div>
-													<h5 class="text2">Search {{groups.title}}: &nbsp; <input ng-model="query"></h5>	
+													<form name="searchForm">
+														<h5 class="text2">Search {{groups.title}}: &nbsp; 
+															<input type="text" name="findEquip" ng-model="query"/>
+														</h5>	
+														<!-- <button ng-click="clearSearch()">Clear</button> -->
+													</form>
 												</div>
 
 												<table class="stats" cellspacing="0">
@@ -75,7 +86,7 @@
 											<th>&nbsp;</th> -->
 										</thead>
 										<tbody>
-											<tr ng-repeat="product in products | filter:currentCategory| filter:query | limitTo: 20 | orderBy: 'Name'" >
+											<tr ng-repeat="product in products | orderBy: 'Name' | filter:currentCategory| filter:query | limitTo: 40" >
 												<td>&nbsp;</td>
 												<td>{{product.Name}}</td>
 
@@ -114,8 +125,19 @@
 									
 
 									<h2>Rental Categories</h2>
+									
+									<div class="content">
+										<ul class="style2">
+											<li><a href="" ng-click="setCurrentCategory(); clearSearch()">All Equipment</a></li>
+											<li ng-repeat="group in groups">
+												<a href="" ng-click="setCurrentCategory(group.title); clearSearch()">
+													{{group.title}}
+												</a>
+											</li>
+										</ul>
+									</div>
 
-									<accordion close-others="oneAtATime">
+									<!-- <accordion close-others="oneAtATime">
 										<br>
 										<accordion-group heading="All Equipment" is-open=	"status.isFirstOpen" is-disabled="status.isFirstDisabled">
 											<accordion-heading>
@@ -134,7 +156,7 @@
 											</accordion-heading>
 											<li ng-click="setCurrentCategory(group.title)" ng-repeat="contents in group.content"><a href="">{{contents.name}}</a></li>				
 										</accordion-group>
-									</accordion>
+									</accordion> -->
 								
 								</div>
 									
@@ -155,6 +177,6 @@
 	 <!-- <script src="scripts/jquery-1.7.1.min.js"></script> -->
    <!-- // <script src="scripts/jquery.slidertron-0.2.1.js"></script> -->
    <!-- // <script src="scripts/init.js"></script> -->
-   <script src="scripts/ui-bootstrap-custom-tpls-0.12.1.js"></script>
+  <!--  // <script src="scripts/ui-bootstrap-custom-tpls-0.12.1.js"></script> -->
 
 

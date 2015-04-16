@@ -11,7 +11,7 @@
 
  var app = angular.module('angfireApp');
 
- app.controller('MainCtrl', ['$scope','productsBase', function ($scope, productsBase ) {
+ app.controller('MainCtrl', ['$scope','$location','productsBase', function ($scope, $location, productsBase ) {
   	// var productsRef = new Firebase('https://bledsoe.firebaseio.com/');
 
   	// var products = $firebaseArray(productsRef);
@@ -27,6 +27,7 @@
 
 
   $scope.groups = [
+
   {
     title: 'Aerial Work Platforms, Ladders & Scaffolding',
     content: [
@@ -132,7 +133,7 @@
     ]
   },
   {
-    title: 'Pressure Washers & Auto Scrubbers',
+    title: 'Pressure Washer & Auto Scrubbers',
     content: [
     {id:1, name:'Hoisting item #1'}
     ]
@@ -162,8 +163,19 @@
     ]
   }
   ];
-
+  $scope.query = '';
   $scope.currentCategory = "";
+
+  $scope.searchEquip = function(equip){
+    $scope.currentCategory = "ladder";
+    $location.path( '/rental');
+    $scope.query = "ladder";
+  }
+
+  $scope.clearSearch = function(){
+    $scope.searchForm.findEquip.$rollbackViewValue(); 
+    $scope.query = '';
+  }
 
   $scope.foo = function(title){
     alert(title);

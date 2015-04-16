@@ -256,15 +256,15 @@ module.exports = function (grunt) {
         }
       }
     },
-    uglify: {
-      dist: {
-        files: {
-          '<%= yeoman.dist %>/scripts/scripts.js': [
-            '<%= yeoman.dist %>/scripts/scripts.js'
-          ]
-        }
-      }
-    },
+    // uglify: {
+    //   dist: {
+    //     files: {
+    //       '<%= yeoman.dist %>/scripts/scripts.js': [
+    //         '<%= yeoman.dist %>/scripts/scripts.js'
+    //       ]
+    //     }
+    //   }
+    // },
     concat: {
       dist: {}
     },
@@ -342,6 +342,8 @@ module.exports = function (grunt) {
             '.htaccess',
             '*.html',
             'views/{,}*.html',
+            'views/{,*/}*.html',
+            'images/{,}*.{webp}',
             'images/{,*/}*.{webp}',
             'styles/fonts/{,*/}*.*'
           ]

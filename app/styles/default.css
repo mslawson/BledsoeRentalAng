@@ -62,6 +62,27 @@ hr {
 	display: none;
 }
 
+.searchBox {
+	float: left;
+	
+	/*display: inline-block;*/
+}
+
+#findEquip {
+	text-align: center;
+  border-radius: 35px;
+  margin: 0px 10px -15px 10px;
+}
+
+input.searchBox{
+	padding: -10px 0px 0px 0px;
+	height: 40px;
+	font-size: 18px;
+}
+button.searchBox{
+	margin-left: 10px;
+	margin-top: 2px;
+}
 /** WRAPPER */
 
 #wrapper-bg {
