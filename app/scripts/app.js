@@ -42,7 +42,7 @@ app.factory('productsBase', ['$firebaseArray',
 //  });
 
 app.service('servCategory', function servCategory(){
-  var catName = "ladder";
+  var catName = "";
   this.getName = function(){
     return catName;
   };

@@ -7,8 +7,8 @@
 								<div class="post">
 
 									<!-- Header based on category selected -->
-									<h2 class='title' ng-if="currentCategory">{{currentCategory()}}</h2>
-									<h2 class='title' ng-if="!currentCategory">All Equipment</h2>
+									<h2 class='title' ng-if="currentCategory()">{{currentCategory()}}</h2>
+									<h2 class='title' ng-if="!currentCategory() || currentCategory() == ''">All Equipment</h2>
 
 
 

@@ -184,8 +184,8 @@
     alert(title);
   };
 
-  $scope.setCurrentCategory = function(category) {
-    $scope.currentCategory = category;
+  $scope.setCurrentCategory = function(cat) {
+    $scope.newCat = servCategory.setName(cat);
   };
 
   $scope.items = ['Item 1', 'Item 2', 'Item 3'];
