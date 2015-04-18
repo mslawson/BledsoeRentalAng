@@ -112,6 +112,18 @@ app.config(function ($routeProvider) {
         templateUrl: 'views/advertisements/ad-iscrub.html',
         controller: 'MainCtrl'
       })
+      .when('/lsnstore',{
+        templateUrl: 'views/lsn.html',
+        controller: 'HomeCtrl'
+      })
+      .when('/lssstore',{
+        templateUrl: 'views/lss.html',
+        controller: 'HomeCtrl'
+      })
+      .when('/olathe',{
+        templateUrl: 'views/olathe.html',
+        controller: 'HomeCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
