@@ -32,15 +32,37 @@ app.factory('productsBase', ['$firebaseArray',
     }
 ]);
 
+// app.config(function config($stateProvider){
+//     $stateProvider
+//       .state("index", {
+//         url: '',
+//         templateUrl: 'views/home.html',
+//         controller: 'MainCtrl'
+//       });
+//  });
+
+app.service('servCategory', function servCategory(){
+  var catName = "ladder";
+  this.getName = function(){
+    return catName;
+  };
+  this.setName = function (name){
+    catName = name;
+    return catName;
+  };
+
+
+});
+
 app.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/home.html',
-        controller: 'MainCtrl'
+        controller: 'HomeCtrl'
       })
       .when('/home', {
         templateUrl: 'views/home.html',
-        controller: 'MainCtrl'
+        controller: 'HomeCtrl'
       })
       .when('/about', {
         templateUrl: 'views/about.html',

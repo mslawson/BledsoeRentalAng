@@ -7,7 +7,7 @@
 								<div class="post">
 
 									<!-- Header based on category selected -->
-									<h2 class='title' ng-if="currentCategory">{{currentCategory}}</h2>
+									<h2 class='title' ng-if="currentCategory">{{currentCategory()}}</h2>
 									<h2 class='title' ng-if="!currentCategory">All Equipment</h2>
 
 
@@ -86,7 +86,7 @@
 											<th>&nbsp;</th> -->
 										</thead>
 										<tbody>
-											<tr ng-repeat="product in products | orderBy: 'Name' | filter:currentCategory| filter:query | limitTo: 40" >
+											<tr ng-repeat="product in products | orderBy: 'Name' | filter:currentCategory() | filter:query | limitTo: 40" >
 												<td>&nbsp;</td>
 												<td>{{product.Name}}</td>
 
