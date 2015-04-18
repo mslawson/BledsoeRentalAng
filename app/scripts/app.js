@@ -56,6 +56,7 @@ app.service('servCategory', function servCategory(){
 
 app.config(function ($routeProvider) {
     $routeProvider
+      // Main pages
       .when('/', {
         templateUrl: 'views/home.html',
         controller: 'HomeCtrl'
@@ -84,6 +85,7 @@ app.config(function ($routeProvider) {
         templateUrl: 'views/ucart.html',
         controller: 'MainCtrl'
       })
+      // Advertisements
       .when('/ad-lawn', {
         templateUrl: 'views/advertisements/ad-lawn.html',
         controller: 'MainCtrl'
@@ -112,6 +114,12 @@ app.config(function ($routeProvider) {
         templateUrl: 'views/advertisements/ad-iscrub.html',
         controller: 'MainCtrl'
       })
+      // Bounce Houses
+      .when('/bounce-princess', {
+        templateUrl: 'views/bounce-princess.html',
+        controller: 'HomeCtrl'
+      })
+      // Store Locations
       .when('/lsnstore',{
         templateUrl: 'views/lsn.html',
         controller: 'HomeCtrl'

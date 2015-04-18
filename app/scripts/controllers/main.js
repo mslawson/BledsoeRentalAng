@@ -25,7 +25,10 @@
 
   $scope.oneAtATime = true;
 
-  
+  $scope.subview = "main";
+  $scope.princess = function(){
+    $scope.subview = "princess";
+  };
  
 
 
