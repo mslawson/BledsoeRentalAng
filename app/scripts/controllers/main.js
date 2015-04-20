@@ -25,12 +25,28 @@
 
   $scope.oneAtATime = true;
 
+  // Navigation on amusement page
+
   $scope.subview = "main";
+  
   $scope.princess = function(){
     $scope.subview = "princess";
   };
- 
-
+  $scope.firestation = function(){
+    $scope.subview = "firestation";
+  };
+  $scope.tigerbelly = function(){
+    $scope.subview = "tigerbelly";
+  };
+  $scope.wackycastle = function(){
+    $scope.subview = "wackycastle";
+  };
+  $scope.wackymini = function(){
+    $scope.subview = "wackymini";
+  };
+  $scope.mainview = function(){
+    $scope.subview = "main";
+  };
 
   $scope.groups = [
 
