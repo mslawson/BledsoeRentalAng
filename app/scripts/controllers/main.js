@@ -27,7 +27,7 @@
 
   // Navigation on amusement page
 
-  $scope.subview = "main";
+  $scope.subview = "princess";
   
   $scope.princess = function(){
     $scope.subview = "princess";
