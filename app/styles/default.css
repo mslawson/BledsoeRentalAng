@@ -541,7 +541,7 @@ li#firstNav{
 
 #box4 .content {
 	overflow: hidden;
-	padding: 30px 30px;
+	padding: 10px 30px;
 }
 
 /** BOX 5 */
@@ -644,6 +644,16 @@ li#firstNav{
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
 	font-size: 22px;
+	font-weight: normal;
+	color: #FF0000;
+	text-align:center
+}
+
+.post .text4 {
+
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 38px;
 	font-weight: normal;
 	color: #FF0000;
 	text-align:center
