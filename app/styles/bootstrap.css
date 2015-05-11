@@ -3451,7 +3451,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn:last-child > .btn-group {
   margin-left: -1px;
 }
-/*.nav {
+.nav {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -3534,7 +3534,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs.nav-justified > .dropdown .dropdown-menu {
   top: auto;
   left: auto;
-}*/
+}
 @media (min-width: 768px) {
   .nav-tabs.nav-justified > li {
     display: table-cell;
