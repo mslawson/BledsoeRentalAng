@@ -1,5 +1,5 @@
 
-<div class="two-column2">
+<div>
 	<div id="page" class="container">
 		<div id="page-bgtop">
 			<div id="page-bgbtm">
@@ -83,7 +83,7 @@
 							<h1>Firestation view needs copied</h1>
 							<button class="btn-primary" ng-click="mainview()">Back to amusement!</button>
 						</div> -->
-						<div id="content" class="main"> 
+						<div id="amusement" class="main"> 
 							<div ng-switch="subview">
 
 								<div ng-switch-when="princess">
@@ -129,8 +129,11 @@
 
 															<img src="images/bounce/pc-detail.jpg" alt="" width="416" height="532" class="alignleft" />
 															<br>
-															<button class="btn-primary" ng-click="mainview(); gotoTop()">Back to 	amusement!</button><br><br>
+															<button class="btn-primary" ng-click="mainview();">Back to 	amusement!</button><br><br>
 														</div>
+														<p class="text3">
+																		CALL 816-524-4046 TO RESERVE YOURS!
+																	</p>
 													</div>
 												</div>	
 											</div>
@@ -176,7 +179,7 @@
 
 																		<img src="images/bounce/Fire-Station-Detail.jpg" alt="" width="416" height="532" class="alignleft" />
 																		<br>
-																		<button class="btn-primary" ng-click="mainview(); gotoTop()">Back to 	amusement!</button><br><br>
+																		<button class="btn-primary" ng-click="mainview();">Back to 	amusement!</button><br><br>
 																	</div>
 																</div>
 															</div>	
@@ -222,12 +225,13 @@
 
 
 																	<br>
+																	
 																	<!-- Tab Collection -->
 																	<tabset vertical="false" justified="true">
 																		<!-- Wow Tab -->
 																		<tab>
 																			<tab-heading>
-																			<h3 class="text4">WowFactor</h3>
+																			<h3 class="text4">Eye Factor</h3>
 
 																		</tab-heading>
 																		<br>
@@ -263,13 +267,134 @@
 																<p>There is no expense spared in the construction of our inflatables. Our inflatables are some of the only inflatables designed with 18oz vinyl as well as high-quality, high-powered blowers. By having thicker vinyl and stronger blowers, it creates a firmer surface in the bounce areas and slides of our inflatables. By having a firmer area, you create better bounce and smoother sliding. Many of our competitions bouncers are created with low-grade, thin vinyl or fabric that is being operated with under-powered blowers. This creates more of a “sinking” factor when stepped/jumped on which means less bounce. Simply put, less bounce equals less fun!</p>
 															</tab>
 														</tabset>
+														
+														<div class="clearfix">&nbsp;</div>
+														<br>
+														<div class="col-md-12">
+															<h1 style="text-align:center">Checkout Our Inflatibles!</h1>
+														</div>
+
+														<div class="col-md-4" ng-controller="princessModal">
+															<p><a href="" ng-click="princess();"><img src="images/bounce/PrincessIcon.png" width="200" height="140" alt=""/></a></p>
+															
+
+														
+														<script type="text/ng-template" id="princessModalContent.html">
+														    <div class="modal-header">
+														      <h3 class=" modal-title text1"><font color="#FF00FF"> The Royal Princess Carriage</font></h3><h2>$250 A Day</h2>
+														    </div>
+														    <div class="modal-body">
+														    
+														      <div class="col-md-6 alignleft">
+																		<p>This bounce and slide combo is perfect for any young royal entourage!
+
+																			This combo features a bouncing area, amazingly-detailed digital graphics, a crawl-through, slide area, and child-proof finger-safe netting.
+																		</p>
+																		<div class="bounce-holder ">
+																			<div id="bouncedims" class="alignleft">
+																				<ul>
+																					<li> Height 	15'9"</li>
+																					<li> Width 	13'6"</li>
+																					<li> Length 	31'</li>
+																					<li> Weight
+																					<li> Slide Landing Height 	6'4" </li>
+																					<li> Occupancy 	5
+																					<li> Occupant Min. Height 	34"</li>
+																					<li> Occupant Max. Height 	60"</li>
+																					<li> Max. Occupancy Weight 	750 lbs. (150 lbs. ea.)</li>	
+																				</ul>	
+																			</div>
+																			<br><br><br>
+																			<h3 class="text4" style="margin-left: 20%">
+																				CALL 816-524-4046 TO RESERVE YOURS!
+																			</h3>
+																		</div>
+																		<br>
+																		<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
+																	</div>
+
+																	<img src="images/bounce/pc-detail.jpg" alt="" width="416" height="532" class="alignright" />
+																	<br>
+																</div>
+
+
+																<div class="modal-footer">
+																	
+														    </div>
+ 
+  													</script>
+															
+															<!-- <button class="btn btn-default" ng-click="open()">Open me!</button>
+    													<button class="btn btn-default" ng-click="open('lg')">Large modal</button>
+    													<button class="btn btn-default" ng-click="open('sm')">Small modal</button>
+    													<button class="btn btn-default" ng-click="toggleAnimation()">Toggle Animation ({{ animationsEnabled }})</button>
+    													<div ng-show="selected">Selection from a modal: {{ selected }}</div>
+ -->
+															<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Princess Combo</h2></button>
+														</div>
+														<div class="col-md-4" ng-controller="firestationModal">
+
+
+															<p><a href="" ng-click="princess();"><img src="images/bounce/PrincessIcon.png" width="200" height="140" alt=""/></a></p>
+
+															<script type="text/ng-template" id="firestationModalContent.html">
+														    <div class="modal-header">
+														      <h3 class="modal-title">Fire Station Combo</h3>
+														    </div>
+														    <div class="modal-body">
+														    	<p>Fire info</p>
+														      <ul>
+														      <li>Cost: </li>
+														      <li>Occupancy: </li>
+														      <li>Dimensions: </li>
+														      
+														      </ul>
+
+														    </div>
+														    <div class="modal-footer">
+														      <button class="btn btn-default" ng-click="ok()">OK</button>
+
+														    </div>
+  													</script>
+
+
+													
+															<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Princess Combo</h2></button>
+														</div>
+														<div class="col-md-4">
+															<p><a href="" ng-click="princess();"><img src="images/bounce/PrincessIcon.png" width="200" height="140" alt=""/></a></p>
 
 
 
+															<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Princess Combo</h2></button>
+														</div>
+													
+														<div class="col-md-4">
+															<p><a href="" ng-click="princess();"><img src="images/bounce/PrincessIcon.png" width="200" height="140" alt=""/></a></p>
+															<h2 style="text-align:center">Princess Combo</h2>
+														</div>
+														<div class="col-md-4">
+															<p><a href="" ng-click="princess();"><img src="images/bounce/PrincessIcon.png" width="200" height="140" alt=""/></a></p>
+															<h2 style="text-align:center">Princess Combo</h2>
+														</div>
+														<div class="col-md-4">
+															<p><a href="" ng-click="princess();"><img src="images/bounce/PrincessIcon.png" width="200" height="140" alt=""/></a></p>
+															<h2 style="text-align:center">Princess Combo</h2>
+														</div>
 
+
+
+														<div class="clearfix">&nbsp;</div>
+
+
+
+														<br>
 														<div id="box1">
-															<br>
 															<h3 class="text1">Pricing:</h3>
+														</div>
+														<div id="box1">
+										
+															
 
 															<table class="stats" cellspacing="0">
 																<thead>
@@ -309,46 +434,7 @@
 				</div>						
 			</div>
 
-			<div id="sidebar">
-				<div id="box4">
-					<h2>Princess Carriage Combo</h2>
-					<!-- <img src="images/bounce/PrincessIcon.png" width="80" height="80" alt="" class="alignleft"/> -->
-					<div class="content">
-						<p><a href="" ng-click="princess(); gotoTop()"><img src="images/bounce/PrincessIcon.png" width="200" height="140" alt="" class="aligncenter"/></a></p>
-
-					</div>
-				</div>
-				<div id="box4">
-					<!-- <h2>Fire Station Combo</h2> -->
-					<div class="content">
-						<p><a href="" ng-click="firestation(); gotoTop()"><img src="images/bounce/firestationtitle.png" width="200" height="140" alt="" /></a></p>
-						<p></p>
-					</div>
-				</div>
-				<div id="box4">
-					<h2>Tiger Belly Bouncer</h2>
-					<div class="content">
-						<p><a href="" ng-click="tigerbelly(); gotoTop()"><img src="images/bounce/tiger.jpg" width="215" height="275" alt="" /></a></p>
-						<p></p>
-					</div>
-				</div>
-				<div id="box4">
-					<h2>Wacky Castle Bouncer</h2>
-					<div class="content">
-						<p><a href="" ng-click="wackycastle(); gotoTop()"><img src="images/bounce/castle.jpg" width="215" height="275" alt="" /></a></p>
-						<p></p>
-					</div>
-				</div>
-				<div id="box4">
-					<h2 id="bottom">Wacky Mini Bouncer</h2>
-					<div class="content">
-						<p><a href="" ng-click="wackymini(); gotoTop()"><img src="images/bounce/mini.jpg" width="215" height="275" alt="" /></a></p>
-						<p></p>
-					</div>
-
-
-				</div>
-			</div>
+			
 			<div class="clearfix">&nbsp;</div>
 
 		</div>
