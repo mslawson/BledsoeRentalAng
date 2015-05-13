@@ -11,7 +11,7 @@
 
  var app = angular.module('angfireApp');
 
- app.controller('firestationModal', function ($scope, $modal, $log) {
+ app.controller('tigerbellyModal', function ($scope, $modal, $log) {
 
   // $scope.items = ['Cost:', 'Size:', 'Occupancy:'];
   $scope.animationsEnabled = true;
@@ -19,7 +19,7 @@
 
     var modalInstance = $modal.open({
       animation: $scope.animationsEnabled,
-      templateUrl: 'firestationModalContent.html',
+      templateUrl: 'tigerbellyModalContent.html',
       controller: 'ModalInstanceCtrl',
       size: size,
       resolve: {
@@ -41,6 +41,37 @@
   };
 
 });
+
+ app.controller('firestationModal', function ($scope, $modal, $log) {
+
+   // $scope.items = ['Cost:', 'Size:', 'Occupancy:'];
+    $scope.animationsEnabled = true;
+    $scope.open = function (size) {
+
+    var modalInstance = $modal.open({
+      animation: $scope.animationsEnabled,
+      templateUrl: 'firestationModalContent.html',
+      controller: 'ModalInstanceCtrl',
+      size: size,
+      resolve: {
+        items: function () {
+          return $scope.items;
+        }
+      }
+    });
+
+    modalInstance.result.then(function (selectedItem) {
+      $scope.selected = selectedItem;
+    }, function () {
+      $log.info('Modal dismissed at: ' + new Date());
+    });
+    };
+
+    $scope.toggleAnimation = function () {
+      $scope.animationsEnabled = !$scope.animationsEnabled;
+    };
+
+  });
 
  app.controller('princessModal', function ($scope, $modal, $log) {
 

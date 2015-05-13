@@ -57,8 +57,18 @@ div.alginleft{
   transform: translateY(-50%);
 	position: relative;
 }
+
+.modalPic{
+	margin-top: -90px;
+}
+
 div.alignright{
 	float: right;
+}
+
+div.aligncenter{
+	
+	margin: 0 auto;
 }
 
 img.alignleft {
@@ -204,12 +214,12 @@ button.searchBox{
 
 .bounce-grid {
 	width: 75%;
-	margin-left: 30px;
+	margin-left: 35px;
 }
 
 .col-md-4 img{
 	margin-right: auto;
-	margin-left: 45px;
+	margin-left: 20px;
 	margin-top: 20px;
 
 }
