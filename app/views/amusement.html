@@ -480,10 +480,61 @@
 															</div>
 
 
-															<div class="col-md-4">
-																<p><a href="" ng-click="princess();"><img src="images/bounce/PrincessIcon.png" width="200" height="140" alt=""/></a></p>
-																<h2 style="text-align:center">Princess Combo</h2>
+															<!-- MINIBOUNCER Item -->
+															<div class="col-md-4" ng-controller="minibouncerModal">
+
+																<div class="aligncenter">
+																	<!-- Orig size = 328 x 205 -->
+																	<p><a href="" ng-click="open('lg');"><img src="images/bounce/mini.png" width="262" height="164" alt=""/></a></p>
+																</div>
+
+																<!-- Script for WACKYCASTLE modal -->
+																<script type="text/ng-template" id="minibouncerModalContent.html">
+																	<div class="modal-header">
+																	<h3 class=" modal-title text1"><font color="#3366FF">Wacky Mini Combo Bounce House</font></h3><h2>$115 A Day</h2>
+																	<button type="button" class="close" aria-label="Close" ng-click="ok()">
+																	<span aria-hidden="true">X</span>
+																	</button>
+																	</div>
+
+																	<div class="modal-body">
+																	<div class="col-md-6 alignleft">
+																	<p>
+																		ONLY 8' TALL, this wacky-colored bouncer has an entanglement area, a bouncing surface and a climb & slide ALL COMPLETELY ENCLOSED! Kids never have to leave the inflatable! Perfect for a backyard event! Wide mesh windows lets parents and operators keep an eye on the kids inside.
+																	</p>
+															
+																	<div class="bounce-holder ">
+																	<div id="bouncedims" class="alignleft">
+																	<ul>
+																	<li> Height 	8'</li>
+																	<li> Width 	11'</li>
+																	<li> Length 	16'6"</li>
+																	<li> Occupancy 	5
+																	<li> Occupant Min. Height 	34"</li>    
+																	<li> Occupant Max. Height 	60"</li>
+																	<li> Max. Occupancy Weight 	750 lbs. (150 lbs. ea.)</li>
+																	</ul>	
+																	</div>
+																	<br><br><br>
+																	<h3 class="text4" style="margin-left: 20%">
+																	CALL 816-524-4046 TO RESERVE YOURS!
+																	</h3>
+																	</div>
+																	<br>
+																	<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
+																	</div>
+																	<img src="images/bounce/mini-detail.jpg" alt="" width="416" height="532" class="alignright modalPic" />
+																	<br>
+																	</div>
+
+																	<div class="modal-footer">
+																	</div>
+																</script>
+
+
+																<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Mini Bouncer</h2></button>
 															</div>
+
 															<div class="col-md-4">
 																<p><a href="" ng-click="princess();"><img src="images/bounce/PrincessIcon.png" width="200" height="140" alt=""/></a></p>
 																<h2 style="text-align:center">Princess Combo</h2>
