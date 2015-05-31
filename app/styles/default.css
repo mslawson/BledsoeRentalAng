@@ -232,7 +232,7 @@ button.searchBox{
 }
 
 ul.nav.navbar-nav {
-	width: 630px;
+	/*width: 630px;*/
 
 }
 
@@ -275,13 +275,13 @@ ul.nav.navbar-nav {
 #menu {
 	float: right;
 	width: 600px;
-	height: 175px;
+	/*height: 175px;*/
 
 	/*padding: 0px 40px 0px 0px;*/
 }
 
 #menu ul {
-	float: right;
+	float: left;
 	margin: 0px;
 	padding: 64px 0px 0px 0px;
 	list-style: none;
@@ -290,18 +290,19 @@ ul.nav.navbar-nav {
 }
 
 li#firstNav{
-	padding-left: 20px;
+	padding-left: 10px;
+	margin-left: 50px;
 }
 
 #menu li {
 	float: left;
-	margin-left: 25px;
-	background-color: #2b7fb4;
+	padding-left: 10px;
+	/*background-color: #2b7fb4;*/
 }
 
 #menu a {
 	display: block;
-	line-height: 88px;
+	line-height: 36px;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
@@ -435,23 +436,23 @@ li#firstNav{
 #slideshow .slide {
 }
 
-#slideshow .viewer .reel .slide {
+.reel .slide {
 	position: relative;
 }
 
-#slideshow .viewer .reel .slide .caption {
+.reel .slide .caption {
 	position: absolute;
 	display: block;
-	width: 940px;
+	width: 100%;
 	height: 102px;
 	left: 0px;
 	bottom: 60px;
-	background: url(/images/bg2_01.png) repeat-x left top;
+	background: url(/images/bg2_01.png) repeat-x center top;
 	text-align: center;
 	color: #ffffff;
 }
 
-#slideshow .viewer .reel .slide .caption h2 {
+.reel .slide .caption h2 {
 	display: block;
 	padding: 17px 0px 0px 0px;
 	text-transform: uppercase;
@@ -461,7 +462,7 @@ li#firstNav{
 	color: #ffffff;
 }
 
-#slideshow .viewer .reel .slide .caption p {
+.reel .slide .caption p {
 	font-family: 'Arvo', serif;
 	font-size: 16px;
 	color: #ffffff;
