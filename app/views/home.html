@@ -3,57 +3,28 @@
 <div id="page" class="container">
 	<div id="page-bgtop">
 		<div id="page-bgbtm">
-			<div id="slideshow" class="container">
-				<div class="viewer">
-					<div class="reel">
-						<div class="slide"><img src="/images/banner/logo.jpg" width="940" height="220" alt="" />
-							<div class="caption">
-								<h2>Bledsoe Rentals Since 1959</h2>
-								<p>Quality/Service/Equipment/Advice</p>
-							</div>
-							<!-- <a href="" class="link">Continue reading ...</a> -->
-						</div>
-						<div class="slide"><img src="/images/banner/bounce.jpg" width="940" height="220" alt="" />
-							<div class="caption">
-								<h2>BOUNCE HOUSES ARE HERE!</h2>
-								<p></p>
-							</div>
-							<a href="#/amusement" class="link">Continue reading ...</a>
-						</div>
-						<div class="slide"><img src="/images/banner/ramboard.jpg" width="940" height="220" alt="" />
-							<div class="caption">
-								<h2>RAM BOARD NOW AT BLEDSOE RENTALS</h2>
-								<p>Temporary Floor Protection</p>
-							</div>
-							<!-- <a href="" class="link">Continue reading ...</a> -->
-						</div>
 
-						<div class="slide"><img src="/images/banner/lavina-banner.jpg" width="940" height="220" alt="" /><a href="" ng-click="setCategory('Concrete & Masonry')">
-							<div class="caption">
-								<h2>GRINDING CONCRETE? WE CAN HELP!</h2>
-								<p>Full Line of Lavina Concrete Grinders and Polishers in stock!</p>
-							</div>
-						</a>
-						<!-- <a ng-click="setCategory('Concrete & Masonry')" class="link">Continue reading ...</a> -->
+				<!-- New Angular Slider -->
+				<div class="container">
+					<div class="reel" ng-controller="CarouselDemoCtrl" >
+						<div class="slide" style="height: 220px; width: 940px; margin: 0 auto 40px;">
+							<carousel interval="myInterval">
+								<slide ng-repeat="slide in mainslides" active="slide.active">
+							
+									<img ng-src="{{slide.image}}" style="margin:auto;">
+									
+										<div class="caption">
+											<h2>{{slide.text}}</h2>
+											<p>{{slide.addtext}}</p>
+										</div>
+							
+								</slide>
+							</carousel>
+						</div>
 					</div>
-					<div class="slide"><img src="/images/banner/jd-banner.jpg" width="940" height="220" alt="" />
-						<div class="caption">
-							<h2>MOVING DIRT? JOHN DEERE EXCAVATORS AT BLEDSOE RENTALS!</h2>
-							<p>John Deere 17D / 35D / 50D Excavators for Rent</p>
-						</div>
-						<a href="/rent-heq.html" class="link">Continue reading ...</a>
-					</div>	
-					<div class="slide"><img src="/images/banner/biljax.jpg" width="940" height="220" alt="" />
-						<div class="caption">
-							<h2>36FT Bil-jax Towable Lifts are back at Bledsoe Rentals! </h2>
-							<p> 36ft & 45ft Lifts in Stock for Rental!</p>
-						</div>
-						<a href="" class="link">Continue reading ...</a>
-					</div>								
-				</div>
-			</div>
-			<a href="#" class="previous">Previous</a> <a href="#" class="next">Next</a> </div>
+			
 
+		
 			<div id="content">
 				<div class="post">
 					<h2 class="title">What's new at Bledsoe Rentals</h2>
@@ -137,9 +108,9 @@
 				</div>
 				<div id="sidebar">
 					<div id="box4">
-						<a href="#/rental">
+						<a href='' ng-click="setCategory();">
 							<h2 id="findEquip" class="title" >Find Equipment</h2>
-						</a>
+						</a href=''>
 						<!-- <div class="searchBox"> -->
 
 						<!-- <br> -->

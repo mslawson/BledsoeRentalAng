@@ -28,6 +28,27 @@
       text:  "Wacky Mini Combo Bounce House - $117 A Day"}
   ];
 
+  var mainslides = $scope.mainslides = [
+
+    { image: "/images/banner/logo.jpg",
+      text: "bledsoe rentals since 1959",
+      addtext: "Quality/Service/Equipment/Advice"},
+    { image: "/images/banner/bounce.jpg",
+      text:  "Bounce Houses are Here!"},
+    { image: "/images/banner/ramboard.jpg", 
+      text:  "ramboard now at blesdoe rentals",
+      addtext: "Temporary Floor Protection"},
+    { image: "/images/banner/Banner-Lavina.png",
+      text:  "Grinding concrete? We can help!",
+      addtext: "Full Line of Lavina Concrete Grinders and Polishers now in stock!"},
+    { image: "/images/banner/Banner-JD.png",
+      text:  "MOVING DIRT? JOHN DEERE EXCAVATORS AT BLEDSOE RENTALS!",
+      addtext: "John Deere 17D / 35D / 50D Excavators for Rent!"},
+    { image: "/images/banner/Banner-Biljax.png",
+      text:  "36FT Bil-jax Towable Lifts are back at Bledsoe Rentals!",
+      addtext: "36ft & 45ft Lifts in Stock for Rental!"}
+  ];
+
   });
 
 
