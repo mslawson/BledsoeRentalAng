@@ -88,7 +88,7 @@ app.config(function ($routeProvider) {
       // Advertisements
       .when('/ad-lawn', {
         templateUrl: 'views/advertisements/ad-lawn.html',
-        controller: 'MainCtrl'
+        controller: 'HomeCtrl'
       })
       .when('/ad-refinish', {
         templateUrl: 'views/advertisements/ad-refinish.html',
