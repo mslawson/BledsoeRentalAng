@@ -16,13 +16,13 @@
   $scope.myInterval = 5000;
   var slides = $scope.slides = [
     { image: "images/banner/bounce-banner/ban-pc.jpg",
-      text: "The Royal Princess Carriage - $255 A Day!" },
+      text: "The Royal Princess Carriage - $195 A Day!" },
     { image: "images/banner/bounce-banner/ban-fs.jpg",
-      text: "The Fire Station Combo Bounce House - $255 A Day"},
+      text: "The Fire Station Combo Bounce House - $195 A Day"},
     { image: "images/banner/bounce-banner/ban-tiger.jpg",
-      text:  "The Tiger Belly Bounce House - $153 A Day"},
+      text:  "The Tiger Belly Bounce House - $149 A Day"},
     { image: "images/banner/bounce-banner/ban-cas.jpg", 
-      text:  "The Castle Bounce House - $153 A Day",
+      text:  "The Castle Bounce House - $149 A Day",
       addtext: "Choose Between Princess or Knight Theme Panel"},
     { image: "images/banner/bounce-banner/ban-mini.jpg",
       text:  "Wacky Mini Combo Bounce House - $117 A Day"}
