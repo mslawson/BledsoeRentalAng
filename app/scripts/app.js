@@ -54,7 +54,7 @@ app.service('servCategory', function servCategory(){
 
 });
 
-app.config(function ($routeProvider) {
+app.config(function ($routeProvider, $locationProvider) {
     $routeProvider
       // Main pages
       .when('/', {
@@ -120,19 +120,22 @@ app.config(function ($routeProvider) {
         controller: 'HomeCtrl'
       })
       // Store Locations
-      .when('/lsnstore',{
+      .when('/store-lsn',{
         templateUrl: 'views/lsn.html',
         controller: 'HomeCtrl'
       })
-      .when('/lssstore',{
+      .when('/store-lss',{
         templateUrl: 'views/lss.html',
         controller: 'HomeCtrl'
       })
-      .when('/olathe',{
+      .when('/store-ola',{
         templateUrl: 'views/olathe.html',
         controller: 'HomeCtrl'
       })
       .otherwise({
         redirectTo: '/'
       });
+
+      // use the HTML5 History API
+      $locationProvider.html5Mode(true);
   });
