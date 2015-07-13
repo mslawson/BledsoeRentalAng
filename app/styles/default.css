@@ -45,6 +45,33 @@ a img {
 img.border {
 }
 
+div.alginleft{
+	float: left;
+}
+
+#bouncedims{
+	display: block;
+	/*margin-top: 20px;
+	padding-top: 20px;*/
+	margin: -15px 0px 30px 0px;
+	top: 40%;
+  transform: translateY(-50%);
+	position: relative;
+}
+
+.modalPic{
+	margin-top: -90px;
+}
+
+div.alignright{
+	float: right;
+}
+
+div.aligncenter{
+	
+	margin: 0 auto;
+}
+
 img.alignleft {
 	float: left;
 	margin-right: 30px;
@@ -62,6 +89,105 @@ hr {
 	display: none;
 }
 
+.popup-btn{
+	width: 50%;
+}
+
+.searchBox {
+	float: left;
+	
+	/*display: inline-block;*/
+}
+
+.bounce-holder{
+	display: block;
+	height: 260px;
+}
+
+.disclaimer{
+	font-size: .9em;
+}
+
+#amusement{
+	width: 94%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*
+.img-container{
+	position: relative;
+	overflow: hidden;
+}
+
+.img-container h3.text1{
+	padding-top: 20px;
+	padding-left: 70px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+.img-container h2{
+	color: black;
+	text-align: center;
+	padding-bottom: 80px;
+}*/
+/*.img-container .text-bg{
+	z-index: 1;
+	background-color: white;
+	opacity: .7;
+	height: auto;
+	width: 420px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	top: 50%;
+  transform: translateY(-50%);
+	position: relative;
+}*/
+
+/*.img-container .text-bg p{
+	z-index: 2;
+	color: black;
+	padding: 10px;
+	position: relative;
+	/*text-align: center;
+
+	
+*/
+
+/*.img-container ul{
+	padd
+}*/
+
+/*.img-container img{
+	position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}*/
+
+#findEquip {
+	text-align: center;
+  border-radius: 35px;
+  margin: 0px 10px -15px 10px;
+}
+
+input.searchBox{
+	padding: -10px 0px 0px 0px;
+	height: 40px;
+	font-size: 18px;
+}
+button.searchBox{
+	margin-left: 10px;
+	margin-top: 2px;
+}
 /** WRAPPER */
 
 #wrapper-bg {
@@ -87,6 +213,18 @@ hr {
 	clear: both;
 }
 
+.bounce-grid {
+	width: 75%;
+	margin-left: 35px;
+}
+
+.col-md-4 img{
+	margin-right: auto;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
 /** HEADER */
 
 #header {
@@ -94,14 +232,19 @@ hr {
 	background: url(/images/bg1_05.gif) no-repeat left top;
 }
 
+ul.nav.navbar-nav {
+	/*width: 630px;*/
+
+}
+
 /** LOGO */
 
 #logo {
-	position: relative;
-	float: left;
-	width: 330px;
+	/*position: relative;
+	float: left;*/
+	/*width: 330px;*/
 	height: 115px;
-	padding: 55px 0px 0px 50px;
+	padding: 55px 0px 0px 30px;
 }
 
 #logo h1, #logo p {
@@ -132,27 +275,35 @@ hr {
 
 #menu {
 	float: right;
-	width: 580px;
-	height: 175px;
-	padding: 0px 40px 0px 0px;
+	width: 600px;
+	/*height: 175px;*/
+
+	/*padding: 0px 40px 0px 0px;*/
 }
 
 #menu ul {
-	float: right;
+	float: left;
 	margin: 0px;
 	padding: 64px 0px 0px 0px;
 	list-style: none;
 	line-height: normal;
+		/*background-color: #3483B8;*/
+}
+
+li#firstNav{
+	padding-left: 10px;
+	margin-left: 50px;
 }
 
 #menu li {
 	float: left;
-	margin-left: 35px;
+	padding-left: 10px;
+	/*background-color: #2b7fb4;*/
 }
 
 #menu a {
 	display: block;
-	line-height: 88px;
+	line-height: 36px;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
@@ -286,23 +437,23 @@ hr {
 #slideshow .slide {
 }
 
-#slideshow .viewer .reel .slide {
+.reel .slide {
 	position: relative;
 }
 
-#slideshow .viewer .reel .slide .caption {
+.reel .slide .caption {
 	position: absolute;
 	display: block;
-	width: 940px;
+	width: 100%;
 	height: 102px;
 	left: 0px;
 	bottom: 60px;
-	background: url(/images/bg2_01.png) repeat-x left top;
+	background: url(/images/bg2_01.png) repeat-x center top;
 	text-align: center;
 	color: #ffffff;
 }
 
-#slideshow .viewer .reel .slide .caption h2 {
+.reel .slide .caption h2 {
 	display: block;
 	padding: 17px 0px 0px 0px;
 	text-transform: uppercase;
@@ -312,7 +463,7 @@ hr {
 	color: #ffffff;
 }
 
-#slideshow .viewer .reel .slide .caption p {
+.reel .slide .caption p {
 	font-family: 'Arvo', serif;
 	font-size: 16px;
 	color: #ffffff;
@@ -424,7 +575,7 @@ hr {
 
 #box4 .content {
 	overflow: hidden;
-	padding: 30px 30px;
+	padding: 10px 30px;
 }
 
 /** BOX 5 */
@@ -529,6 +680,15 @@ hr {
 	font-size: 22px;
 	font-weight: normal;
 	color: #FF0000;
+	text-align:center
+}
+
+.post .text4 {
+
+	/*text-transform: uppercase;*/
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	font-weight: normal;
 	text-align:center
 }
 

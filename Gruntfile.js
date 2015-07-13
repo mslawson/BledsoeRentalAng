@@ -238,6 +238,7 @@ module.exports = function (grunt) {
         assetsDirs: [
           '<%= yeoman.dist %>',
           '<%= yeoman.dist %>/images',
+          '<%= yeoman.dist %>/images/*',
           '<%= yeoman.dist %>/styles'
         ]
       }
@@ -256,15 +257,15 @@ module.exports = function (grunt) {
         }
       }
     },
-    uglify: {
-      dist: {
-        files: {
-          '<%= yeoman.dist %>/scripts/scripts.js': [
-            '<%= yeoman.dist %>/scripts/scripts.js'
-          ]
-        }
-      }
-    },
+    // uglify: {
+    //   dist: {
+    //     files: {
+    //       '<%= yeoman.dist %>/scripts/scripts.js': [
+    //         '<%= yeoman.dist %>/scripts/scripts.js'
+    //       ]
+    //     }
+    //   }
+    // },
     concat: {
       dist: {}
     },
@@ -274,7 +275,10 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>/images',
-          src: '{,*/}*.{png,jpg,jpeg,gif}',
+          src: [
+              '{,*/}*.{png,jpg,jpeg,gif}',
+              'images/{,}*.{png,jpg,jpeg,gif}'
+              ],
           dest: '<%= yeoman.dist %>/images'
         }]
       }
@@ -303,7 +307,11 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.dist %>',
-          src: ['*.html', 'views/{,*/}*.html'],
+          src: [
+              '*.html', 
+              'views/{,*/}*.html',
+              'views/{,}*.html'
+              ],
           dest: '<%= yeoman.dist %>'
         }]
       }
@@ -342,6 +350,8 @@ module.exports = function (grunt) {
             '.htaccess',
             '*.html',
             'views/{,}*.html',
+            'views/{,*/}*.html',
+            'images/{,}*.{webp}',
             'images/{,*/}*.{webp}',
             'styles/fonts/{,*/}*.*'
           ]

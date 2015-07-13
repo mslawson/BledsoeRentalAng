@@ -32,15 +32,38 @@ app.factory('productsBase', ['$firebaseArray',
     }
 ]);
 
+// app.config(function config($stateProvider){
+//     $stateProvider
+//       .state("index", {
+//         url: '',
+//         templateUrl: 'views/home.html',
+//         controller: 'MainCtrl'
+//       });
+//  });
+
+app.service('servCategory', function servCategory(){
+  var catName = "";
+  this.getName = function(){
+    return catName;
+  };
+  this.setName = function (name){
+    catName = name;
+    return catName;
+  };
+
+
+});
+
 app.config(function ($routeProvider) {
     $routeProvider
+      // Main pages
       .when('/', {
         templateUrl: 'views/home.html',
-        controller: 'MainCtrl'
+        controller: 'HomeCtrl'
       })
       .when('/home', {
         templateUrl: 'views/home.html',
-        controller: 'MainCtrl'
+        controller: 'HomeCtrl'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
@@ -54,9 +77,18 @@ app.config(function ($routeProvider) {
         templateUrl: 'views/amusement.html',
         controller: 'MainCtrl'
       })
+      .when('/propane', {
+        templateUrl: 'views/propane.html',
+        controller: 'MainCtrl'
+      })
+      .when('/ucart', {
+        templateUrl: 'views/ucart.html',
+        controller: 'MainCtrl'
+      })
+      // Advertisements
       .when('/ad-lawn', {
         templateUrl: 'views/advertisements/ad-lawn.html',
-        controller: 'MainCtrl'
+        controller: 'HomeCtrl'
       })
       .when('/ad-refinish', {
         templateUrl: 'views/advertisements/ad-refinish.html',
@@ -81,6 +113,24 @@ app.config(function ($routeProvider) {
       .when('/ad-iscrub', {
         templateUrl: 'views/advertisements/ad-iscrub.html',
         controller: 'MainCtrl'
+      })
+      // Bounce Houses
+      .when('/bounce-princess', {
+        templateUrl: 'views/bounce-princess.html',
+        controller: 'HomeCtrl'
+      })
+      // Store Locations
+      .when('/lsnstore',{
+        templateUrl: 'views/lsn.html',
+        controller: 'HomeCtrl'
+      })
+      .when('/lssstore',{
+        templateUrl: 'views/lss.html',
+        controller: 'HomeCtrl'
+      })
+      .when('/olathe',{
+        templateUrl: 'views/olathe.html',
+        controller: 'HomeCtrl'
       })
       .otherwise({
         redirectTo: '/'

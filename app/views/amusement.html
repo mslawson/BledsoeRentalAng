@@ -1,249 +1,619 @@
 
-<div class="two-column2">
-	<div id="wrapper-bg">
-		<div id="wrapper-bgtop">
-			<div id="wrapper-bgbtm">
+<div>
+	<div id="page" class="container">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<p id="top"></p>
 
-				<div id="page" class="container">
-					<div id="page-bgtop">
-						<div id="page-bgbtm">
 
-							<div id="slideshow" class="container">
-								<div class="viewer">
-									<div class="reel">
-										<div class="slide"><img src="images/banner/bounce-banner/ban-pc.jpg" width="940" height="220" alt="" />
-											<div class="caption">
-												<h2> The Royal Princess Carriage $250 A Day</h2>
-												<p></p>
-											</div>
-											<a href="/bounce-princess.html" class="link">Continue reading ...</a>
+				<!-- New Angular Slider -->
+				<div class="container">
+					<div class="reel" ng-controller="CarouselDemoCtrl">
+						<div class="slide" style="height: 305px; width: 980px; margin: 0 auto;">
+							<carousel interval="myInterval">
+								<slide ng-repeat="slide in slides" active="slide.active">
+									<!-- <img src="images/banner/bounce-banner/ban-pc.jpg" width="940" height="220" alt=""/> -->
+									<img ng-src="{{slide.image}}" style="margin:auto;">
+									
+										<div class="caption">
+											<h2>{{slide.text}}</h2>
+											<p>{{slide.addtext}}</p>
 										</div>
-										<div class="slide"><img src="images/banner/bounce-banner/ban-fs.jpg" width="940" height="220" alt="" />
-											<div class="caption">
-												<h2>The Fire Station Combo Bounce House $250 A Day</h2>
-												<p></p>
-											</div>
-											<a href="/bounce-fh.html" class="link">Continue reading ...</a>
-										</div>
-										<div class="slide"><img src="images/banner/bounce-banner/ban-tiger.jpg" width="940" height="220" alt="" />
-											<div class="caption">
-												<h2> The Tiger Belly Bounce House $150 A Day</h2>
-												<p></p>
-											</div>
-											<a href="/bounce-tiger.html" class="link">Continue reading ...</a>
-										</div>
-										<div class="slide"><img src="images/banner/bounce-banner/ban-cas.jpg" width="940" height="220" alt="" />
-											<div class="caption">
-												<h2>The Castle Bounce House $150 A Day</h2>
-												<p>Choose Between Princess or Knight Theme Panel</p>
-											</div>
-											<a href="/bounce-castle.html" class="link">Continue reading ...</a>
-										</div>
-										<div class="slide"><img src="images/banner/bounce-banner/ban-mini.jpg" width="940" height="220" alt="" />
-											<div class="caption">
-												<h2>Wacky Mini Combo Bounce House $115 A Day</h2>
-												<p></p>
-											</div>
-											<a href="/bounce-wm.html" class="link">Continue reading ...</a>
-										</div>
-
-									</div>
-								</div>
-								<a href="#" class="previous">Previous</a> <a href="#" class="next">Next</a> 
-							</div>			
-							<div id="content">
-
-								<div class="post">
-									<h2 class="title">Bledsoe Rentals Amusement Rentals - Bounce Houses!</h2>
-									<div class="entry">
-										<div id="box1">
-
-											<p class="text3">Why our Inflatable Bounces houses</p>
-											<p class="text3"> are better than the rest…</p>
-											<p class="text3">Call 816-524-4046 to Reserve yours!</p>
-
-											<h3 class="text1">Safety</h3>
-											<p><a href="#"><img src="images/bounce/wd.jpg" alt="" width="266" height="167" class="alignleft" /></a><p>Even though we pride ourselves on having the most extravagant inflatable bounce houses in the area, safety is still our number one priority.  When having any special event or party, the last thing you want to happen is have someone get hurt.</p>
-											<p>Every material used in our inflatables was engineered with safety and quality in mind.  The materials used to create our inflatables are both lead-safe and flame-retardant.   Many of the vinyl’s used to create other manufactures bounces houses are made with toxic chemicals and are not resistant to fire.  </p> 
-
-											<p>Our inflatables also include features such as Finger-Safe Netting and sun shades.  These features help to prevent children from flipping and causing injury.  This is a must-have in any inflatable.</p>
-											<p>One of the most common concerns with inflatables is that the blower used to keep the bounce house inflated will stop working.  This can happen due to a power outage, the blower becoming unplugged, or kids tampering with the blower and shutting it off.  The last thing you want to happen is for the inflatable to collapse on the participants inside without anyone being alerted.  That is why we send out all of our inflatable rentals with the WATCHDOG Blower-Siren free of charge to the customer.  In the event that the blower should stop working in ANY event, the WATCHDOG Blower-Siren will sound a 120-decible siren that will let all participants in and outside of the inflatable know that the blower is not operating which should allow participants enough to time to exit the inflatable without harm.</p>
-											<h3 class="text1">More FUN</h3>
-											<img src="images/bounce/fs-1.jpg" alt="" width="303" height="219" class="alignright" /><p>There is no expense spared in the construction of our inflatables.  Our inflatables are some of the only inflatables designed with 18oz vinyl as well as high-quality, high-powered blowers.  By having thicker vinyl and stronger blowers, it creates a firmer surface in the bounce areas and slides of our inflatables.  By having a firmer area, you create better bounce and smoother sliding.  Many of our competitions bouncers are created with low-grade, thin vinyl or fabric that is being operated with under-powered blowers.  This creates more of a “sinking” factor when stepped/jumped on which means less bounce.  Simply put, less bounce equals less fun!</p>
-											<h3 class="text1">WOW Factor</h3>
-											<p><a href="#"><img src="images/bounce/princess-2.jpg" alt="" width="328" height="174" class="alignleft" /></a><p>The whole point of renting an inflatable is to create a memorable and fun experience.  So why settle for a dull inflatable that won’t stand out in people’s minds for years to come.  Cutting Edge N-Flatables has a dedicated art department to design their inflatables to create this sort of experience, and it shows.  Renting one of our unique inflatables will not only make your event or party truly special, but your attendee’s will leave buzzing for days about it.</p>
-											<h3 class="text1">Sanitation</h3>
-											<p>After each and EVERY rental, we set up our inflatables and fully clean and disinfect them before storing them.  Our trained, professional staff uses the proper cleaners in 											order to ensure that you are receiving a fully cleaned unit.  For an item that will rent hundreds of times with thousands of people using it, it is important that it is cleaned each and every rental to prevent disease.  Do you want to trust someone who rents these out of their home to put forth this much effort to clean the inflatable you are about to rent?</p>
-
-										</p>
-
-
-										<table class="stats" cellspacing="0">      
-
-											<tr>
-												<td class="hed" align="center" colspan="1">-</p></strong></td>
-												<td class="hed" colspan="1">Description</p></strong></td>
-												<td class="hed" colspan="1">Minimum (3 hrs)</p></strong></td>
-												<td class="hed" colspan="1">Daily</p></strong></td>
-												<td class="hed" colspan="1">Weekly</p></strong></td>
-											</tr>
-
-											<tr><td>-</td>
-												<td>Cotton Candy Floss Machine</td>
-												<td></td>
-												<td>$77.00</td>
-												<td></td>
-											</tr>
-											<tr><td>-</td>
-												<td>Fire Station Combo</td>
-												<td></td>
-												<td>$255.00</td>
-												<td></td>
-											</tr>
-											<tr><td>-</td>
-												<td>Frozen Drink Machine</td>
-												<td></td>
-												<td>$77.00</td>
-												<td></td>
-											</tr>
-
-											<tr><td>-</td>
-												<td>Popcorn Popper 6oz</td>
-												<td></td>
-												<td>$77.00</td>
-												<td></td>
-											</tr>
-											<tr><td>-</td>
-												<td>Princess Carriage Combo</td>
-												<td></td>
-												<td>$255.00</td>
-												<td></td>
-											</tr>
-											<tr><td>-</td>
-												<td>Shaved Ice Machine Polar Pete</td>
-												<td></td>
-												<td>$56.00</td>
-												<td></td>
-											</tr>
-											<tr><td>-</td>
-												<td>Tiger Belly Bouncer</td>
-												<td></td>
-												<td>$153.00</td>
-												<td></td>
-											</tr>
-											<tr><td>-</td>
-												<td>Wacky Castle Bouncer</td>
-												<td></td>
-												<td>$153.00</td>
-												<td></td>
-											</tr>
-											<tr><td>-</td>
-												<td>Wacky Space Saver Combo</td>
-												<td></td>
-												<td>$117.00</td>
-												<td></td>
-											</tr>
-
-											<tr><td>-</td>
-												<td>CHAIR,    PLASTIC FOLDING </td>
-												<td>&nbsp;</td>
-												<td>$1 </td>
-												<td>$2.50</td>
-											</tr>
-											<tr><td>-</td>
-												<td>CLOTHES RACK </td>
-												<td>&nbsp;</td>
-												<td>$13 </td>
-												<td>$25 </td>
-											</tr>
-											<tr><td>-</td>
-												<td>COFFEE URN    - 100 CUP </td>
-												<td>&nbsp;</td>
-												<td>$16 </td>
-												<td>$32 </td>
-											</tr>
-											<tr><td>-</td>
-												<td>COOLER -    SUPER </td>
-												<td>&nbsp;</td>
-												<td>$13 </td>
-												<td>$38</td>
-											</tr>
-											<tr><td>-</td>
-												<td>TABLE -    BANQUET, 6 FT. </td>
-												<td>&nbsp;</td>
-												<td>$7 </td>
-												<td>$20 </td>
-											</tr>
-											<tr><td>-</td>
-												<td>TABLE -    BANQUET, 8 FT. </td>
-												<td>&nbsp;</td>
-												<td>$7 </td>
-												<td>$20 </td>
-											</tr>
-											<tr><td>-</td>
-												<td>TABLE    - BANQUET, 5 FT. ROUND </td>
-												<td>&nbsp;</td>
-												<td>$8 </td>
-												<td>$23 </td>
-											</tr>
-										</table>
-									</div>
-								</div>
-							</div></div>
-							<div id="sidebar">
-								<div id="box4">
-									<h2>Princess Carriage Combo</h2>
-									<div class="content">
-										<p><a href="/bounce-princess.html"><img src="images/bounce/princ-sm.jpg" width="215" height="275" alt="" /></a></p>
-
-									</div>
-								</div>
-								<div id="box4">
-									<h2>Fire Station Combo</h2>
-									<div class="content">
-										<p><a href="/bounce-fh.html"><img src="images/bounce/fs.jpg" width="215" height="275" alt="" /></a></p>
-										<p></p>
-									</div>
-								</div>
-								<div id="box4">
-									<h2>Tiger Belly Bouncer</h2>
-									<div class="content">
-										<p><a href="/bounce-tiger.html"><img src="images/bounce/tiger.jpg" width="215" height="275" alt="" /></a></p>
-										<p></p>
-									</div>
-								</div>
-								<div id="box4">
-									<h2>Wacky Castle Bouncer</h2>
-									<div class="content">
-										<p><a href="/bounce-castle.html"><img src="images/bounce/castle.jpg" width="215" height="275" alt="" /></a></p>
-										<p></p>
-									</div>
-								</div>
-								<div id="box4">
-									<h2>Wacky Mini Bouncer</h2>
-									<div class="content">
-										<p><a href="/bounce-wm.html"><img src="images/bounce/mini.jpg" width="215" height="275" alt="" /></a></p>
-										<p></p>
-									</div>
-
-
-								</div>
-							</div>
-							<div class="clearfix">&nbsp;</div>
-
+							
+								</slide>
+							</carousel>
 						</div>
-					</div>
+					<!-- <div class="row">
+						<div class="col-md-6">
+							<button type="button" class="btn btn-info" ng-click="addSlide()">Add Slide</button>
+						</div>
+						<div class="col-md-6">
+							Interval, in milliseconds: <input type="number" class="form-control" ng-model="myInterval">
+							<br />Enter a negative number or 0 to stop the interval.
+						</div>
+					</div> -->
 				</div>
 			</div>
-		</div>
-	</div>
-</div>
 
-<script src="scripts/jquery-1.7.1.min.js"></script>
-<script src="scripts/jquery.slidertron-0.2.1.js"></script>
-<script src="scripts/init.js"></script>
+			<!-- SLIDER -->
+			<!-- 	<div id="slideshow" class="container">
+					<div class="viewer">
+						<div class="reel">
+							<div class="slide">
+								<img src="images/banner/bounce-banner/ban-pc.jpg" width="940" height="220" alt=""/>
+								<a href="" ng-click="princess()">
+									<div class="caption">
+										<h2> The Royal Princess Carriage $250 A Day</h2>
+										<p></p>
+									</div>
+								</a>
+							</div>
+							<div class="slide">
+								<img src="images/banner/bounce-banner/ban-fs.jpg" width="940" height="220" alt="" />
+								<a href="" ng-click="firestation()">
+									<div class="caption">
+										<h2>The Fire Station Combo Bounce House $250 A Day</h2>
+										<p></p>
+									</div>
+								</a>
+							</div>
+							<div class="slide">
+								<img src="images/banner/bounce-banner/ban-tiger.jpg" width="940" height="220" alt="" />
+								<a hhref="" ng-click="tigerbelly()">
+									<div class="caption">
+										<h2> The Tiger Belly Bounce House $150 A Day</h2>
+										<p></p>
+									</div>
+								</a>
+							</div>
+							<div class="slide">
+								<img src="images/banner/bounce-banner/ban-cas.jpg" width="940" height="220" alt="" />
+								<a href="" ng-click="wackycastle()">
+									<div class="caption">
+										<h2>The Castle Bounce House $150 A Day</h2>
+										<p>Choose Between Princess or Knight Theme Panel</p>
+									</div>
+								</a>
+							</div>
+							<div class="slide">
+								<img src="images/banner/bounce-banner/ban-mini.jpg" width="940" height="220" alt="" />
+								<a href="" ng-click="wackymini()">
+									<div class="caption">
+										<h2>Wacky Mini Combo Bounce House $115 A Day</h2>
+										<p></p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="previous">Previous</a> 
+					<a href="#" class="next">Next</a> 
+				</div> -->
 
 
-</div>
+				
 
+				
+				<div id="amusement" class="main"> 
+					<div ng-switch="subview">
+
+						<div ng-switch-default>
+							<div class="post">
+								<div class="title">
+									<h3 style="float:left">Bledsoe Rentals Amusement Rentals - Bounce Houses!</h3>
+									<h3 style="float:right">CALL 816-524-4046 TO RESERVE YOURS!</h3>
+								</div>
+						
+								<div class="entry">
+
+									<p class="text4">
+										WHY OUR INFLATABLE BOUNCES HOUSES <br>
+										ARE BETTER THAN THE REST… <br>
+									</p>
+								
+									<br>
+
+									<!-- Tab Collection -->
+									<tabset vertical="false" justified="true">
+										<!-- WOW Tab -->
+										<tab>
+											<tab-heading>
+											<h3 class="text4">Wow Factor</h3>
+
+										</tab-heading>
+										<br>
+										<img src="images/bounce/princess-2.jpg" alt width="303" height="219" class="alignright"  style="margin-left: 20px">
+										<p>The whole point of renting an inflatable is to create a memorable and fun experience. So why settle for a dull inflatable that won’t stand out in people’s minds for years to come?
+											Cutting Edge N-Flatables has a dedicated art department to design their inflatables to create this sort of experience, and it shows. Renting one of our unique inflatables will not only make your event or party truly special, but your attendee’s will leave buzzing for days about it.</p>
+										</tab>
+										<!-- SAFETY Tab -->
+										<tab>
+											<tab-heading>
+											<h3 class="text4">Safety</h3>
+										</tab-heading>
+										<br>
+										<img src="images/bounce/wd.jpg" alt width="266" height="167" class="alignleft">
+										<p>Even though we pride ourselves on having the most extravagant inflatable bounce houses in the area, safety is still our number one priority. When having any special event or party, the last thing you want to happen is have someone get hurt. <br><br> Every material used in our inflatables was engineered with safety and quality in mind. The materials used to create our inflatables are both lead-safe and flame-retardant. Many of the vinyl's used to create other manufactures bounces houses are made with toxic chemicals and are not resistant to fire.<br><br> Our inflatables also include features such as Finger-Safe Netting and sun shades. These features help to prevent children from flipping and causing injury. This is a must-have in any inflatable. <br><br>  One of the most common concerns with inflatables is that the blower used to keep the bounce house inflated will stop working. This can happen due to a power outage, the blower becoming unplugged, or kids tampering with the blower and shutting it off. The last thing you want to happen is for the inflatable to collapse on the participants inside without anyone being alerted. That is why we send out all of our inflatable rentals with the WATCHDOG Blower-Siren free of charge to the customer. In the event that the blower should stop working in ANY event, the WATCHDOG Blower-Siren will sound a 120-decible siren that will let all participants in and outside of the inflatable know that the blower is not operating which should allow participants enough to time to exit the inflatable without harm.</p>
+									</tab>
+									<!-- SANITATION Tab -->
+									<tab>
+										<tab-heading>
+										<h3 class="text4">Sanitation</h3>
+									</tab-heading>
+									<br>
+
+									<p>After each and EVERY rental, we set up our inflatables and fully clean and disinfect them before storing them. Our trained, professional staff uses the proper cleaners in order to ensure that you are receiving a fully cleaned unit. For an item that will rent hundreds of times with thousands of people using it, it is important that it is cleaned each and every rental to prevent disease. Do you want to trust someone who rents these out of their home to put forth this much effort to clean the inflatable you are about to rent?</p>
+								</tab>
+								<!-- QUALTIY Tab -->
+								<tab>
+									<tab-heading>
+									<h3 class="text4 ">Quality</h3>
+								</tab-heading>
+								<br>
+								<img src="images/bounce/fs-1.jpg" alt width="303" height="219" class="	alignright"  style="margin-left: 20px">
+								<p>There is no expense spared in the construction of our inflatables. Our inflatables are some of the only inflatables designed with 18oz vinyl as well as high-quality, high-powered blowers. By having thicker vinyl and stronger blowers, it creates a firmer surface in the bounce areas and slides of our inflatables. By having a firmer area, you create better bounce and smoother sliding. Many of our competitions bouncers are created with low-grade, thin vinyl or fabric that is being operated with under-powered blowers. This creates more of a “sinking” factor when stepped/jumped on which means less bounce. Simply put, less bounce equals less fun!</p>
+							</tab>
+						</tabset>
+
+
+
+						<div class="clearfix">&nbsp;</div>
+						<br><br>
+
+
+						<!-- INFLATIBLES SECTION -->
+						<div class="col-md-12" id="inflatibles">
+							<h1 style="text-align:center">Checkout Our Inflatibles!</h1>
+						</div>
+
+						<!-- PRINCESS Item -->
+						<div class="col-md-4" ng-controller="princessModal">
+							<div class="aligncenter">
+								<!-- Orig size = 328 x 205 -->
+								<p><a href="" ng-click="open('lg')" style="outline:none"><img src="images/bounce/carriage-sm.png" width="262" height="164" alt=""/></a></p>
+							</div>
+
+							<!-- Script for PRINCESS modal -->
+							<script type="text/ng-template" id="princessModalContent.html">
+							<div class="modal-header">
+							<h3 class=" modal-title text1"><font color="#FF00FF"> The Royal Princess Carriage</font></h3><h2>$195 A Day</h2>
+							<button type="button" class="close" aria-label="Close" ng-click="ok()">
+							<span aria-hidden="true">X</span>
+							</button>
+							</div>
+							<div class="modal-body">
+							<div class="col-md-6 alignleft">
+							This bounce and slide combo is perfect for any young royal entourage!
+		This combo features a bouncing area, amazingly-detailed digital graphics, a crawl-through, slide area, and child-proof finger-safe netting.
+							<div class="bounce-holder ">
+							<div id="bouncedims" class="alignleft">
+							<ul>
+							<li> Height: 	15'9"</li>
+							<li> Width: 	13'6"</li>
+							<li> Length: 	31'</li>
+							<li> Slide Landing Height: 	6'4" </li>
+							<li> Occupancy: 	5 Patrons
+							<li> Occupant Min. Height: 	34"</li>
+							<li> Occupant Max. Height: 	60"</li>
+							<li> Max. Occupancy Weight: 	750 lbs. (150 lbs. ea.)</li>	
+							</ul>	
+							</div>
+							<br><br><br>
+							<h3 class="text4" style="margin-left: 20%">
+							CALL 816-524-4046 TO RESERVE YOURS!
+							</h3>
+							</div>
+							<br>
+							<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
+							</div>
+
+							<img src="images/bounce/pc-detail.jpg" alt="" width="416" height="532" class="alignright modalPic" />
+							<br>
+							</div>
+							<div class="modal-footer">																
+							</div>
+							</script>
+
+							<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Princess Combo</h2></button>
+						</div>
+
+						<!-- FIRESTATION Item -->
+						<div class="col-md-4" ng-controller="firestationModal">
+							<div class="aligncenter">
+								<!-- Orig size = 281 x 246 -->
+								<p><a href="" ng-click="open('lg')" style="outline:none"><img src="images/bounce/fsnew.png"  width="262" height="164" alt=""/></a></p>
+							</div>
+
+							<!-- Script for FIRESTATION modal -->
+							<script type="text/ng-template" id="firestationModalContent.html">
+							<div class="modal-header">
+							<h3 class=" modal-title text1"><font color="#FF0000"> Fire Station Combo Bounce House</font></h3><h2>$195 A Day</h2>
+							<button type="button" class="close" aria-label="Close" ng-click="ok()">
+							<span aria-hidden="true">X</span>
+							</button>
+							</div>
+
+							<div class="modal-body">
+							<div class="col-md-6 alignleft">
+							This bounce and slide combo is perfect for any aspiring Firefighter!
+
+							This combo features a bouncing area, amazingly-detailed digital graphics, a crawl-through, slide area, and child-proof finger-safe netting.
+							
+							<div class="bounce-holder ">
+							<div id="bouncedims" class="alignleft">
+							<ul>
+							<li> Height: 	15'9"</li>
+							<li> Width: 	13'6"</li>
+							<li> Length: 	31'</li>
+							<li> Slide Landing Height: 	6'4" </li>
+							<li> Occupancy: 	5 Patrons
+							<li> Occupant Min. Height: 	34"</li>
+							<li> Occupant Max. Height: 	60"</li>
+							<li> Max. Occupancy Weight: 	750 lbs. (150 lbs. ea.)</li>	
+							</ul>	
+							</div>
+							<br><br><br>
+							<h3 class="text4" style="margin-left: 20%">
+							CALL 816-524-4046 TO RESERVE YOURS!
+							</h3>
+							</div>
+							<br>
+							<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
+							</div>
+							<img src="images/bounce/Fire-Station-Detail.jpg" alt="" width="416" height="532" class="alignright modalPic" />
+							<br>
+							</div>
+
+							<div class="modal-footer">																	
+							</div>
+							</script>
+
+							<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Fire Station Combo</h2></button>
+						</div>
+
+						<!-- TIGERBELLY Item -->
+						<div class="col-md-4" ng-controller="tigerbellyModal">
+
+							<div class="aligncenter">
+								<!-- Orig size = 328 x 205 -->
+								<p><a href="" ng-click="open('lg');" style="outline:none"><img src="images/bounce/Tiger-220.png" width="262" height="164" alt=""/></a></p>
+							</div>
+
+							<!-- Script for TIGERBELLY modal -->
+							<script type="text/ng-template" id="tigerbellyModalContent.html">
+							<div class="modal-header">
+							<h3 class=" modal-title text1"><font color="#FF9900"> The Tiger Belly Bounce House</font></h3><h2>$149 A Day</h2>
+							<button type="button" class="close" aria-label="Close" ng-click="ok()">
+							<span aria-hidden="true">X</span>
+							</button>
+							</div>
+
+							<div class="modal-body">
+							<div class="col-md-6 alignleft">
+							
+							This moonwalk features child-proof wall netting that won't catch small fingers, yet remains transparent enough to allow for easy supervision. Includes an inflatable ramp and a great time!
+							
+							<div class="bounce-holder ">
+							<div id="bouncedims" class="alignleft">
+							<ul>
+							<li> Height: 	14'</li>
+							<li> Width: 	25'</li>
+							<li> Length: 	16'</li>
+							<li>Weight: 245 lbs</li>
+							<li> Occupancy: 	6 Patrons
+							<li> Occupant Min. Height: 	34"</li>    
+							<li> Occupant Max. Height: 	60"</li>
+							<li> Max. Occupancy Weight: 	900 lbs. (150 lbs. ea.)</li>
+							</ul>	
+							</div>
+							<br><br><br>
+							<h3 class="text4" style="margin-left: 20%">
+							CALL 816-524-4046 TO RESERVE YOURS!
+							</h3>
+							</div>
+							<br>
+							<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
+							</div>
+							<img src="images/bounce/tiger-detail.jpg" alt="" width="416" height="532" class="alignright modalPic" />
+							<br>
+							</div>
+
+							<div class="modal-footer">
+							</div>
+							</script>
+
+
+							<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Tiger Belly Bouncer</h2></button>
+						</div>
+
+
+						<!-- WACKYCASTLE Item -->
+						<div class="col-md-4" ng-controller="wackycastleModal">
+
+							<div class="aligncenter">
+								<!-- Orig size = 328 x 205 -->
+								<p><a href="" ng-click="open('lg');" style="outline:none"><img src="images/bounce/wackycastle.png" width="262" height="164" alt=""/></a></p>
+							</div>
+
+							<!-- Script for WACKYCASTLE modal -->
+							<script type="text/ng-template" id="wackycastleModalContent.html">
+							<div class="modal-header">
+							<h3 class=" modal-title text1"><font color="#3366CC"> The Castle Bounce House</font></h3><h2>$149 A Day</h2>
+							<button type="button" class="close" aria-label="Close" ng-click="ok()">
+							<span aria-hidden="true">X</span>
+							</button>
+							</div>
+
+							<div class="modal-body">
+							<div class="col-md-6 alignleft">
+							<p>
+							Fun-sized for up to 5 patrons, this Large Wacky Castle Bouncer has a colorful look and a big optional digital panel area! When used without a panel, this playful moonwalk offers unparalleled visibility! 
+							</p>
+							<p> The optional panels for this bouncer include Knight Theme and a Princess Theme:
+							</p>
+							<img src="images/bounce/wacky-castle-knight.jpg" width="40%"/>
+							<img src="images/bounce/wacky-castle-princess.jpg" width="40%"style="margin-left:60px"/>
+							<div class="bounce-holder ">
+							<div id="bouncedims" class="alignleft">
+							<ul>
+							<li> Height: 	16'</li>
+							<li> Width: 	14'6"</li>
+							<li> Length: 	17'6"</li>
+							<li>Weight: 243 lbs</li>
+							<li> Occupancy: 	5
+							<li> Occupant Min. Height: 	34"</li>    
+							<li> Occupant Max. Height: 	60"</li>
+							<li> Max. Occupancy Weight: 	750 lbs. (150 lbs. ea.)</li>
+							</ul>	
+							</div>
+							<br><br><br>
+							<h3 class="text4" style="margin-left: 20%">
+							CALL 816-524-4046 TO RESERVE YOURS!
+							</h3>
+							</div>
+							<br>
+							<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
+							</div>
+							<img src="images/bounce/wackycastl.jpg" alt="" width="416" height="532" class="alignright modalPic" />
+							<br>
+							</div>
+
+							<div class="modal-footer">
+							</div>
+							</script>
+
+
+							<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Castle Bouncer</h2></button>
+						</div>
+
+
+						<!-- MINIBOUNCER Item -->
+						<div class="col-md-4" ng-controller="minibouncerModal">
+
+							<div class="aligncenter">
+								<!-- Orig size = 328 x 205 -->
+								<p><a href="" ng-click="open('lg');" style="outline:none"><img src="images/bounce/mini.png" width="262" height="164" alt=""/></a></p>
+							</div>
+
+							<!-- Script for MINIBOUNCER modal -->
+							<script type="text/ng-template" id="minibouncerModalContent.html">
+							<div class="modal-header">
+							<h3 class=" modal-title text1"><font color="#3366FF">Wacky Mini Combo Bounce House</font></h3><h2>$117 A Day</h2>
+							<button type="button" class="close" aria-label="Close" ng-click="ok()">
+							<span aria-hidden="true">X</span>
+							</button>
+							</div>
+							<div class="modal-body">
+							<div class="col-md-6 alignleft">
+							ONLY 8' TALL, this wacky-colored bouncer has an entanglement area, a bouncing surface and a climb & slide ALL COMPLETELY ENCLOSED! Kids never have to leave the inflatable! Perfect for a backyard event! Wide mesh windows lets parents and operators keep an eye on the kids inside.
+							<div class="bounce-holder ">
+							<div id="bouncedims" class="alignleft">
+							<ul>
+							<li> Height: 	8'</li>
+							<li> Width: 	11'</li>
+							<li> Length: 	16'6"</li>
+							<li> Occupancy: 	5 Patrons
+							<li> Occupant Min. Height: 	34"</li>    
+							<li> Occupant Max. Height: 	60"</li>
+							<li> Max. Occupancy Weight: 	750 lbs. (150 lbs. ea.)</li>
+							</ul>	
+							</div>
+							<br><br><br><br>
+							<h3 class="text4" style="margin-left: 20%">
+							CALL 816-524-4046 TO RESERVE YOURS!
+							</h3>
+							</div>
+							<br>
+							<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
+							</div>
+							<img src="images/bounce/mini-detail.jpg" alt="" width="416" height="532" class="alignright modalPic" />
+							<br>
+							</div>
+
+							<div class="modal-footer">
+							</div>
+							</script>
+
+
+							<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Mini Bouncer</h2></button>
+							</div>
+
+						<!-- DUALSLIDE Item -->
+							<div class="col-md-4" ng-controller="dualslideModal">
+
+							<div class="aligncenter">
+							<!-- Orig size = 328 x 205 -->
+							<p><a href="" ng-click="open('lg');" style="outline:none"><img src="images/slide.png" width="262" height="164" alt=""/></a></p>
+							</div>
+
+						  <!-- Script for DUALSLIDE modal -->
+							<script type="text/ng-template" id="dualslideModalContent.html">
+							<div class="modal-header">
+							<h3 class=" modal-title text1"><font color="#6C1FBD">Wacky (22') Dual Slide</font></h3><h2>$153 A Day</h2>
+							<button type="button" class="close" aria-label="Close" ng-click="ok()">
+							<span aria-hidden="true">X</span>
+							</button>
+							</div>
+
+							<div class="modal-body">
+							<div class="col-md-6 alignleft">
+								The Wacky 22' Dual inflatable Slide is great for indoor facilities and outdoor rentals.  Not only is it great fun, but it is perfect for events that will have large amounts of people that want to keep "playing".  This is great for school events, promotional events, organization celebrations, and birthday parties.
+							<div class="bounce-holder ">
+							<div id="bouncedims" class="alignleft">
+							<ul>
+							<li> Height: 	22'</li>
+							<li> Width: 	14'</li>
+							<li> Length: 	30'</li>
+							<li> Upper Deck Height: 14' </li>
+							<li> Operators: 1 <em>(Required)</em> </li>
+							<li> Occupancy: 	3 Patrons <br><em>(One on each slide with one person on the ladder)</em> </li>
+							<li> Occupant Min. Height: 	34"</li>    
+							<li> Occupant Max. Height: 	76"</li>
+							<li> Max. Occupancy Weight: 	750 lbs. (150 lbs. ea.)</li>
+							</ul>	
+							</div>
+							<br><br><br>
+							<h3 class="text4" style="margin-left: 20%">
+							CALL 816-524-4046 TO RESERVE YOURS!
+							</h3>
+							</div>
+							<br>
+							<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
+							</div>
+							<img src="images/dualslide.jpg" alt="" width="416" height="532" class="alignright modalPic" />
+							<br>
+							</div>
+
+							<div class="modal-footer">
+							</div>
+							</script>
+
+
+							<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Dual Slide</h2></button>
+						</div>
+
+						<!-- CAROUSEL Item -->
+						<div class="col-md-4" ng-controller="carouselModal" style="margin-left:33.3%">
+
+							<div class="aligncenter" style="outline:none">
+								<!-- Orig size = 328 x 205 -->
+								<p><a href="" ng-click="open('lg');" style="outline:none"><img src="images/carousel.png" width="262" height="164" alt=""/></a></p>
+							</div>
+
+							<!-- Script for CAROUSEL modal -->
+							<script type="text/ng-template" id="carouselModalContent.html">
+							<div class="modal-header">
+							<h3 class=" modal-title text1"><font color="#D20B00">20' Carousel Bouncer</font></h3><h2>$179 A Day</h2>
+							<button type="button" class="close" aria-label="Close" ng-click="ok()">
+							<span aria-hidden="true">X</span>
+							</button>
+							</div>
+
+							<div class="modal-body">
+							<div class="col-md-6 alignleft">
+							The 20' Carousel bouncer isn't just any Carousel.  This Carousel is modeled off of an actual historic 200 year old Caroursel.  This same bouncer is sitting in Buckingham Palace that the queen bought for her grandchildren!  The horses and pictures inside of the bouncer are digitally produced images taken directly from the real Carousel.  
+							<div class="bounce-holder ">
+							<div id="bouncedims" class="alignleft">
+							<ul>
+							<li> Height: 	20'</li>
+							<li> Width: 	20'</li>
+							<li> Length: 	23'</li>
+							<li> Max Occupancy:  6 Patrons
+							<li> Max Occupancy Weight: 900 lbs. (150 lbs. ea.)</li>
+							<li> Occupant Min. Height: 	34"</li>    
+							<li> Occupant Max. Height: 	60"</li>
+
+							</ul>	
+							</div>
+							<br><br><br>
+							<h3 class="text4" style="margin-left: 20%">
+							CALL 816-524-4046 TO RESERVE YOURS!
+							</h3>
+							</div>
+							<br>
+							<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
+							</div>
+							<img src="images/Carousel20ft_Panel.jpg" alt="" width="416" height="532" class="alignright modalPic" />
+							<br>
+							</div>
+
+							<div class="modal-footer">
+							</div>
+							</script>
+
+
+							<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Carousel</h2></button>
+							</div>
+
+
+
+							<div class="clearfix">&nbsp;</div>
+							<br><br>
+													<h2 class="text3">
+										CALL 816-524-4046 TO RESERVE YOURS!
+									</h2>
+						<br>
+						<br>
+
+
+							<br>
+							<div id="box1">
+							<h3 class="text1">Pricing:</h3>
+							</div>
+							<div id="box1">
+
+
+
+							<table class="stats" cellspacing="0">
+							<thead>
+							<td class="hed" colspan="1" align="center">- <p></p></td>
+							<td class="hed" colspan="1" align="center">Description <p></p></td>
+							<!-- <td class="hed" colspan="1" align="center">Minimum (3 hrs) <p></p></td> -->
+							<td class="hed" colspan="1" align="center">Daily <p></p></td>
+							<td class="hed" colspan="1" align="center">Weekly <p></p></td>
+							<!-- <th>&nbsp;</th>
+							<th>&nbsp;</th> -->
+							</thead>
+							<tbody>
+							<tr ng-repeat="product in products | orderBy: 'Name' | filter:'amusement' | filter:query | limitTo: 40" >
+							<td>&nbsp;</td>
+							<td>{{product.Name}}</td>
+
+							<td>{{product.Daily | currency}}</td>
+
+							<!-- using if to not display $0 if no value -->
+							<td ng-if="product.Weekly">{{product.Weekly | currency}}</td>
+							<td ng-if="!product.Weekly">&nbsp;</td>
+
+							<!-- <td>
+							<a href="#">Edit</a>
+							</td>
+							<td>
+							<a href="#">Remove</a>
+							</td> -->
+							</tr>
+							</tbody>
+							</table>
+							</div>
+							</div>
+							</div>	
+							</div>	
+
+							</div>						
+							</div>
+
+
+							<div class="clearfix">&nbsp;</div>
+
+							</div>
+							</div>
+							</div>
+
+
+
+							<script src="scripts/jquery-1.7.1.min.js"></script>
+							<script src="scripts/init.js"></script>
+
+
+							</div>
 
