@@ -475,8 +475,8 @@ li#firstNav{
 /** CONTENT */
 
 #content {
-	float: left;
-	width: 670px;
+	/*float: left;*/
+	/*width: 670px;*/
 	padding: 0px 0px 0px 30px;
 }
 
@@ -493,8 +493,8 @@ li#firstNav{
 /** SIDEBAR */
 
 #sidebar {
-	float: right;
-	width: 270px;
+	/*float: right;*/
+	/*width: 270px;*/
 	padding: 0px 30px 0px 0px;
 }
 
@@ -572,9 +572,14 @@ li#firstNav{
 }
 
 #slideshow .reel {
+
 }
 
 #slideshow .slide {
+}
+
+.reel {
+	margin-bottom: 20px;
 }
 
 .reel .slide {
