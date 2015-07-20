@@ -8,8 +8,13 @@
 
 				<!-- New Angular Slider -->
 				<div class="container">
+
+					<div class="sm-splash">
+						<img src="images/carousel-splash.png" alt="Bounce Houses">
+					</div>
+
 					<div class="reel" ng-controller="CarouselDemoCtrl">
-						<div class="slide" style="height: 305px; width: 980px; margin: 0 auto;">
+						<div class="slide">
 							<carousel interval="myInterval">
 								<slide ng-repeat="slide in slides" active="slide.active">
 									<!-- <img src="images/banner/bounce-banner/ban-pc.jpg" width="940" height="220" alt=""/> -->
@@ -23,85 +28,17 @@
 								</slide>
 							</carousel>
 						</div>
-					<!-- <div class="row">
-						<div class="col-md-6">
-							<button type="button" class="btn btn-info" ng-click="addSlide()">Add Slide</button>
-						</div>
-						<div class="col-md-6">
-							Interval, in milliseconds: <input type="number" class="form-control" ng-model="myInterval">
-							<br />Enter a negative number or 0 to stop the interval.
-						</div>
-					</div> -->
 				</div>
 			</div>
-
-			<!-- SLIDER -->
-			<!-- 	<div id="slideshow" class="container">
-					<div class="viewer">
-						<div class="reel">
-							<div class="slide">
-								<img src="images/banner/bounce-banner/ban-pc.jpg" width="940" height="220" alt=""/>
-								<a href="" ng-click="princess()">
-									<div class="caption">
-										<h2> The Royal Princess Carriage $250 A Day</h2>
-										<p></p>
-									</div>
-								</a>
-							</div>
-							<div class="slide">
-								<img src="images/banner/bounce-banner/ban-fs.jpg" width="940" height="220" alt="" />
-								<a href="" ng-click="firestation()">
-									<div class="caption">
-										<h2>The Fire Station Combo Bounce House $250 A Day</h2>
-										<p></p>
-									</div>
-								</a>
-							</div>
-							<div class="slide">
-								<img src="images/banner/bounce-banner/ban-tiger.jpg" width="940" height="220" alt="" />
-								<a hhref="" ng-click="tigerbelly()">
-									<div class="caption">
-										<h2> The Tiger Belly Bounce House $150 A Day</h2>
-										<p></p>
-									</div>
-								</a>
-							</div>
-							<div class="slide">
-								<img src="images/banner/bounce-banner/ban-cas.jpg" width="940" height="220" alt="" />
-								<a href="" ng-click="wackycastle()">
-									<div class="caption">
-										<h2>The Castle Bounce House $150 A Day</h2>
-										<p>Choose Between Princess or Knight Theme Panel</p>
-									</div>
-								</a>
-							</div>
-							<div class="slide">
-								<img src="images/banner/bounce-banner/ban-mini.jpg" width="940" height="220" alt="" />
-								<a href="" ng-click="wackymini()">
-									<div class="caption">
-										<h2>Wacky Mini Combo Bounce House $115 A Day</h2>
-										<p></p>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-					<a href="#" class="previous">Previous</a> 
-					<a href="#" class="next">Next</a> 
-				</div> -->
-
-
-				
-
 				
 				<div id="amusement" class="main"> 
 					<div ng-switch="subview">
 
 						<div ng-switch-default>
 							<div class="post">
-								<div class="title">
-									<h3 style="float:left">Bledsoe Rentals Amusement Rentals - Bounce Houses!</h3>
-									<h3 style="float:right">CALL 816-524-4046 TO RESERVE YOURS!</h3>
+								<div id="bounce-post"  class="title col-md-12">
+									<h3 class="col-md-7">Bledsoe Amusement Rentals - Bounce Houses!</h3>
+									<h3  class="col-md-5">CALL 816-524-4046 TO RESERVE YOURS!</h3>
 								</div>
 						
 								<div class="entry">
@@ -166,113 +103,123 @@
 							<h1 style="text-align:center">Checkout Our Inflatibles!</h1>
 						</div>
 
-						<!-- PRINCESS Item -->
-						<div class="col-md-4" ng-controller="princessModal">
-							<div class="aligncenter">
-								<!-- Orig size = 328 x 205 -->
-								<p><a href="" ng-click="open('lg')" style="outline:none"><img src="images/bounce/carriage-sm.png" width="262" height="164" alt=""/></a></p>
-							</div>
 
-							<!-- Script for PRINCESS modal -->
-							<script type="text/ng-template" id="princessModalContent.html">
-							<div class="modal-header">
-							<h3 class=" modal-title text1"><font color="#FF00FF"> The Royal Princess Carriage</font></h3><h2>$195 A Day</h2>
-							<button type="button" class="close" aria-label="Close" ng-click="ok()">
-							<span aria-hidden="true">X</span>
-							</button>
-							</div>
-							<div class="modal-body">
-							<div class="col-md-6 alignleft">
-							This bounce and slide combo is perfect for any young royal entourage!
-		This combo features a bouncing area, amazingly-detailed digital graphics, a crawl-through, slide area, and child-proof finger-safe netting.
-							<div class="bounce-holder ">
-							<div id="bouncedims" class="alignleft">
-							<ul>
-							<li> Height: 	15'9"</li>
-							<li> Width: 	13'6"</li>
-							<li> Length: 	31'</li>
-							<li> Slide Landing Height: 	6'4" </li>
-							<li> Occupancy: 	5 Patrons
-							<li> Occupant Min. Height: 	34"</li>
-							<li> Occupant Max. Height: 	60"</li>
-							<li> Max. Occupancy Weight: 	750 lbs. (150 lbs. ea.)</li>	
-							</ul>	
-							</div>
-							<br><br><br>
-							<h3 class="text4" style="margin-left: 20%">
-							CALL 816-524-4046 TO RESERVE YOURS!
-							</h3>
-							</div>
-							<br>
-							<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
-							</div>
-
-							<img src="images/bounce/pc-detail.jpg" alt="" width="416" height="532" class="alignright modalPic" />
-							<br>
-							</div>
-							<div class="modal-footer">																
-							</div>
-							</script>
-
-							<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Princess Combo</h2></button>
-						</div>
-
-						<!-- FIRESTATION Item -->
-						<div class="col-md-4" ng-controller="firestationModal">
-							<div class="aligncenter">
-								<!-- Orig size = 281 x 246 -->
-								<p><a href="" ng-click="open('lg')" style="outline:none"><img src="images/bounce/fsnew.png"  width="262" height="164" alt=""/></a></p>
-							</div>
-
-							<!-- Script for FIRESTATION modal -->
-							<script type="text/ng-template" id="firestationModalContent.html">
-							<div class="modal-header">
-							<h3 class=" modal-title text1"><font color="#FF0000"> Fire Station Combo Bounce House</font></h3><h2>$195 A Day</h2>
-							<button type="button" class="close" aria-label="Close" ng-click="ok()">
-							<span aria-hidden="true">X</span>
-							</button>
-							</div>
-
-							<div class="modal-body">
-							<div class="col-md-6 alignleft">
-							This bounce and slide combo is perfect for any aspiring Firefighter!
-
-							This combo features a bouncing area, amazingly-detailed digital graphics, a crawl-through, slide area, and child-proof finger-safe netting.
+						<div class="col-md-12">
 							
-							<div class="bounce-holder ">
-							<div id="bouncedims" class="alignleft">
-							<ul>
-							<li> Height: 	15'9"</li>
-							<li> Width: 	13'6"</li>
-							<li> Length: 	31'</li>
-							<li> Slide Landing Height: 	6'4" </li>
-							<li> Occupancy: 	5 Patrons
-							<li> Occupant Min. Height: 	34"</li>
-							<li> Occupant Max. Height: 	60"</li>
-							<li> Max. Occupancy Weight: 	750 lbs. (150 lbs. ea.)</li>	
-							</ul>	
-							</div>
-							<br><br><br>
-							<h3 class="text4" style="margin-left: 20%">
-							CALL 816-524-4046 TO RESERVE YOURS!
-							</h3>
-							</div>
-							<br>
-							<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
-							</div>
-							<img src="images/bounce/Fire-Station-Detail.jpg" alt="" width="416" height="532" class="alignright modalPic" />
-							<br>
+							<!-- PRINCESS Item -->
+							<div class="col-md-4 col-sm-6 col-xs-12" ng-controller="princessModal">
+								<div class="aligncenter">
+									<!-- Orig size = 328 x 205 -->
+									<p><a href="" ng-click="open('lg')" style="outline:none"><img src="images/bounce/carriage-sm.png" width="262" height="164" alt=""/></a></p>
+								</div>
+
+								<!-- Script for PRINCESS modal -->
+								<script type="text/ng-template" id="princessModalContent.html">
+									<div class="col-md-12" style="background-color:white">
+										<div class="modal-header col-md-12">
+											<h3 class=" modal-title text1"><font color="#FF00FF"> The Royal Princess Carriage</font></h3><h2>$195 A Day</h2>
+											<button type="button" class="close" aria-label="Close" ng-click="ok()">
+												<span aria-hidden="true">X</span>
+											</button>
+										</div>
+										<div class="col-md-12">
+											<div class="modal-body bounce-info col-md-6">
+													This bounce and slide combo is perfect for any young royal entourage!
+													This combo features a bouncing area, amazingly-detailed digital graphics, a crawl-through, slide area, and child-proof finger-safe netting.
+												<div class="bounce-holder ">
+													<div id="bouncedims" class="alignleft">
+														<ul>
+															<li> Height: 	15'9"</li>
+															<li> Width: 	13'6"</li>
+															<li> Length: 	31'</li>
+															<li> Slide Landing Height: 	6'4" </li>
+															<li> Occupancy: 	5 Patrons
+															<li> Occupant Min. Height: 	34"</li>
+															<li> Occupant Max. Height: 	60"</li>
+															<li> Max. Occupancy Weight: 	750 lbs. (150 lbs. ea.)</li>	
+														</ul>	
+													</div>
+													<br><br><br>
+													<div class="col-md-12" style="margin-top:-20px;">
+														<h3 class="text4" style="text-align:center;">
+															CALL 816-524-4046 TO RESERVE YOURS!
+														</h3>
+													</div>
+												</div>
+												<br>
+												<div class="col-md-12">
+													<button class="btn btn-primary popup-btn" style="margin-left: 25%; margin-top: 10px;" ng-click="ok()">See Others</button>
+												</div>
+											</div>
+											<div class="bounce-pic col-md-6">
+												<img src="images/bounce/pc-detail.jpg" alt="" width="416" height="532" class="alignright modalPic" />
+												<br>
+											</div>
+											<div class="modal-footer col-md-12">																
+											</div>
+										</div>
+									</div>
+								</script>
+
+								<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Princess Combo</h2></button>
 							</div>
 
-							<div class="modal-footer">																	
-							</div>
-							</script>
+							<!-- FIRESTATION Item -->
+							<div class="col-md-4 col-sm-6 col-xs-12" ng-controller="firestationModal">
+								<div class="aligncenter">
+									<!-- Orig size = 281 x 246 -->
+									<p><a href="" ng-click="open('lg')" style="outline:none"><img src="images/bounce/fsnew.png"  width="262" height="164" alt=""/></a></p>
+								</div>
 
-							<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Fire Station Combo</h2></button>
-						</div>
+								<!-- Script for FIRESTATION modal -->
+								<script type="text/ng-template" id="firestationModalContent.html">
+									<div class="modal-header">
+										<h3 class=" modal-title text1"><font color="#FF0000"> Fire Station Combo Bounce House</font></h3><h2>$195 A Day</h2>
+										<button type="button" class="close" aria-label="Close" ng-click="ok()">
+											<span aria-hidden="true">X</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										<div class="col-md-6 alignleft">
+											This bounce and slide combo is perfect for any aspiring Firefighter!
+
+											This combo features a bouncing area, amazingly-detailed digital graphics, a crawl-through, slide area, and child-proof finger-safe netting.
+								
+											<div class="bounce-holder ">
+												<div id="bouncedims" class="alignleft">
+													<ul>
+														<li> Height: 	15'9"</li>
+														<li> Width: 	13'6"</li>
+														<li> Length: 	31'</li>
+														<li> Slide Landing Height: 	6'4" </li>
+														<li> Occupancy: 	5 Patrons
+														<li> Occupant Min. Height: 	34"</li>
+														<li> Occupant Max. Height: 	60"</li>
+														<li> Max. Occupancy Weight: 	750 lbs. (150 lbs. ea.)</li>	
+													</ul>	
+												</div>
+												<br><br><br>
+												<h3 class="text4" style="margin-left: 20%">
+													CALL 816-524-4046 TO RESERVE YOURS!
+												</h3>
+											</div>
+											<br>
+											<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
+										</div>
+										<img src="images/bounce/Fire-Station-Detail.jpg" alt="" width="416" height="532" class="alignright modalPic" />
+										<br>
+									</div>
+
+									<div class="modal-footer">																	
+									</div>
+								</script>
+
+								<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Fire Station Combo</h2></button>
+							</div>
 
 						<!-- TIGERBELLY Item -->
-						<div class="col-md-4" ng-controller="tigerbellyModal">
+						<div class="col-md-4 col-sm-6 col-xs-12" ng-controller="tigerbellyModal">
 
 							<div class="aligncenter">
 								<!-- Orig size = 328 x 205 -->
@@ -328,7 +275,7 @@
 
 
 						<!-- WACKYCASTLE Item -->
-						<div class="col-md-4" ng-controller="wackycastleModal">
+						<div class="col-md-4 col-sm-6 col-xs-12" ng-controller="wackycastleModal">
 
 							<div class="aligncenter">
 								<!-- Orig size = 328 x 205 -->
@@ -388,7 +335,7 @@
 
 
 						<!-- MINIBOUNCER Item -->
-						<div class="col-md-4" ng-controller="minibouncerModal">
+						<div class="col-md-4 col-sm-6 col-xs-12" ng-controller="minibouncerModal">
 
 							<div class="aligncenter">
 								<!-- Orig size = 328 x 205 -->
@@ -439,7 +386,7 @@
 							</div>
 
 						<!-- DUALSLIDE Item -->
-							<div class="col-md-4" ng-controller="dualslideModal">
+							<div class="col-md-4 col-sm-6 col-xs-12" ng-controller="dualslideModal">
 
 							<div class="aligncenter">
 							<!-- Orig size = 328 x 205 -->
@@ -493,7 +440,7 @@
 						</div>
 
 						<!-- CAROUSEL Item -->
-						<div class="col-md-4" ng-controller="carouselModal" style="margin-left:33.3%">
+						<div class="col-md-4 col-sm-6 col-xs-12" ng-controller="carouselModal">
 
 							<div class="aligncenter" style="outline:none">
 								<!-- Orig size = 328 x 205 -->
@@ -502,48 +449,52 @@
 
 							<!-- Script for CAROUSEL modal -->
 							<script type="text/ng-template" id="carouselModalContent.html">
-							<div class="modal-header">
-							<h3 class=" modal-title text1"><font color="#D20B00">20' Carousel Bouncer</font></h3><h2>$179 A Day</h2>
-							<button type="button" class="close" aria-label="Close" ng-click="ok()">
-							<span aria-hidden="true">X</span>
-							</button>
-							</div>
+								<div class="modal-header">
+								<h3 class=" modal-title text1"><font color="#D20B00">20' Carousel Bouncer</font></h3><h2>$179 A Day</h2>
+								<button type="button" class="close" aria-label="Close" ng-click="ok()">
+								<span aria-hidden="true">X</span>
+								</button>
+								</div>
 
-							<div class="modal-body">
-							<div class="col-md-6 alignleft">
-							The 20' Carousel bouncer isn't just any Carousel.  This Carousel is modeled off of an actual historic 200 year old Caroursel.  This same bouncer is sitting in Buckingham Palace that the queen bought for her grandchildren!  The horses and pictures inside of the bouncer are digitally produced images taken directly from the real Carousel.  
-							<div class="bounce-holder ">
-							<div id="bouncedims" class="alignleft">
-							<ul>
-							<li> Height: 	20'</li>
-							<li> Width: 	20'</li>
-							<li> Length: 	23'</li>
-							<li> Max Occupancy:  6 Patrons
-							<li> Max Occupancy Weight: 900 lbs. (150 lbs. ea.)</li>
-							<li> Occupant Min. Height: 	34"</li>    
-							<li> Occupant Max. Height: 	60"</li>
+								<div class="modal-body">
+								<div class="col-md-6 alignleft">
+								The 20' Carousel bouncer isn't just any Carousel.  This Carousel is modeled off of an actual historic 200 year old Caroursel.  This same bouncer is sitting in Buckingham Palace that the queen bought for her grandchildren!  The horses and pictures inside of the bouncer are digitally produced images taken directly from the real Carousel.  
+								<div class="bounce-holder ">
+								<div id="bouncedims" class="alignleft">
+								<ul>
+								<li> Height: 	20'</li>
+								<li> Width: 	20'</li>
+								<li> Length: 	23'</li>
+								<li> Max Occupancy:  6 Patrons
+								<li> Max Occupancy Weight: 900 lbs. (150 lbs. ea.)</li>
+								<li> Occupant Min. Height: 	34"</li>    
+								<li> Occupant Max. Height: 	60"</li>
 
-							</ul>	
-							</div>
-							<br><br><br>
-							<h3 class="text4" style="margin-left: 20%">
-							CALL 816-524-4046 TO RESERVE YOURS!
-							</h3>
-							</div>
-							<br>
-							<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
-							</div>
-							<img src="images/Carousel20ft_Panel.jpg" alt="" width="416" height="532" class="alignright modalPic" />
-							<br>
-							</div>
+								</ul>	
+								</div>
+								<br><br><br>
+								<h3 class="text4" style="margin-left: 20%">
+								CALL 816-524-4046 TO RESERVE YOURS!
+								</h3>
+								</div>
+								<br>
+								<button class="btn btn-primary popup-btn" style="margin-left: 25%;" ng-click="ok()">See Others</button>
+								</div>
+								<img src="images/Carousel20ft_Panel.jpg" alt="" width="416" height="532" class="alignright modalPic" />
+								<br>
+								</div>
 
-							<div class="modal-footer">
-							</div>
+								<div class="modal-footer">
+								</div>
 							</script>
 
 
 							<button class="btn btn-default bounce-grid" ng-click="open('lg')"><h2>Carousel</h2></button>
-							</div>
+						</div>
+
+						</div>
+
+
 
 
 

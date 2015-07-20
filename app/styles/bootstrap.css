@@ -1275,11 +1275,13 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  /*Matt*/
+  /*font-size: 30px;*/
 }
 h3,
 .h3 {
-  font-size: 24px;
+  /*Matt*/
+  /*font-size: 24px;*/
 }
 h4,
 .h4 {
@@ -6024,6 +6026,8 @@ button.close {
 }
 .modal-title {
   margin: 0;
+  /*Matt*/
+  font-size: 2em;
   line-height: 1.42857143;
 }
 .modal-body {
