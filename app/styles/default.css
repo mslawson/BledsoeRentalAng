@@ -800,8 +800,7 @@ li#firstNav{
 
 }
 
-.post .title {
-
+#bounce-post {
 	/*Matt*/
 		max-height: 120px;
 	margin-bottom: 10px;
@@ -813,16 +812,19 @@ li#firstNav{
 	/* font-size: 15px; */
 	font-weight: normal;
 	color: #FFFFFF;
+}
 
+.post .title {
 
-/*	height: 47px;
+	/*height: 47px;*/
 	padding: 0px 30px;
-	background: url(/images/homepage01.gif) repeat-x left top;
+	background-color: #4f7db1;
+	/*background: url(/images/homepage01.gif) repeat-x left top;*/
 	line-height: 47px;
 	text-transform: uppercase;
 	font-size: 15px;
 	font-weight: normal;
-	color: #FFFFFF;*/
+	color: #FFFFFF;
 }
 
 .post .entry {
