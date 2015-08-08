@@ -299,6 +299,8 @@ hr {
 }
 
 @media (min-width: 530px){
+	
+
 	.navbar-brand h1 {
 		display: block;
 		letter-spacing: -3px;
