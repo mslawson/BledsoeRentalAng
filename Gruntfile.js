@@ -21,6 +21,9 @@ module.exports = function (grunt) {
     dist: 'dist'
   };
 
+  // This goes near the beginning of Gruntfile.js.
+  var modRewrite = require('connect-modrewrite');
+
   // Define the configuration for all the tasks
   grunt.initConfig({
 
@@ -74,8 +77,19 @@ module.exports = function (grunt) {
       livereload: {
         options: {
           open: true,
-          middleware: function (connect) {
-            return [
+
+          middleware: function (connect, options) {
+            if (!Array.isArray(options.base)) {
+              options.base = [options.base];
+            }
+ 
+            // Setup the proxy
+            var middlewares = [
+ 
+              // Redirect anything that's not a file or an API call to /index.html.
+              // This allows HTML5 pushState to work on page reloads.
+              modRewrite(['!/api|/assets|\\..+$ /index.html']),
+ 
               connect.static('.tmp'),
               connect().use(
                 '/bower_components',
@@ -87,7 +101,14 @@ module.exports = function (grunt) {
               ),
               connect.static(appConfig.app)
             ];
+ 
+            // Make directory browse-able.
+            var directory = options.directory || options.base[options.base.length - 1];
+            middlewares.push(connect.directory(directory));
+ 
+            return middlewares;
           }
+
         }
       },
       test: {

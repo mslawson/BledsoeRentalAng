@@ -55,6 +55,10 @@ app.service('servCategory', function servCategory(){
 });
 
 app.config(function ($routeProvider, $locationProvider) {
+
+    // use the HTML5 History API
+    $locationProvider.html5Mode(true);
+
     $routeProvider
       // Main pages
       .when('/', {
@@ -136,6 +140,5 @@ app.config(function ($routeProvider, $locationProvider) {
         redirectTo: '/'
       });
 
-      // use the HTML5 History API
-      $locationProvider.html5Mode(true);
+      
   });
