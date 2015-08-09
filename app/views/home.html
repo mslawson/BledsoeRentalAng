@@ -4,40 +4,40 @@
 	<div id="page-bgtop">
 		<div id="page-bgbtm">
 
-				<!-- New Angular Slider -->
-				<div class="container">
+			<!-- New Angular Slider -->
+			<div class="container">
 
-					<div class="sm-splash">
-						<div id="sidebar">
-							<div id="box4">
-								<a href='' ng-click="setCategory();">
-									<h2 id="findEquip" class="title" >Find Equipment</h2>
-								</a href=''>
+				<div class="sm-splash">
+					<div id="sidebar">
+						<div id="box4">
+							<a href='' ng-click="setCategory();">
+								<h2 id="findEquip" class="title" >Find Equipment</h2>
+							</a href=''>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="reel" ng-controller="CarouselDemoCtrl" >
+				<div class="slide">
+					<carousel interval="myInterval">
+						<slide ng-repeat="slide in mainslides" active="slide.active">
+							
+							<img ng-src="{{slide.image}}" style="margin:auto;">
+
+							<div class="caption">
+								<h2>{{slide.text}}</h2>
+								<p>{{slide.addtext}}</p>
 							</div>
-						</div>
-					</div>
-
-					</div>
-
-					<div class="reel" ng-controller="CarouselDemoCtrl" >
-						<div class="slide">
-							<carousel interval="myInterval">
-								<slide ng-repeat="slide in mainslides" active="slide.active">
 							
-									<img ng-src="{{slide.image}}" style="margin:auto;">
-									
-										<div class="caption">
-											<h2>{{slide.text}}</h2>
-											<p>{{slide.addtext}}</p>
-										</div>
-							
-								</slide>
-							</carousel>
-						</div>
-					</div>
+						</slide>
+					</carousel>
+				</div>
+			</div>
 			
 
-		
+
 			<div id="content" class="col-md-8">
 				<div class="post">
 					<h2 class="title">What's new at Bledsoe Rentals</h2>
@@ -121,115 +121,149 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- Sidebar -->
 				<div id="sidebar" class="col-md-4">
+
+					<!-- Find Equipment -->
 					<div id="box4">
 						<a href='' ng-click="setCategory();">
 							<h2 id="findEquip" class="title" >Find Equipment</h2>
 						</a href=''>
-						<!-- <div class="searchBox"> -->
 
-						<!-- <br> -->
-						<!-- <input type="text" class="searchBox" placeholder=" Any Equipment" size="20"> -->
-						<!-- <button class="searchBox title" ng-click="searchEquip(searchtext)">Search</button> -->
-						<!-- </div> -->
+							<!-- <div class="searchBox"> -->
+
+							<!-- <br> -->
+							<!-- <input type="text" class="searchBox" placeholder=" Any Equipment" size="20"> -->
+							<!-- <button class="searchBox title" ng-click="searchEquip(searchtext)">Search</button> -->
+							<!-- </div> -->
 					</div>
 					<div class="clearfix">&nbsp;</div>
 
-					<!-- Google Search -->
-						<!-- <div id="box4">
-							<div><script>
-							(function() {
-								var cx = '016707340344531456074:doy1tyar-g8';
-								var gcse = document.createElement('script');
-								gcse.type = 'text/javascript';
-								gcse.async = true;
-								gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-								'//www.google.com/cse/cse.js?cx=' + cx;
-								var s = document.getElementsByTagName('script')[0];
-								s.parentNode.insertBefore(gcse, s);
-							})();
-							</script>
-							<gcse:search></gcse:search>
-						</div> -->
+					<!-- Store Info -->
+					<div id="box4">								
+						<div class="content">
+							<!-- LSN -->
+							<p>
+								<a href="/store-lsn">
+									<img src="images/lsn.jpg" width="210" height="90" alt="" />
+								</a>
+							</p>
+							<ul>
+								<li>
+									<a href="/store-lsn">Lee's Summit North</a>
+								</li>
+								<li>1300 NE Douglas St. </li>
+								<li>Lee's Summit, MO 64086 </li>
+								<li>816.524.4222</li>
+							</ul>
+							<!-- LSS -->
+							<p>
+								<a href="/store-lss">
+									<img src="images/lss.jpg" width="210" height="90" alt="" />
+								</a>
+							</p>
+							<ul>
+								<li>
+									<a href="/store-lss">Lee's Summit South</a>
+								</li>
+								<li>20 SE 29 Terrace </li>
+								<li>Lee's Summit, MO 64082 </li>
+								<li>816.524.4046</li>
+							</ul>
+							<!-- Olathe -->
+							<p>
+								<a href="/store-ola">
+									<img src="images/ola.jpg" width="210" height="90" alt=""/>
+								</a>
+							</p>
+							<ul>
+								<li>
+									<a href="/store-ola">Olathe</a>
+								</li>
+								<li>208 W. Dennis Ave. </li>
+								<li>Olathe, KS 66061 </li>
+								<li>913.764.3337</li>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- Store Hours -->
+					<div id="box5">
+						<h2>Store Hours</h2>
+						<div class="content">
+							<strong>April 1 - October 15:</strong>
+							<strong>Olathe & Lee's Summit North</strong>
+							<ul class="style2"></ul>  <!-- Unsure why this is here -->
+							<ul>
+								<li>Monday-Friday 7:30 - 5:30</li>
+								<li>Saturday 8:00 - 5:00</li>
+								<li>Sunday Closed</li>
+							</ul>
+							<strong>April 1 - October 15:</strong>
+							<strong>Lee's Summit South</strong>
+							<ul class="style2"></ul>  <!-- Unsure why this is here -->
+							<ul>
+								<li>Monday-Friday 7:30 - 5:30</li>
+								<li>Saturday 8:00 - 1:00</li>
+								<li>Sunday Closed</li>
+							</ul>
+							<strong>October 16 - March 31</strong>
+							<strong>All Stores</strong>
+							<ul class="style2"></ul>
+							<ul>
+								<li>Monday-Friday 7:30 - 5:00</li>
+								<li>Saturday 9:00 - 1:00</li>
+								<li>Sunday Closed</li>
+							</ul>
+						</div>
+					</div>
 
+					<!-- Concrete Surface Supply -->
+					<div id="box6">
+						<h2>Concrete Surface Supply </h2>
+						<div>
+							<ul class="style3">
+								<li class="li-bg1">
+									<a target="_blank" href="http://www.concretesurfacesupply.com/">
+										<img src="images/css.jpg" width="185" border="0" height="90" />
+									</a>
+								</li>
+							</ul>
+						</div> 
+					</div>
 
-
-						<div id="box4">								
-							<div class="content">
-								<p><a href="/store-lsn"><img src="images/lsn.jpg" width="210" height="90" alt="" /></a></p>
-								<ul><li><a href="/store-lsn">Lee's Summit North</a></li>
-									<li>1300 NE Douglas St. </li>
-									<li>Lee's Summit, MO 64086 </li>
-									<li>816.524.4222</li></ul>
-									<p><a href="/store-lss"><img src="images/lss.jpg" width="210" height="90" alt="" /></a></p>
-									<ul><li><a href="/store-lss">Lee's Summit South</a></li>
-										<li>20 SE 29 Terrace </li>
-										<li>Lee's Summit, MO 64082 </li>
-										<li>816.524.4046</li></ul>
-										<p><a href="/store-ola"><img src="images/ola.jpg" width="210" height="90" alt="" /></a></p>
-										<ul><li><a href="/store-ola">Olathe</a></li>
-											<li>208 W. Dennis Ave. </li>
-											<li>Olathe, KS 66061 </li>
-											<li>913.764.3337</li></ul>
-										</div>
+					<!-- Links -->
+					<div id="box6">
+						<h2>Links </h2>
+						<div>
+							<ul class="style3">
+								<li class="li-bg1">
+									<a target="_blank" href="http://stores.ebay.com/Bledsoe-Rentals">
+										<img src="images/EbayStoreLogo.jpg" width="180" border="0" height="120">
+									</a>
+								</li>
+								<li class="li-bg2">
+									<a target="_blank" href="http://www.ararental.org">
+										<img src="images/ara_logo.gif" width="180" border="0" height="120" />
+									</a>
+								</li>
+							</ul>
+						</div>			
+					</div>
+				</div>
 									</div>
-									<div id="box5">
-										<h2>Store Hours</h2>
-										<div class="content">
-											<strong>April 1 - October 15:</strong>
-											<strong>Olathe & Lee's Summit North</strong>
-											<ul class="style2"></ul>
-											<ul><li>Monday-Friday 7:30 - 5:30</li>
-												<li>Saturday 8:00 - 5:00
-													<li>Sunday Closed</li></ul>
-													<strong>April 1 - October 15:</strong>
-													<strong>Lee's Summit South</strong>
-													<ul class="style2"></ul>
-													<ul><li>Monday-Friday 7:30 - 5:30</li>
-														<li>Saturday 8:00 - 1:00
-															<li>Sunday Closed</li></ul>
-															<strong>October 16 - March 31</strong>
-															<strong>All Stores</strong>
-															<ul class="style2"></ul>
-															<ul><li>Monday-Friday 7:30 - 5:00</li>
-																<li>Saturday 9:00 - 1:00</li>
-																<li>Sunday Closed</li></ul>
-															</div>
-														</div>
-														<div id="box6">
-															<h2>Concrete Surface Supply </h2>
-															<div>
-																<ul class="style3">
-																	<li class="li-bg1">
+									<div class="clearfix">&nbsp;</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-																		<a target="_blank" href="http://www.concretesurfacesupply.com/"><img src="images/css.jpg" width="185" border="0" height="90" /></a>
-																	</li></ul></div> 
-																	<div id="box6">
-																		<h2>Links </h2>
-																		<ul class="style3">
-																			<li class="li-bg1">
-																				<a target="_blank" href="http://stores.ebay.com/Bledsoe-Rentals"><img src="images/EbayStoreLogo.jpg" width="180" border="0" height="120"></a>
-																			</li>
-																			<li class="li-bg2">
-																				<a target="_blank" href="http://www.ararental.org"><img src="images/ara_logo.gif" width="180" border="0" height="120" /></a>
-																			</li>
+			<script async="" src="//www.google.com/adsense/search/async-ads.js"></script>
+			<script type="text/javascript" async="" src="http://www.google.com/cse/cse.js?cx=016707340344531456074:doy1tyar-g8"></script>
+			<script src="scripts/jquery-1.7.1.min.js"></script>
 
-																		</ul>
-
-																	</div>
-																</div>
-															</div>
-															<div class="clearfix">&nbsp;</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<script async="" src="//www.google.com/adsense/search/async-ads.js"></script>
-									<script type="text/javascript" async="" src="http://www.google.com/cse/cse.js?cx=016707340344531456074:doy1tyar-g8"></script>
-									<script src="scripts/jquery-1.7.1.min.js"></script>
-								
-									<script src="scripts/init.js"></script>
+			<script src="scripts/init.js"></script>
 
