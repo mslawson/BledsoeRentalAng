@@ -87,11 +87,11 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <div class="menu">
               <ul class="nav navbar-nav navbar-right" id="main-nav">
-                <li class="active"><a ng-href="/home">Home <span class="sr-only">(current)</span></a></li>
-                <li><a ng-href="/rental">Rental Rates</a></li>
-                <li><a ng-href="/amusement">Party Rental</a></li>
-                <li><a ng-href="/propane">Propane</a></li>
-                <li class="lastli"><a href="/ucart">U-Cart</a></li>
+                <li class="active"><a ng-href="/home" data-toggle="collapse" data-target=".navbar-collapse.in">Home <span class="sr-only">(current)</span></a></li>
+                <li><a ng-href="/rental" data-toggle="collapse" data-target=".navbar-collapse.in">Rental Rates</a></li>
+                <li><a ng-href="/amusement" data-toggle="collapse" data-target=".navbar-collapse.in">Party Rental</a></li>
+                <li><a ng-href="/propane" data-toggle="collapse" data-target=".navbar-collapse.in">Propane</a></li>
+                <li class="lastli"><a href="/ucart" data-toggle="collapse" data-target=".navbar-collapse.in">U-Cart</a></li>
 
               </ul>
 
@@ -225,5 +225,6 @@
          $(this).parent().addClass("active");
        });
        </script>
+      
      </body>
      </html>
