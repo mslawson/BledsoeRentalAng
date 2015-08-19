@@ -291,7 +291,7 @@ app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, items) {
 });
 
 
- app.controller('MainCtrl', function ($scope, $location, productsBase, servCategory, $anchorScroll ) {
+ app.controller('MainCtrl', function ($scope, $location, productsBase, servCategory, servEquipment, $anchorScroll ) {
     // var productsRef = new Firebase('https://bledsoe.firebaseio.com/');
 
     // var products = $firebaseArray(productsRef);
@@ -319,6 +319,7 @@ app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, items) {
   // Logic for dropdown menu
 
   $scope.currentCategory = servCategory.getName;
+  $scope.query = servEquipment.getEquip;
 
   $scope.oneAtATime = true;
 
@@ -503,14 +504,15 @@ app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, items) {
     ]
   }
   ];
-  $scope.query = '';
+
+  $scope.query = servEquipment.getEquip();
+  // $scope.query = '';
   // $scope.currentCategory = "";
 
-  $scope.searchEquip = function(equip){
-    // $scope.currentCategory = "ladder";
-    // $location.path( '/rental');
-    // $scope.query = "ladder";
-  }
+  // $scope.searchEquip = function(equip){
+  //   $location.path( '/rentals');
+  //   $scope.query = equip;
+  // }
 
   $scope.clearSearch = function(){
     $scope.searchForm.findEquip.$rollbackViewValue(); 
@@ -520,6 +522,7 @@ app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, items) {
   $scope.foo = function(title){
     alert(title);
   };
+
 
   $scope.setCurrentCategory = function(cat) {
     $scope.newCat = servCategory.setName(cat);

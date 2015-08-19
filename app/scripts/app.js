@@ -54,6 +54,17 @@ app.service('servCategory', function servCategory(){
 
 });
 
+app.service('servEquipment', function servEquipment(){
+  var equipName = "";
+  this.getEquip = function(){
+    return equipName;
+  };
+  this.setEquip = function(name){
+    equipName = name;
+    return equipName;
+  };
+});
+
 app.config(function ($routeProvider, $locationProvider) {
 
     // use the HTML5 History API

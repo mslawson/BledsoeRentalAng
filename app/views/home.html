@@ -1,4 +1,11 @@
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="page" class="container">
 	<div id="page-bgtop">
@@ -8,7 +15,7 @@
 			<div class="container">
 
 				<div class="sm-splash">
-					<div id="sidebar">
+					<div id="sidebar" >
 						<div id="box4">
 							<a href='' ng-click="setCategory();">
 								<h2 id="findEquip" class="title" >Find Equipment</h2>
@@ -131,60 +138,83 @@
 							<h2 id="findEquip" class="title" >Find Equipment</h2>
 						</a href=''>
 
-							<!-- <div class="searchBox"> -->
+							<div class="searchBox">
+							
+							<br>
+							<input type="text" ng-model="searchtext" name="searchtext" class="searchBox" placeholder=" Any Equipment" size="20">
 
-							<!-- <br> -->
-							<!-- <input type="text" class="searchBox" placeholder=" Any Equipment" size="20"> -->
-							<!-- <button class="searchBox title" ng-click="searchEquip(searchtext)">Search</button> -->
-							<!-- </div> -->
+							<button class="searchBox title" ng-click="setEquip(searchtext)">Search</button>
+							</div>
 					</div>
 					<div class="clearfix">&nbsp;</div>
+					
+					
 
+					<!-- <div class="fb-page" data-href="https://www.facebook.com/pages/Bledsoe-Rentals/186667044894" data-width="303" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pages/Bledsoe-Rentals/186667044894"><a href="https://www.facebook.com/pages/Bledsoe-Rentals/186667044894">Bledsoe Rentals</a></blockquote></div></div> -->
+					<br>
 					<!-- Store Info -->
-					<div id="box4">								
+					<div id="box4">		
+						<h2>Store Locations</h2>						
 						<div class="content">
 							<!-- LSN -->
-							<p>
-								<a href="/store-lsn">
-									<img src="images/lsn.jpg" width="210" height="90" alt="" />
-								</a>
-							</p>
-							<ul>
-								<li>
-									<a href="/store-lsn">Lee's Summit North</a>
-								</li>
-								<li>1300 NE Douglas St. </li>
-								<li>Lee's Summit, MO 64086 </li>
-								<li>816.524.4222</li>
-							</ul>
+							<div class="col-md-12">
+								
+									<a href="/store-lsn" class="center-block">
+										<img class="center-block" src="images/lsn.jpg" width="210" height="90" alt="" />
+									</a>
+								
+								<ul>
+									<li>
+										<a href="/store-lsn">Lee's Summit North</a>
+									</li>
+									<li>1300 NE Douglas St. </li>
+									<li>Lee's Summit, MO 64086 </li>
+									<li>816.524.4222</li>
+								</ul>
+							</div>
+							
 							<!-- LSS -->
-							<p>
+							<div class="col-md-12">
+								
 								<a href="/store-lss">
 									<img src="images/lss.jpg" width="210" height="90" alt="" />
 								</a>
-							</p>
-							<ul>
-								<li>
-									<a href="/store-lss">Lee's Summit South</a>
-								</li>
-								<li>20 SE 29 Terrace </li>
-								<li>Lee's Summit, MO 64082 </li>
-								<li>816.524.4046</li>
-							</ul>
+							
+								<ul>
+									<li>
+										<a href="/store-lss">Lee's Summit South</a>
+									</li>
+									<li>20 SE 29 Terrace </li>
+									<li>Lee's Summit, MO 64082 </li>
+									<li>816.524.4046</li>
+								</ul>
+
+							</div>
+							
 							<!-- Olathe -->
-							<p>
+							<div class="col-md-12">
 								<a href="/store-ola">
 									<img src="images/ola.jpg" width="210" height="90" alt=""/>
 								</a>
-							</p>
-							<ul>
-								<li>
-									<a href="/store-ola">Olathe</a>
-								</li>
-								<li>208 W. Dennis Ave. </li>
-								<li>Olathe, KS 66061 </li>
-								<li>913.764.3337</li>
-							</ul>
+							
+								<ul>
+									<li>
+										<a href="/store-ola">Olathe</a>
+									</li>
+									<li>208 W. Dennis Ave. </li>
+									<li>Olathe, KS 66061 </li>
+									<li>913.764.3337</li>
+								</ul>
+								<br>
+							</div>
+							
+							
+							<br>
+							<div class="text-center">
+								<a href="https://www.facebook.com/pages/Bledsoe-Rentals/186667044894" target="new">
+									<img src="images/FB-FindUSonFacebook-online-144.png" alt="Find us on Facebook">
+								</a>
+							</div>
 						</div>
 					</div>
 
@@ -192,23 +222,15 @@
 					<div id="box5">
 						<h2>Store Hours</h2>
 						<div class="content">
-							<strong>April 1 - October 15:</strong>
-							<strong>Olathe & Lee's Summit North</strong>
+							<strong>April 1 - October 15: </strong>
+							<strong>All Stores</strong>
 							<ul class="style2"></ul>  <!-- Unsure why this is here -->
 							<ul>
 								<li>Monday-Friday 7:30 - 5:30</li>
-								<li>Saturday 8:00 - 5:00</li>
+								<li>Saturday 8:00 - 4:00</li>
 								<li>Sunday Closed</li>
 							</ul>
-							<strong>April 1 - October 15:</strong>
-							<strong>Lee's Summit South</strong>
-							<ul class="style2"></ul>  <!-- Unsure why this is here -->
-							<ul>
-								<li>Monday-Friday 7:30 - 5:30</li>
-								<li>Saturday 8:00 - 1:00</li>
-								<li>Sunday Closed</li>
-							</ul>
-							<strong>October 16 - March 31</strong>
+							<strong>October 16 - March 31: </strong>
 							<strong>All Stores</strong>
 							<ul class="style2"></ul>
 							<ul>
@@ -219,55 +241,71 @@
 						</div>
 					</div>
 
+					<div id="box6" >
+						<h2>Facebook</h2>
+						<div class="text-center">
+							<br>
+						<div class="fb-page" data-href="https://www.facebook.com/pages/Bledsoe-Rentals/186667044894" data-width="303" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pages/Bledsoe-Rentals/186667044894"><a href="https://www.facebook.com/pages/Bledsoe-Rentals/186667044894">Bledsoe Rentals</a></blockquote></div></div>
+						</div>
+						
+					</div>
+					<br>
+
 					<!-- Concrete Surface Supply -->
 					<div id="box6">
 						<h2>Concrete Surface Supply </h2>
-						<div>
-							<ul class="style3">
-								<li class="li-bg1">
-									<a target="_blank" href="http://www.concretesurfacesupply.com/">
-										<img src="images/css.jpg" width="185" border="0" height="90" />
-									</a>
-								</li>
-							</ul>
-						</div> 
+						<div class="text-center">
+
+							<div>
+								<ul class="style3">
+									<li class="li-bg1">
+										<a target="_blank" href="http://www.concretesurfacesupply.com/">
+											<img src="images/css.jpg" width="185" border="0" height="90" />
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						 
 					</div>
 
 					<!-- Links -->
 					<div id="box6">
 						<h2>Links </h2>
-						<div>
-							<ul class="style3">
-								<li class="li-bg1">
-									<a target="_blank" href="http://stores.ebay.com/Bledsoe-Rentals">
-										<img src="images/EbayStoreLogo.jpg" width="180" border="0" height="120">
-									</a>
-								</li>
-								<li class="li-bg2">
-									<a target="_blank" href="http://www.ararental.org">
-										<img src="images/ara_logo.gif" width="180" border="0" height="120" />
-									</a>
-								</li>
-							</ul>
-						</div>			
+						<div class="text-center">
+							<div class="text-center">
+								<ul class="style3">
+									<li class="li-bg1">
+										<a target="_blank" href="http://stores.ebay.com/Bledsoe-Rentals">
+											<img src="images/EbayStoreLogo.jpg" width="180" border="0" height="120">
+										</a>
+									</li>
+									<li class="li-bg2">
+										<a target="_blank" href="http://www.ararental.org">
+											<img src="images/ara_logo.gif" width="180" border="0" height="120" />
+										</a>
+									</li>
+								</ul>
+							</div>	
+						</div>		
 					</div>
 
 					<!-- Coupon -->
-					<div id="box6">
+					<div id="box6"ß>
 						<h2>Coupons </h2>
-						<div>
-							<ul class="style3">
-								<li class="li-bg1">
-									<a target="_blank" href="images/propane.jpg">
-										<img src="images/propane.jpg" width="240" border="0" height="120" style="margin-left:auto; margin-right:auto;">
-									</a>
-								</li>
-								
-							</ul>
-						</div>			
+						<div class="text-center">
+							<div>
+								<ul class="style3">
+									<li class="li-bg1">
+										<a target="_blank" href="images/propane.jpg">
+											<img src="images/propane.jpg" width="240" border="0" height="120" style="margin-left:auto; margin-right:auto;">
+										</a>
+									</li>
+								</ul>
+							</div>	
+						</div>
 					</div>
 				</div>
-									</div>
 									<div class="clearfix">&nbsp;</div>
 								</div>
 							</div>

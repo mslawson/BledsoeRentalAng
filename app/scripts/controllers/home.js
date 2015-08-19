@@ -11,14 +11,22 @@
 
  var app = angular.module('angfireApp');
 
- app.controller('HomeCtrl',function($scope, $location, servCategory) {  
+ app.controller('HomeCtrl',function($scope, $location, servCategory, servEquipment) {  
 
  	$scope.category = servCategory.getName;
  	// $scope.newCat = "first";
+ 	$scope.equipment = servEquipment.getEquip;
+
+
 
  	$scope.setCategory = function(cat) {
     $scope.newCat = servCategory.setName(cat);
     $location.path( '/rental');
+  };
+
+  $scope.setEquip = function(equipment) {
+  	$scope.newEquip = servEquipment.setEquip(equipment);
+  	$location.path( '/rental');
   };
 
  });

@@ -220,7 +220,7 @@ hr {
 
 	.col-md-4 img{
 		margin-right: auto;
-		margin-left: -10px;
+		/*margin-left: -10px;*/
 		/*margin-top: 20px;*/
 
 	}
@@ -388,7 +388,7 @@ hr {
 @media (min-width: 980px){
 	.navbar-default {
 		padding-bottom: 40px;
-		padding-top: 60px;
+		padding-top: 20px;
 	}
 }
 
@@ -535,7 +535,7 @@ li#firstNav{
 #sidebar {
 	/*float: right;*/
 	/*width: 270px;*/
-	padding: 0px 30px 0px 0px;
+	padding: 0px 0px 0px 0px;
 }
 
 .two-column2 #sidebar {
