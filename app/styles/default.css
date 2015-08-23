@@ -59,6 +59,11 @@ div.alginleft{
 	position: relative;
 }
 
+#bounce-post a{
+	color: white;
+	text-decoration: underline;
+}
+
 .modalPic{
 	/*margin-top: -90px;*/
 }
