@@ -68,6 +68,15 @@ div.alginleft{
 	/*margin-top: -90px;*/
 }
 
+.tab-content{
+	background-color: #f5f5f5;
+	padding: 15px;
+}
+
+.tab-heading{
+	background-color: #f5f5f5;
+}
+
 div.alignright{
 	float: right;
 }
