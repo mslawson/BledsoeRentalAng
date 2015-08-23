@@ -57,19 +57,26 @@
       
 
       <nav class="navbar navbar-default">
-        <div class="row">
+        <div class="row fb-search">
           <div class="pull-right">
              <a href="https://www.facebook.com/pages/Bledsoe-Rentals/186667044894" target="new">
             <img src="images/fb-icon-29.png" alt="" style="float:right; marign-top: 20px; margin-right: 30px; margin-bottom: 20px;">
           </a>
           </div>
-          <div class="col-md-4 pull-right">
+          <div class="col-md-4 pull-right" ng-controller="HomeCtrl">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Find equipment ...">
+              <input type="text" class="form-control" ng-model="searchtext" name="searchtext" placeholder="Find equipment ...">
             
               <span class="input-group-btn">
-                <button class="btn btn-default" type="button">Search</button>
+                <button class="btn btn-default" ng-click="setEquip(searchtext); clearSearch()" type="button">Search</button>
               </span>
+
+
+<!-- <input type="text" ng-model="searchtext" name="searchtext" class="searchBox" placeholder=" Any Equipment" size="20">
+
+              <button class="searchBox title" ng-click="setEquip(searchtext)">Search</button> -->
+
+
              </div><!-- /input-group -->
           </div>
           

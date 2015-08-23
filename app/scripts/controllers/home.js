@@ -17,7 +17,9 @@
  	// $scope.newCat = "first";
  	$scope.equipment = servEquipment.getEquip;
 
-
+ 	$scope.clearSearch = function(){
+ 		$scope.searchtext = "";
+ 	};
 
  	$scope.setCategory = function(cat) {
     $scope.newCat = servCategory.setName(cat);

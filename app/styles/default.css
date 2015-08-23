@@ -392,6 +392,12 @@ hr {
 	}
 }
 
+@media (max-width: 993px){
+	.fb-search {
+		display: none;	
+	}
+}
+
 @media (max-width: 529px){
 	.navbar-header {
 		margin: 0 0 !important;
