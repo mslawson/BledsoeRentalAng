@@ -11,6 +11,10 @@
 
  var app = angular.module('angfireApp');
 
+ app.factory('productsFactory', function($resource) {
+  return $resource('products.json');
+ });
+
 
  app.controller('CarouselDemoCtrl', function ($scope) {
   $scope.myInterval = 5000;
@@ -291,7 +295,7 @@ app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, items) {
 });
 
 
- app.controller('MainCtrl', function ($scope, $location, productsBase, servCategory, servEquipment, $anchorScroll ) {
+ app.controller('MainCtrl', function ($scope, $location, productsBase, servCategory, servEquipment, productsFactory, $anchorScroll ) {
     // var productsRef = new Firebase('https://bledsoe.firebaseio.com/');
 
     // var products = $firebaseArray(productsRef);
@@ -315,6 +319,29 @@ app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, items) {
         // call $anchorScroll()
         $anchorScroll();
       };
+
+
+  // Pagination Logic
+
+  $scope.products = productsFactory.query();
+
+  $scope.itemsPerPage = 30;
+  $scope.currentPage = 1;
+  // $scope.prods = products.query
+  $scope.pageCount = function(){
+    return Math.ceil($scope.products.length / $scope.itemsPerPage);
+  };
+
+  $scope.products.$promise.then(function () {
+    $scope.totalItems = $scope.products.length;
+    $scope.$watch('currentPage + itemsPerPage', function() {
+      var begin = (($scope.currentPage - 1) * $scope.itemsPerPage),
+        end = begin + $scope.itemsPerPage;
+
+      $scope.filteredProducts = $scope.products.slice(begin, end);
+    });
+  });
+
 
   // Logic for dropdown menu
 
@@ -542,7 +569,7 @@ app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, items) {
 
 
   // logic for products
-  $scope.products = productsBase;
+  // $scope.products = productsBase;
 
   $scope.addProduct = function(){
     var addp = $scope.products.$add({

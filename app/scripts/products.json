@@ -1,0 +1,3662 @@
+[ {
+  "Alias" : "LOUISVILLE LADDER",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 38,
+  "Name" : "LADDER, STEP 16'",
+  "Number" : 8572,
+  "Threehour" : 28,
+  "Weekly" : "113"
+}, {
+  "Alias" : "LOUISVILLE FS1008",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 19,
+  "Name" : "LADDER, STEP 8'",
+  "Number" : 8506,
+  "Threehour" : 13,
+  "Weekly" : "58"
+}, {
+  "Alias" : "LOUISVILLE LADDER",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 21,
+  "Name" : "LADDER, STEP 10'",
+  "Number" : 8527,
+  "Threehour" : 16,
+  "Weekly" : "65"
+}, {
+  "Alias" : "LOUISVILLE FS1412HD",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 28,
+  "Name" : "LADDER, STEP 12'",
+  "Number" : 8549,
+  "Threehour" : 21,
+  "Weekly" : "82"
+}, {
+  "Alias" : "WERNER D6224-2",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 28,
+  "Name" : "LADDER, EXTENSION 24'",
+  "Number" : 8575,
+  "Threehour" : 21,
+  "Weekly" : "82"
+}, {
+  "Alias" : "WERNER",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 33,
+  "Name" : "LADDER, STEP 14'",
+  "Number" : 8569,
+  "Threehour" : 26,
+  "Weekly" : "97"
+}, {
+  "Alias" : "LOUISVILLE AE1232",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 38,
+  "Name" : "LADDER, EXTENSION 32'",
+  "Number" : 8490,
+  "Threehour" : 28,
+  "Weekly" : "113"
+}, {
+  "Alias" : "WERNER",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 43,
+  "Name" : "LADDER, EXTENSION 40'",
+  "Number" : 8499,
+  "Threehour" : 33,
+  "Weekly" : "130"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 11,
+  "Name" : "LADDER, STAND-OFF",
+  "Number" : 8522,
+  "Weekly" : "21"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 13,
+  "Name" : "LADDER JACKS, ALUM. PAIR",
+  "Number" : 8478,
+  "Weekly" : "26"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 10,
+  "Name" : "LADDER, ROOF HOOK",
+  "Number" : 8488,
+  "Weekly" : "19"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 6,
+  "Name" : "SCAFFOLD, END-6 FT 6 IN.",
+  "Number" : 9348,
+  "Weekly" : "13"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 5,
+  "Name" : "SCAFFOLD, END-5 FT",
+  "Number" : 9350,
+  "Weekly" : "11"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 3,
+  "Name" : "SCAFFOLD, CROSS BRACE",
+  "Number" : 18687,
+  "Weekly" : "6"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 2,
+  "Name" : "SCAFFOLD, ROLLER NON-ADJST",
+  "Number" : 18581,
+  "Weekly" : "4"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 2.5,
+  "Name" : "SCAFFOLD, ROLLER ADJUSTABL",
+  "Number" : 18582,
+  "Weekly" : "5.5"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 8,
+  "Name" : "SCAFFOLD, GUARD RAIL SET",
+  "Number" : 9361,
+  "Weekly" : "17"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 2.5,
+  "Name" : "SCAFFOLD, PLATE-ADJUSTABLE",
+  "Number" : 18195,
+  "Weekly" : "5"
+}, {
+  "Alias" : "DIAGONAL BRACE, SCAFFOLD ROLLING TOWER GOOSER BRACE",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 5,
+  "Name" : "SCAFFOLD, GOOSER BRACE",
+  "Number" : 9365,
+  "Weekly" : "11"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 6,
+  "Name" : "SCAFFOLD, CAT WALK",
+  "Number" : 9376,
+  "Weekly" : "13"
+}, {
+  "Alias" : "BAKERS SCAF = 2X6'",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 28,
+  "Name" : "SCAF-MULTIPURP=2X6'",
+  "Number" : 8619,
+  "Weekly" : "54"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 5,
+  "Name" : "SCAFFOLD, OUTRIGGERS",
+  "Number" : 8601,
+  "Weekly" : "11"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Name" : "SCAFFOLD, SNAP PIN",
+  "Number" : 8583,
+  "Weekly" : ""
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 5,
+  "Name" : "SCAFFOLD, END-4 FT",
+  "Number" : 8616,
+  "Weekly" : "11"
+}, {
+  "Alias" : "",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 5,
+  "Name" : "SCAFFOLD, END-3 FT",
+  "Number" : 8613,
+  "Weekly" : "11"
+}, {
+  "Alias" : "P21420",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 28,
+  "Name" : "PLANK, 20FT X 14IN",
+  "Number" : 8580,
+  "Weekly" : "54"
+}, {
+  "Alias" : "BAKERS SCAF = CATWALK SCAFFOLD-MULTIPURP=CATWALK",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 10,
+  "Name" : "SCAF-MULTIPURP=CATWALK",
+  "Number" : 8578,
+  "Threehour" : 6,
+  "Weekly" : "30"
+}, {
+  "Alias" : "BAKERS SCAF = GUARDRAILS SCAFFOLD-MULTIPURP=GRDRAIL",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Name" : "SCAF-MULTIPURP=GRD RAILS",
+  "Number" : 8598,
+  "Weekly" : ""
+}, {
+  "Alias" : "BAKERS SCAF = OUTRIGGER SCAFFOLD-MULTIPURP=OUTRGGR",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Name" : "SCAF-MULTIPURP=OUTRIGGER",
+  "Number" : 8592,
+  "Weekly" : ""
+}, {
+  "Alias" : "BAKERS SCAF = CASTER SCAFFOLD-MULTIPURP=CASTER",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Name" : "SCAF-MULTIPURP=CASTER",
+  "Number" : 8607,
+  "Weekly" : ""
+}, {
+  "Alias" : "BAKERS SCAF = 3FT SCAFFOLD-MULTIPURP. 3FT",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 11,
+  "Name" : "SCAF-MULTIPURP. = 3FT",
+  "Number" : 8595,
+  "Weekly" : "21"
+}, {
+  "Alias" : "BAKERS SCAF = 9FT KIT KIT, SCAF-MULTIPURP. 9FT",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 33,
+  "Name" : "SCAF-MULTIPURP= 9FT KIT",
+  "Number" : 8589,
+  "Weekly" : "65"
+}, {
+  "Alias" : "BUCKET LIFT, 36FT 2MAN TOW ELEC  BIL-JAX 3632",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 184,
+  "Name" : "LIFT, BUCKET 36FT 2MAN TOW ELEC",
+  "Number" : 8586,
+  "Threehour" : 112,
+  "Weekly" : "551"
+}, {
+  "Alias" : "BUCKET LIFT, 45FT 2MAN TOW ELEC  BIL JAX DZ-1002",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 216,
+  "Name" : "LIFT, BUCKET 45FT 2MAN TOW ELEC",
+  "Number" : 8610,
+  "Threehour" : 130,
+  "Weekly" : "649"
+}, {
+  "Alias" : "PERSONNEL LIFT, 1MAN 30FT ONE MAN PERSONNEL LIFT 30FT GENIE AWP30S",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 108,
+  "Name" : "LIFT, PERSONNEL 1MAN 30FT",
+  "Number" : 8640,
+  "Threehour" : 75,
+  "Weekly" : "324"
+}, {
+  "Alias" : "SCISSOR LIFT, 20FT SKYJACK  GENIE GS-1930",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 108,
+  "Name" : "LIFT, SCISSOR 20FT SKYJACK",
+  "Number" : 8643,
+  "Threehour" : 75,
+  "Weekly" : "324"
+}, {
+  "Alias" : "SCISSOR LIFT, 26FT SKYJACK  SKYJACK 3226",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 130,
+  "Name" : "LIFT, SCISSOR 26FT SKYJACK",
+  "Number" : 8604,
+  "Threehour" : 87,
+  "Weekly" : "390"
+}, {
+  "Alias" : "SCISSOR LIFT, 20FT SKYJACK  GENIE GS-1930",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 108,
+  "Name" : "LIFT, SCISSOR 19FT SKYJACK",
+  "Number" : 8637,
+  "Threehour" : 75,
+  "Weekly" : "324"
+}, {
+  "Alias" : "LIFT, BUCKET",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 235,
+  "Name" : "LIFT, NIFTY 34' DRIVEABLE",
+  "Number" : 8628,
+  "Threehour" : 150,
+  "Weekly" : "705"
+}, {
+  "Alias" : "LIFT, BUCKET",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 275,
+  "Name" : "LIFT, NIFTY 50' DRIVEABLE",
+  "Number" : 8631,
+  "Threehour" : 185,
+  "Weekly" : "825"
+}, {
+  "Alias" : "LIFT,",
+  "Category" : "AERIAL WORK PLATFORMS, LADDERS & SCAFFOLDING",
+  "Daily" : 230,
+  "Name" : "LIFT, BUCKET 50FT 2MAN TOW ELEC",
+  "Number" : 8634,
+  "Threehour" : 140,
+  "Weekly" : "690"
+}, {
+  "Alias" : "EL-SMITH143A1508",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 39,
+  "Name" : "COMPRESSOR, AIR ELEC 1.5HP",
+  "Number" : 9544,
+  "Weekly" : "116"
+}, {
+  "Alias" : "",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 54,
+  "Name" : "COMPRESSOR, AIR GAS 8.5CFM",
+  "Number" : 7932,
+  "Weekly" : "162"
+}, {
+  "Alias" : "",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 65,
+  "Name" : "COMPRESSOR, AIR GAS 17.2CFM",
+  "Number" : 15467,
+  "Weekly" : "173"
+}, {
+  "Alias" : "",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 324,
+  "Name" : "MATERIAL GLASS BLASTER WITH COMPRESSOR",
+  "Number" : 8041,
+  "Weekly" : "973"
+}, {
+  "Alias" : "SULLAIR MCD-30A",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 65,
+  "Name" : "HAMMER, AIR 30 LB.",
+  "Number" : 9467,
+  "Threehour" : 43,
+  "Weekly" : "195"
+}, {
+  "Alias" : "CHICAGO PNEUMTIC 123",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 75,
+  "Name" : "HAMMER, AIR 65 LB.",
+  "Number" : 9478,
+  "Threehour" : 54,
+  "Weekly" : "227"
+}, {
+  "Alias" : "CHICAGO PNEUMTIC 124",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 75,
+  "Name" : "HAMMER, AIR 90 LB.",
+  "Number" : 9492,
+  "Threehour" : 54,
+  "Weekly" : "227"
+}, {
+  "Alias" : "MACO MC-HR-S3",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 54,
+  "Name" : "HAMMER,CHIPPER-AIR",
+  "Number" : 9529,
+  "Threehour" : 43,
+  "Weekly" : "162"
+}, {
+  "Alias" : "SMITH 200",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 151,
+  "Name" : "COMPRESSOR, AIR 185/200CFM",
+  "Number" : 9560,
+  "Threehour" : 97,
+  "Weekly" : "454"
+}, {
+  "Alias" : "",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 179,
+  "Name" : "KIT, HAMMER-185/200 CFM",
+  "Number" : 10479,
+  "Threehour" : 107,
+  "Weekly" : "536"
+}, {
+  "Alias" : "SIDING NAILER 2 1/2INCH  HITACHI NV 65AH",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 49,
+  "Name" : "NAILER, SIDING 2 1/2INCH",
+  "Number" : 10477,
+  "Threehour" : 33,
+  "Weekly" : "146"
+}, {
+  "Alias" : "BOSTICH N80CB-1",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 49,
+  "Name" : "NAILER, COIL ROUGH-IN ONLY",
+  "Number" : 10474,
+  "Threehour" : 33,
+  "Weekly" : "146"
+}, {
+  "Alias" : "",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 97,
+  "Name" : "KIT, NAILER ROOFING-COIL",
+  "Number" : 10448,
+  "Threehour" : 87,
+  "Weekly" : "390"
+}, {
+  "Alias" : "PORTER CABLE RN175",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 43,
+  "Name" : "NAILER, ROOFING-COIL",
+  "Number" : 16280,
+  "Threehour" : 33,
+  "Weekly" : "130"
+}, {
+  "Alias" : "",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 97,
+  "Name" : "KIT, NAILER COIL ROUGH-IN",
+  "Number" : 10490,
+  "Threehour" : 65,
+  "Weekly" : "390"
+}, {
+  "Alias" : "",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 97,
+  "Name" : "KIT, NAILER AIR ROUGH-IN",
+  "Number" : 10445,
+  "Threehour" : 65,
+  "Weekly" : "390"
+}, {
+  "Alias" : "",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 87,
+  "Name" : "KIT, NAILER AIR FINISH",
+  "Number" : 10450,
+  "Threehour" : 54,
+  "Weekly" : "346"
+}, {
+  "Alias" : "HITACHI NR83AA3",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 49,
+  "Name" : "NAILER, STICK ROUGH-IN ONLY",
+  "Number" : 10442,
+  "Threehour" : 33,
+  "Weekly" : "146"
+}, {
+  "Alias" : "BOSTITCH N60FN-2",
+  "Category" : "AIR COMPRESSORS & AIR TOOLS",
+  "Daily" : 39,
+  "Name" : "NAILER, AIR FINISH ONLY",
+  "Number" : 10481,
+  "Threehour" : 26,
+  "Weekly" : "116"
+}, {
+  "Alias" : "",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 1,
+  "Name" : "Concession Shaved Ice Machine Syrup Pump",
+  "Number" : 10581,
+  "Weekly" : ""
+}, {
+  "Alias" : "",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 77,
+  "Name" : "Concession Frozen Drink Machine",
+  "Number" : 18280,
+  "Weekly" : ""
+}, {
+  "Alias" : "SNO, SNO-CONE, SNOW, SNOW CONE",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 56,
+  "Name" : "Concession Shaved Ice Machine Polar Pete",
+  "Number" : 18478,
+  "Weekly" : ""
+}, {
+  "Alias" : "",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 77,
+  "Name" : "Concession Popcorn Popper 6oz",
+  "Number" : 18571,
+  "Weekly" : ""
+}, {
+  "Alias" : "",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 77,
+  "Name" : "Concession Cotton Candy Floss Machine",
+  "Number" : 18267,
+  "Weekly" : ""
+}, {
+  "Alias" : "",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Name" : "Concession Popcorn Cart",
+  "Number" : 18260,
+  "Weekly" : ""
+}, {
+  "Alias" : "SUPER COOLER  SUPER COOLER",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 13,
+  "Name" : "KEG REFRESHMENTS COOLER",
+  "Number" : 18262,
+  "Weekly" : "39"
+}, {
+  "Alias" : "COFFEE POT WEST BEND#33600",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 16,
+  "Name" : "URN, COFFEE 100 CUP",
+  "Number" : 18886,
+  "Weekly" : "33"
+}, {
+  "Alias" : "",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 7,
+  "Name" : "TABLE, BANQUET 6'",
+  "Number" : 18161,
+  "Weekly" : "20"
+}, {
+  "Alias" : "",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 8,
+  "Name" : "TABLE, ROUND 5'",
+  "Number" : 18169,
+  "Weekly" : "23"
+}, {
+  "Alias" : "",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 7,
+  "Name" : "TABLE, BANQUET 8'",
+  "Number" : 18167,
+  "Weekly" : "20"
+}, {
+  "Alias" : "",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 1,
+  "Name" : "CHAIRS, PLASTIC FOLDING",
+  "Number" : 18159,
+  "Weekly" : "3"
+}, {
+  "Alias" : "BOUNCE HOUSE, JUMPER, CASTLE",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 149,
+  "Name" : "Inflatable Wacky Castle Bouncer",
+  "Number" : 18155,
+  "Weekly" : ""
+}, {
+  "Alias" : "BOUNCE HOUSE, JUMPER, CASTLE",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 117,
+  "Name" : "Inflatable Wacky Space Saver Combo",
+  "Number" : 18888,
+  "Weekly" : ""
+}, {
+  "Alias" : "BOUNCE HOUSE, JUMPER, CASTLE",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 179,
+  "Name" : "Inflatable 20' Carousel Bouncer",
+  "Number" : 18165,
+  "Weekly" : ""
+}, {
+  "Alias" : "BOUNCE HOUSE, JUMPER, CASTLE",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 149,
+  "Name" : "Inflatable Tiger Belly Bouncer",
+  "Number" : 18163,
+  "Weekly" : ""
+}, {
+  "Alias" : "BOUNCE HOUSE, JUMPER, CASTLE",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 195,
+  "Name" : "Inflatable Princess Carriage Combo",
+  "Number" : 10563,
+  "Weekly" : ""
+}, {
+  "Alias" : "BOUNCE HOUSE, JUMPER, CASTLE",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 195,
+  "Name" : "Inflatable Fire Station Combo",
+  "Number" : 10572,
+  "Weekly" : ""
+}, {
+  "Alias" : "BOUNCE HOUSE, JUMPER, CASTLE",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Name" : "Inflatable Panel: Knights and Dragons",
+  "Number" : 10578,
+  "Weekly" : ""
+}, {
+  "Alias" : "BOUNCE HOUSE, JUMPER, CASTLE",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Name" : "Inflatable Panel: Princess Palace",
+  "Number" : 10575,
+  "Weekly" : ""
+}, {
+  "Alias" : "BOUNCE HOUSE, JUMPER, CASTLE",
+  "Category" : "AMUSEMENT & PARTY RENTAL",
+  "Daily" : 153,
+  "Name" : "Inflatable Wacky (22') Dual Slide",
+  "Number" : 10565,
+  "Weekly" : ""
+}, {
+  "Alias" : "TURTLE, ROCK MOWER",
+  "Category" : "COMPACTION EQUIPMENT",
+  "Daily" : 87,
+  "Name" : "VIBRATORY PLATE COMPACTOR",
+  "Number" : 16243,
+  "Threehour" : 54,
+  "Weekly" : "346"
+}, {
+  "Alias" : "",
+  "Category" : "COMPACTION EQUIPMENT",
+  "Daily" : 130,
+  "Name" : "EXCAVATOR PLATE COMPACTOR",
+  "Number" : 9175,
+  "Threehour" : 87,
+  "Weekly" : "390"
+}, {
+  "Alias" : "JUMPING JACK, RAMMER",
+  "Category" : "COMPACTION EQUIPMENT",
+  "Daily" : 87,
+  "Name" : "RAMMER DIRT TAMPER, GAS",
+  "Number" : 16227,
+  "Threehour" : 54,
+  "Weekly" : "259"
+}, {
+  "Alias" : "BOSCH",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 54,
+  "Name" : "SAW, CONCRETE ELEC 14\"HAND",
+  "Number" : 9871,
+  "Threehour" : 43,
+  "Weekly" : "216"
+}, {
+  "Alias" : "EARLY ENTRY, G-TEQ",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 82,
+  "Name" : "SAW, CONCRETE EARLY ENTRY",
+  "Number" : 9919,
+  "Threehour" : 54,
+  "Weekly" : "244"
+}, {
+  "Alias" : "EFCO 983",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 65,
+  "Name" : "SAW, CONCRETE GAS 14\" HAND",
+  "Number" : 9929,
+  "Threehour" : 54,
+  "Weekly" : "259"
+}, {
+  "Alias" : "PRO CUT",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 87,
+  "Name" : "SAW, CONCRETE STREET 14\"",
+  "Number" : 9933,
+  "Threehour" : 65,
+  "Weekly" : "346"
+}, {
+  "Alias" : "BLOCK SAW 14\" GAS W/STAND  TARGET-PORTASAW",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 108,
+  "Name" : "SAW, BLOCK 14\" WET OR DRY",
+  "Number" : 9863,
+  "Threehour" : 75,
+  "Weekly" : "432"
+}, {
+  "Alias" : "",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 65,
+  "Name" : "SAW, TUB-10\" GAS W/BLADE",
+  "Number" : 9850,
+  "Threehour" : 43,
+  "Weekly" : "195"
+}, {
+  "Alias" : "PRO CUT PC DRY 12HG",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 54,
+  "Name" : "BLADE, DIAMOND 12\" WET/DRY",
+  "Number" : 10065,
+  "Weekly" : "162"
+}, {
+  "Alias" : "WELCO",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 59,
+  "Name" : "BLADE, DIA. STREET 14\" WET",
+  "Number" : 9983,
+  "Weekly" : "179"
+}, {
+  "Alias" : "32PC DRY CUT 14HG",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 51,
+  "Name" : "BLADE, DIA. 14\" HI-SPD CURED",
+  "Number" : 14838,
+  "Weekly" : "153"
+}, {
+  "Alias" : "WELCO",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 51,
+  "Name" : "BLADE, DIA. 14\"HI-SPD GREEN/ASPH",
+  "Number" : 10051,
+  "Weekly" : "153"
+}, {
+  "Alias" : "DIAMOND BLADE 18\" STREET  WEDGE C-190P",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 65,
+  "Name" : "BLADE, DIA. 16\"WET STREET",
+  "Number" : 10068,
+  "Weekly" : "195"
+}, {
+  "Alias" : "WEL-CO C-09",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 75,
+  "Name" : "BLADE, DIA. 18\" CONCRETE WET",
+  "Number" : 5081,
+  "Weekly" : "227"
+}, {
+  "Alias" : "WHITEMAN WC-60-H-1",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 75,
+  "Name" : "MIXER, CONCRETE-GAS 6 CF",
+  "Number" : 10054,
+  "Threehour" : 49,
+  "Weekly" : "227"
+}, {
+  "Alias" : "STOW M30H",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 87,
+  "Name" : "MIXER, MORTAR/PLASTER 8 CF",
+  "Number" : 10057,
+  "Threehour" : 54,
+  "Weekly" : "259"
+}, {
+  "Alias" : "GEORGIA BUGGY-TRACKED  CANYCOM SC-75",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 136,
+  "Name" : "BUGGY, GEORGIA TRACKED",
+  "Number" : 10071,
+  "Threehour" : 108,
+  "Weekly" : "406"
+}, {
+  "Alias" : "CANYCOM SC-75, CONCRETE BUGGY, GEORGIA BUGGY",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 167,
+  "Name" : "BUGGY, SWIVEL DUMP TRACKED",
+  "Number" : 9949,
+  "Threehour" : 130,
+  "Weekly" : "503"
+}, {
+  "Alias" : "TRUE TEMPER",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 16,
+  "Name" : "WHEELBARROW, 8CUFT DUAL WHEEL",
+  "Number" : 9957,
+  "Threehour" : 11,
+  "Weekly" : "49"
+}, {
+  "Alias" : "POWER SCREED 10FT  WACKER P35A",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 87,
+  "Name" : "SCREED, POWER 10FT",
+  "Number" : 14905,
+  "Threehour" : 65,
+  "Weekly" : "259"
+}, {
+  "Alias" : "EDCO T364-5H",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 70,
+  "Name" : "TROWEL, CONCRETE POWER 36\"",
+  "Number" : 9571,
+  "Weekly" : "211"
+}, {
+  "Alias" : "OZTEC",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 60,
+  "Name" : "VIBRATOR, CONCRETE ELEC",
+  "Number" : 9582,
+  "Threehour" : 39,
+  "Weekly" : "182"
+}, {
+  "Alias" : "FLOAT, FRESNO W/2 HANDLES FRESNO TROWEL W/2 HANDLES",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 17,
+  "Name" : "TROWEL, FRESNO W/2 HANDLES",
+  "Number" : 9639,
+  "Threehour" : 13,
+  "Weekly" : "52"
+}, {
+  "Alias" : "BACK PACK VIBRATOR-50CC WACKER WACKER BACK PACK VIBRATOR-50CC WACKER BV 50A-P",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 82,
+  "Name" : "VIBRATOR, BACK PACK 50CC WACKER",
+  "Number" : 9817,
+  "Threehour" : 54,
+  "Weekly" : "244"
+}, {
+  "Alias" : "",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 17,
+  "Name" : "FLOAT, BULL W/2 HANDLES",
+  "Number" : 9995,
+  "Threehour" : 13,
+  "Weekly" : "52"
+}, {
+  "Alias" : "",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 5,
+  "Name" : "HANDLE, BULL FLOAT",
+  "Number" : 10060,
+  "Threehour" : 4,
+  "Weekly" : "16"
+}, {
+  "Alias" : "",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 13,
+  "Name" : "JITTERBUG, CONCRETE 48 IN.",
+  "Number" : 10024,
+  "Threehour" : 8,
+  "Weekly" : "39"
+}, {
+  "Alias" : "",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 7,
+  "Name" : "KUMALONG, CONCRETE",
+  "Number" : 10043,
+  "Weekly" : "22"
+}, {
+  "Alias" : "",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 5,
+  "Name" : "TOOL, CONCRETE HAND",
+  "Number" : 10048,
+  "Weekly" : "11"
+}, {
+  "Alias" : "",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 10,
+  "Name" : "BROOM, CONCRETE FINISH",
+  "Number" : 10032,
+  "Weekly" : "19"
+}, {
+  "Alias" : "",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 7,
+  "Name" : "GROOVER, WALK, 8 X 4.5\"",
+  "Number" : 10003,
+  "Weekly" : "22"
+}, {
+  "Alias" : "CONCRETE MIXER, ELECT  KUSHLAN 350W",
+  "Category" : "CONCRETE & MASONRY",
+  "Daily" : 54,
+  "Name" : "MIXER, CONCRETE/ELECTRIC",
+  "Number" : 10240,
+  "Threehour" : 38,
+  "Weekly" : "162"
+}, {
+  "Alias" : "DEWALT DW292K",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 33,
+  "Name" : "WRENCH, IMPACT 1/2\" ELECT",
+  "Number" : 17214,
+  "Threehour" : 21,
+  "Weekly" : "130"
+}, {
+  "Alias" : "BLACK & DECKER 2225",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 43,
+  "Name" : "WRENCH, IMPACT 3/4\" ELECT",
+  "Number" : 15804,
+  "Threehour" : 38,
+  "Weekly" : "173"
+}, {
+  "Alias" : "",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 16,
+  "Name" : "SAW, CIRCULAR 6 1/2-7 1/4",
+  "Number" : 10422,
+  "Weekly" : "49"
+}, {
+  "Alias" : "SAW, TABLE WORKSITE 10\" TABLE SAW, 10\" WORKSITE EDCO SS20",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 49,
+  "Name" : "SAW, WORKSITE TABLE 10\"",
+  "Number" : 10400,
+  "Weekly" : "97"
+}, {
+  "Alias" : "",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 26,
+  "Name" : "SAW, RECIPROCATING-SAWZALL",
+  "Number" : 10408,
+  "Threehour" : 19,
+  "Weekly" : "78"
+}, {
+  "Alias" : "TOE-KICK SAW  CRAIN 795",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 39,
+  "Name" : "SAW, TOE-KICK",
+  "Number" : 10258,
+  "Threehour" : 26,
+  "Weekly" : "156"
+}, {
+  "Alias" : "JAM, SAW 6 1/2 IN  CRAIN 810",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 39,
+  "Name" : "SAW, JAM 6 1/2 IN",
+  "Number" : 10250,
+  "Threehour" : 26,
+  "Weekly" : "156"
+}, {
+  "Alias" : "ROCKWELL",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 39,
+  "Name" : "SAW, BAND PORT. VAR. SPEED",
+  "Number" : 10246,
+  "Threehour" : 26,
+  "Weekly" : "116"
+}, {
+  "Alias" : "BLACK & DECKER 3680",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 43,
+  "Name" : "SAW, MITRE, COMPOUND 12\"",
+  "Number" : 10371,
+  "Threehour" : 33,
+  "Weekly" : "130"
+}, {
+  "Alias" : "MAKITA 5402-A",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 65,
+  "Name" : "SAW, CIRCULAR 16\"",
+  "Number" : 10234,
+  "Threehour" : 49,
+  "Weekly" : "259"
+}, {
+  "Alias" : "CHOP SAW, METAL 14INCH METAL CHOP SAW-14INCH CUMMINS  TOOL",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 43,
+  "Name" : "SAW, METAL CHOP-14INCH",
+  "Number" : 10429,
+  "Threehour" : 33,
+  "Weekly" : "130"
+}, {
+  "Alias" : "",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 8,
+  "Name" : "SAW, HOLE 2 3/4-4 1/4",
+  "Number" : 16897,
+  "Weekly" : "24"
+}, {
+  "Alias" : "MILWAUKEE 0300-20",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 16,
+  "Name" : "DRILL, ELECTRIC 3/8\"",
+  "Number" : 10311,
+  "Weekly" : "49"
+}, {
+  "Alias" : "QUICK DRIVE SCREW GUN GUN SCREW, DECKING QUICKDRIVE QD6645EHD",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 39,
+  "Name" : "DECKING, SCREW GUN",
+  "Number" : 10333,
+  "Threehour" : 26,
+  "Weekly" : "116"
+}, {
+  "Alias" : "MILWAUKEE",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 23,
+  "Name" : "DRILL, ELEC 1/4-3/8 RT ANGLE",
+  "Number" : 10329,
+  "Weekly" : "71"
+}, {
+  "Alias" : "HITACHI D13",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 26,
+  "Name" : "DRILL, ELEC 1/2\"",
+  "Number" : 10264,
+  "Threehour" : 17,
+  "Weekly" : "78"
+}, {
+  "Alias" : "HOLE-HAWG 1675-6",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 39,
+  "Name" : "DRILL, ELEC 1/2\" RT ANGLE",
+  "Number" : 9770,
+  "Threehour" : 26,
+  "Weekly" : "116"
+}, {
+  "Alias" : "",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 20,
+  "Name" : "DRILL, CORDLESS W/ CHARGER 2 BATTERIES",
+  "Number" : 9800,
+  "Weekly" : "61"
+}, {
+  "Alias" : "HITACHI DH40MA",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 70,
+  "Name" : "HAMMER, ROTARY 1 1/2\"+BITS",
+  "Number" : 9658,
+  "Threehour" : 49,
+  "Weekly" : "211"
+}, {
+  "Alias" : "CHIPPING HAMMER",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 70,
+  "Name" : "HAMMER, CHIP ELEC MD",
+  "Number" : 9941,
+  "Threehour" : 49,
+  "Weekly" : "211"
+}, {
+  "Alias" : "MAKITA 8900N",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 87,
+  "Name" : "HAMMER, JACK ELEC MD MAKIT",
+  "Number" : 9682,
+  "Threehour" : 54,
+  "Weekly" : "259"
+}, {
+  "Alias" : "BOSCH BRUTE 11304",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 97,
+  "Name" : "HAMMER, JACK ELEC LG BRUTE",
+  "Number" : 9822,
+  "Threehour" : 65,
+  "Weekly" : "292"
+}, {
+  "Alias" : "RIP-R-STRIPPER",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 43,
+  "Name" : "GENERAL CTS12 CART FOR HAMMER",
+  "Number" : 9788,
+  "Threehour" : 28,
+  "Weekly" : "130"
+}, {
+  "Alias" : "HAMMER BULLDOG  BOSCH BULLDOG11224VS",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 52,
+  "Name" : "DRILL, ELEC 3/4\" HAMMER",
+  "Number" : 9667,
+  "Threehour" : 39,
+  "Weekly" : "156"
+}, {
+  "Alias" : "CRAIN 615",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 26,
+  "Name" : "STAPLER, ELEC. UPHOLSTERY",
+  "Number" : 9676,
+  "Threehour" : 17,
+  "Weekly" : "78"
+}, {
+  "Alias" : "5ILWAUKEE 4130",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 97,
+  "Name" : "DRILL, CORE W/STAND",
+  "Number" : 9664,
+  "Threehour" : 65,
+  "Weekly" : "292"
+}, {
+  "Alias" : "MILWAUKEE 5378-21",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 39,
+  "Name" : "DRILL, ELEC 1/2\" HAMMER",
+  "Number" : 10378,
+  "Threehour" : 26,
+  "Weekly" : "116"
+}, {
+  "Alias" : "TARGET HD-6",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 97,
+  "Name" : "DRILL, CORE HANDHELD",
+  "Number" : 7705,
+  "Threehour" : 65,
+  "Weekly" : "292"
+}, {
+  "Alias" : "GUN, STUD STUD GUN UNISET",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 41,
+  "Name" : "DRIVER, STUD W/GOGGLES",
+  "Number" : 7833,
+  "Threehour" : 26,
+  "Weekly" : "123"
+}, {
+  "Alias" : "RIGHT",
+  "Category" : "DRILLS & POWER TOOLS",
+  "Daily" : 26,
+  "Name" : "DRILL, 3/4\" RT ANGLE CORDLESS",
+  "Number" : 9300,
+  "Threehour" : 15,
+  "Weekly" : "77"
+}, {
+  "Alias" : "JOHN DEERE 50D",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 346,
+  "Name" : "EXCAVATOR, 12FT 8IN 50D",
+  "Number" : 9281,
+  "Threehour" : 196,
+  "Weekly" : "1,037.00"
+}, {
+  "Alias" : "STAR 110-ITA",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 49,
+  "Name" : "FORKS, SKID LOADER",
+  "Number" : 9261,
+  "Weekly" : "146"
+}, {
+  "Alias" : "DINGO, TORO, VERMEER, S450TX",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 162,
+  "Name" : "MINI-LOADER RIDE ON TRACK",
+  "Number" : 9231,
+  "Threehour" : 108,
+  "Weekly" : "487"
+}, {
+  "Alias" : "1010 DITCH WITCH",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 151,
+  "Name" : "TRENCHER, 4 X 30",
+  "Number" : 9248,
+  "Threehour" : 108,
+  "Weekly" : "454"
+}, {
+  "Alias" : "RT200",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 173,
+  "Name" : "TRENCHER, 5 X 48",
+  "Number" : 9272,
+  "Threehour" : 130,
+  "Weekly" : "519"
+}, {
+  "Alias" : "",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 49,
+  "Name" : "BUCKET, SKID LOADER STRAIGHT",
+  "Number" : 15517,
+  "Weekly" : "146"
+}, {
+  "Alias" : "BOBCAT 4923",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 49,
+  "Name" : "BUCKET, SKID LOADER TEETH",
+  "Number" : 9266,
+  "Weekly" : "146"
+}, {
+  "Alias" : "THOMASB205/U-1931",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 130,
+  "Name" : "BUCKET, GRAPPLE HYD. 73IN.",
+  "Number" : 9099,
+  "Threehour" : 97,
+  "Weekly" : "390"
+}, {
+  "Alias" : "JOHN DEERE 17ZTS",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 195,
+  "Name" : "EXCAVATOR, 7FT 3IN",
+  "Number" : 9377,
+  "Threehour" : 130,
+  "Weekly" : "583"
+}, {
+  "Alias" : "JOHN DEERE 35C ZTS",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 259,
+  "Name" : "EXCAVATOR, 10FT 4IN",
+  "Number" : 9331,
+  "Threehour" : 173,
+  "Weekly" : "778"
+}, {
+  "Alias" : "",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 54,
+  "Name" : "BUCKET, EXCAVATOR",
+  "Number" : 9335,
+  "Weekly" : "162"
+}, {
+  "Alias" : "JOHN DEERE LOADER SKID LOADER, J.D 320 JOHN DEERE",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 195,
+  "Name" : "LOADER, SKID OPEN CAB",
+  "Number" : 9326,
+  "Threehour" : 130,
+  "Weekly" : "583"
+}, {
+  "Alias" : "LOADER, JOHN DEERE SKID LOADER, TRACK, BOBCAT",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 300,
+  "Name" : "LOADER, TRACK HVAC CAB",
+  "Number" : 9338,
+  "Threehour" : 204,
+  "Weekly" : "900"
+}, {
+  "Alias" : "SKID STEER, 320, 320D, LOADER",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 227,
+  "Name" : "LOADER, SKID HVAC CAB",
+  "Number" : 9320,
+  "Threehour" : 151,
+  "Weekly" : "681"
+}, {
+  "Alias" : "HUSKIE 500  HUSKIE HH500",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 173,
+  "Name" : "BREAKER, HYDRAULIC/LOADER",
+  "Number" : 9311,
+  "Threehour" : 108,
+  "Weekly" : "519"
+}, {
+  "Alias" : "AUGER, DIGGER, PH, POST HEAD",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 87,
+  "Name" : "LOADER AUGER POWER HEAD +BITS",
+  "Number" : 14855,
+  "Weekly" : "259"
+}, {
+  "Alias" : "BOBCAT",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 16,
+  "Name" : "LOADER AUGER EXTENSION  15\"",
+  "Number" : 9283,
+  "Weekly" : "49"
+}, {
+  "Alias" : "BOBCAT",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 38,
+  "Name" : "LOADER AUGER 12\" X 4FT.",
+  "Number" : 9297,
+  "Weekly" : "113"
+}, {
+  "Alias" : "BOBCAT",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 43,
+  "Name" : "LOADER AUGER  18\" X 4FT.",
+  "Number" : 9392,
+  "Weekly" : "130"
+}, {
+  "Alias" : "BOBCAT",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 54,
+  "Name" : "LOADER AUGER  24\" X 4FT.",
+  "Number" : 9448,
+  "Weekly" : "162"
+}, {
+  "Alias" : "BOBCAT",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 33,
+  "Name" : "LOADER AUGER 8\" X 4FT",
+  "Number" : 9464,
+  "Weekly" : "97"
+}, {
+  "Alias" : "60\" BUCKET BROOM",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 130,
+  "Name" : "SWEEPER-BOBTACH/MAJOR 6 FT",
+  "Number" : 9454,
+  "Threehour" : 97,
+  "Weekly" : "390"
+}, {
+  "Alias" : "SAFETY HARNESS W/LANYARD BELT, SAFETY W/LANYARD",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 8,
+  "Name" : "HARNESS, SAFETY W/LANYARD",
+  "Number" : 9381,
+  "Weekly" : "26"
+}, {
+  "Alias" : "FINN",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 97,
+  "Name" : "MINI-LOADER TILLER 36\"",
+  "Number" : 9441,
+  "Threehour" : 65,
+  "Weekly" : "292"
+}, {
+  "Alias" : "DINGO, VERMEER",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 28,
+  "Name" : "MINI-LOADER AUGER 6\"",
+  "Number" : 9460,
+  "Weekly" : "82"
+}, {
+  "Alias" : "DINGO",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 97,
+  "Name" : "MINI-LOADER TRENCHER 6\"X36\"",
+  "Number" : 9433,
+  "Threehour" : 65,
+  "Weekly" : "292"
+}, {
+  "Alias" : "DINGO",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 97,
+  "Name" : "MINI-LOADER HARLEY RAKE",
+  "Number" : 9427,
+  "Threehour" : 65,
+  "Weekly" : "292"
+}, {
+  "Alias" : "DINGO",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 97,
+  "Name" : "MINI-LOADER VIBRATORY PLOW ATTACHMENT",
+  "Number" : 9387,
+  "Threehour" : 65,
+  "Weekly" : "292"
+}, {
+  "Alias" : "DINGO",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 65,
+  "Name" : "MINI-LOADER AUGER *POWER HEAD +BITS",
+  "Number" : 9419,
+  "Weekly" : "195"
+}, {
+  "Alias" : "DINGO",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 43,
+  "Name" : "MINI-LOADER STANDARD BUCKET 4.CU.FT",
+  "Number" : 9111,
+  "Weekly" : "130"
+}, {
+  "Alias" : "DINGO",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 54,
+  "Name" : "MINI-LOADER MULCH BUCKET 6.4 CU.FT",
+  "Number" : 9399,
+  "Weekly" : "162"
+}, {
+  "Alias" : "DINGO",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 43,
+  "Name" : "MINI-LOADER FORKS",
+  "Number" : 9380,
+  "Weekly" : "130"
+}, {
+  "Alias" : "DINGO",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 130,
+  "Name" : "MINI-LOADER BREAKER 150LB",
+  "Number" : 9384,
+  "Threehour" : 87,
+  "Weekly" : "390"
+}, {
+  "Alias" : "AUGER 9\" DINGO  AUGER",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 33,
+  "Name" : "MINI-LOADER AUGER 9\"",
+  "Number" : 9390,
+  "Weekly" : "97"
+}, {
+  "Alias" : "AUGER 12\" DINGO  DINGO",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 38,
+  "Name" : "MINI-LOADER AUGER 12\"",
+  "Number" : 9343,
+  "Weekly" : "113"
+}, {
+  "Alias" : "AUGER 30\" DINGO  DINGO",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 49,
+  "Name" : "MINI-LOADER AUGER 30\"",
+  "Number" : 18541,
+  "Weekly" : "146"
+}, {
+  "Alias" : "DINGO 12\" EXTENSION",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 16,
+  "Name" : "MINI-LOADER AUGER EXTENSION 12\"",
+  "Number" : 9137,
+  "Weekly" : "65"
+}, {
+  "Alias" : "AUGER 18\" DINGO  DINGO",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 43,
+  "Name" : "MINI-LOADER AUGER 18\"",
+  "Number" : 9147,
+  "Weekly" : "130"
+}, {
+  "Alias" : "",
+  "Category" : "EARTHMOVING EQUIPMENT",
+  "Daily" : 97,
+  "Name" : "TRENCHER 5X48 ATTACHMENT STR480T",
+  "Number" : 10939,
+  "Threehour" : 65,
+  "Weekly" : "292"
+}, {
+  "Alias" : "TOWER, LIGHT 4000 WATT  WACKER LT-4",
+  "Category" : "GENERATORS & LIGHT TOWERS",
+  "Daily" : 151,
+  "Name" : "LIGHT, TOWER 4000 WATT",
+  "Number" : 11063,
+  "Weekly" : "454"
+}, {
+  "Alias" : "CEP 7506-GU",
+  "Category" : "GENERATORS & LIGHT TOWERS",
+  "Daily" : 28,
+  "Name" : "DISTRIBUTION BOX",
+  "Number" : 10959,
+  "Weekly" : "82"
+}, {
+  "Alias" : "ROBIN SUBARU RGV6100",
+  "Category" : "GENERATORS & LIGHT TOWERS",
+  "Daily" : 65,
+  "Name" : "GENERATOR, 5.0/6.1KW",
+  "Number" : 11166,
+  "Weekly" : "195"
+}, {
+  "Alias" : "ROBIN SUBARU RGX2900",
+  "Category" : "GENERATORS & LIGHT TOWERS",
+  "Daily" : 49,
+  "Name" : "GENERATOR, 2.5/2.9KW GAS",
+  "Number" : 10981,
+  "Weekly" : "146"
+}, {
+  "Alias" : "INVERTER/GENERATOR 1.65KW  ROBIN SUBARU RGV6100",
+  "Category" : "GENERATORS & LIGHT TOWERS",
+  "Daily" : 49,
+  "Name" : "GENERATOR/INVERTER 1.65KW",
+  "Number" : 10945,
+  "Weekly" : "146"
+}, {
+  "Alias" : "3500 WATT",
+  "Category" : "GENERATORS & LIGHT TOWERS",
+  "Daily" : 54,
+  "Name" : "GENERATOR, 3.5/3.7KW GAS",
+  "Number" : 11165,
+  "Weekly" : "162"
+}, {
+  "Alias" : "INVERTER/GENERATOR 4.3KW  ROBIN SUBARU",
+  "Category" : "GENERATORS & LIGHT TOWERS",
+  "Daily" : 59,
+  "Name" : "GENERATOR/INVERTER 4.3KW",
+  "Number" : 11145,
+  "Weekly" : "179"
+}, {
+  "Alias" : "WACKER 9.7 KW",
+  "Category" : "GENERATORS & LIGHT TOWERS",
+  "Daily" : 92,
+  "Name" : "GENERATOR, 9 KW GAS",
+  "Number" : 11147,
+  "Weekly" : "275"
+}, {
+  "Alias" : "ROBIN SUBARU",
+  "Category" : "GENERATORS & LIGHT TOWERS",
+  "Daily" : 108,
+  "Name" : "GENERATOR, 12 KW",
+  "Number" : 11002,
+  "Weekly" : "324"
+}, {
+  "Alias" : "SUBARU RGX7100",
+  "Category" : "GENERATORS & LIGHT TOWERS",
+  "Daily" : 70,
+  "Name" : "GENERATOR, 7.1 KW",
+  "Number" : 10978,
+  "Weekly" : "211"
+}, {
+  "Alias" : "SUBARU RGX7800",
+  "Category" : "GENERATORS & LIGHT TOWERS",
+  "Daily" : 82,
+  "Name" : "GENERATOR, 7.8 KW",
+  "Number" : 10999,
+  "Weekly" : "244"
+}, {
+  "Alias" : "WACKER G-70",
+  "Category" : "GENERATORS & LIGHT TOWERS",
+  "Daily" : 205,
+  "Name" : "GENERATOR, 58KW TOWABLE WACKER",
+  "Number" : 10893,
+  "Weekly" : "616"
+}, {
+  "Alias" : "BALDOR TS25T",
+  "Category" : "GENERATORS & LIGHT TOWERS",
+  "Daily" : 141,
+  "Name" : "GENERATOR, 20KW TOWABLE",
+  "Number" : 11593,
+  "Weekly" : "421"
+}, {
+  "Alias" : "MASTER BLP55V",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Daily" : 38,
+  "Name" : "HEATER, PROPANE 30-50K",
+  "Number" : 11416,
+  "Weekly" : "113"
+}, {
+  "Alias" : "LB WHITE 346-A(70)",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Daily" : 43,
+  "Name" : "HEATER, PROPANE 75-125K",
+  "Number" : 11410,
+  "Weekly" : "130"
+}, {
+  "Alias" : "MASTER BLP170VT",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Daily" : 54,
+  "Name" : "HEATER, PROPANE 125-170K",
+  "Number" : 11406,
+  "Weekly" : "162"
+}, {
+  "Alias" : "TROPIC AIRE",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Daily" : 13,
+  "Name" : "HEATER, ELECTRIC 1650 WATT",
+  "Number" : 11413,
+  "Weekly" : "39"
+}, {
+  "Alias" : "TENT HEATER, 125K W/THERM  MASTER",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Daily" : 65,
+  "Name" : "HEATER, TENT 125K W/THERM",
+  "Number" : 11349,
+  "Weekly" : "195"
+}, {
+  "Alias" : "",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Daily" : 70,
+  "Name" : "HEATER, PROPANE 225-375K",
+  "Number" : 11396,
+  "Weekly" : "211"
+}, {
+  "Alias" : "",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Daily" : 11,
+  "Name" : "BOTTLE, PROPANE 30 LB.",
+  "Number" : 11324,
+  "Weekly" : "33"
+}, {
+  "Alias" : "NAT REVERSIDE 30FAS",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Daily" : 38,
+  "Name" : "HEATER, PROPANE 30K BTU",
+  "Number" : 11408,
+  "Weekly" : "113"
+}, {
+  "Alias" : "",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Daily" : 11,
+  "Name" : "BOTTLE, PROPANE 20 LB.",
+  "Number" : 11335,
+  "Weekly" : "33"
+}, {
+  "Alias" : "",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Daily" : 13,
+  "Name" : "BOTTLE, PROPANE 40 LB.",
+  "Number" : 11419,
+  "Weekly" : "39"
+}, {
+  "Alias" : "",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Daily" : 16,
+  "Name" : "BOTTLE, PROPANE 100 LB.",
+  "Number" : 11394,
+  "Weekly" : "49"
+}, {
+  "Alias" : "PATIO, HEATER PROPANE PROPANE, HEATER PATIO UNIVERSAL 42PH",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Daily" : 49,
+  "Name" : "HEATER, PROPANE PATIO",
+  "Number" : 11541,
+  "Weekly" : "146"
+}, {
+  "Alias" : "TENT HEATER, 80K W/THERM  LB WHITE TS080CSPD",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Daily" : 54,
+  "Name" : "HEATER, TENT 80K W/THERM.",
+  "Number" : 9014,
+  "Weekly" : "162"
+}, {
+  "Alias" : "",
+  "Category" : "HEATERS & PROPANE EQUIPMENT",
+  "Name" : "BOTTLE, FORKLIFT 33 LB.",
+  "Number" : 10845,
+  "Weekly" : ""
+}, {
+  "Alias" : "SPRAYTECH EP2105  SPRAYTECH EP2105",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 82,
+  "Name" : "PAINT SPRAYER, AIRLESS MEDIUM",
+  "Number" : 8824,
+  "Threehour" : 54,
+  "Weekly" : "324"
+}, {
+  "Alias" : "SPRAYER, TEXTURE=RENT CEILING TEXTURE SPRAYER KRAFT PC300",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 54,
+  "Name" : "TEXTURE SPRAY RIG",
+  "Number" : 8818,
+  "Threehour" : 43,
+  "Weekly" : "162"
+}, {
+  "Alias" : "",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 21,
+  "Name" : "GUN, TEXTURE SPRAY (ONLY)",
+  "Number" : 8807,
+  "Weekly" : "65"
+}, {
+  "Alias" : "",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 29,
+  "Name" : "SANDING ATTACHMNT 15\"& 17\"",
+  "Number" : 16116,
+  "Threehour" : 19,
+  "Weekly" : "104"
+}, {
+  "Alias" : "NAILER, FLOOR",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 11,
+  "Name" : "PORTA-JACK-PRO FLOORING JACK",
+  "Number" : 15303,
+  "Weekly" : "33"
+}, {
+  "Alias" : "",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 21,
+  "Name" : "EZ SHEAR 13\" FLOORING CUTTER",
+  "Number" : 9024,
+  "Weekly" : "65"
+}, {
+  "Alias" : "CRAIN 612",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 26,
+  "Name" : "STRETCHER, CARPET KNEEKICK",
+  "Number" : 8995,
+  "Threehour" : 17,
+  "Weekly" : "78"
+}, {
+  "Alias" : "ROBERTS GT JUNIOR",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 42,
+  "Name" : "STRETCHER, CARPET POWER",
+  "Number" : 7953,
+  "Threehour" : 29,
+  "Weekly" : "126"
+}, {
+  "Alias" : "",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 52,
+  "Name" : "DIRT DRAGON WOOD/TILE CLEANING MACHINE",
+  "Number" : 8788,
+  "Threehour" : 39,
+  "Weekly" : "208"
+}, {
+  "Alias" : "",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 10,
+  "Name" : "SHEARS, CARPET HAND",
+  "Number" : 14504,
+  "Weekly" : "19"
+}, {
+  "Alias" : "",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 33,
+  "Name" : "ROLLER, LINOLEUM 100 LB.",
+  "Number" : 8924,
+  "Threehour" : 21,
+  "Weekly" : "97"
+}, {
+  "Alias" : "POWERNAIL 145",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 42,
+  "Name" : "NAILER, FLOOR MANUAL",
+  "Number" : 8772,
+  "Threehour" : 29,
+  "Weekly" : "85"
+}, {
+  "Alias" : "POWERNAILER 345",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 49,
+  "Name" : "STAPLER, FLOOR AIR",
+  "Number" : 7881,
+  "Threehour" : 38,
+  "Weekly" : "146"
+}, {
+  "Alias" : "ROBERTS",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 21,
+  "Name" : "IRON, CARPET TAPE",
+  "Number" : 11442,
+  "Threehour" : 16,
+  "Weekly" : "65"
+}, {
+  "Alias" : "CRAINE",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 13,
+  "Name" : "CUTTER, CARPET",
+  "Number" : 15302,
+  "Threehour" : 8,
+  "Weekly" : "39"
+}, {
+  "Alias" : "",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 8,
+  "Name" : "CHISEL, CARPET",
+  "Number" : 8762,
+  "Weekly" : "26"
+}, {
+  "Alias" : "STEAM CARPET CLEANER  CASTEX SCX400",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 35,
+  "Name" : "CARPET CLEANER",
+  "Number" : 8938,
+  "Threehour" : 29,
+  "Weekly" : "139"
+}, {
+  "Alias" : "",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 5,
+  "Name" : "TOOL, STEAM UPHOLSTERY",
+  "Number" : 9040,
+  "Weekly" : "21"
+}, {
+  "Alias" : "STEAM CLEANER-UPHOLSTERY  ANSER AN2030",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 33,
+  "Name" : "UPHOLSTERY STEAM CLEANER",
+  "Number" : 9036,
+  "Threehour" : 21,
+  "Weekly" : "116"
+}, {
+  "Alias" : "",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 87,
+  "Name" : "STRIPPER, FLOORING LARGE",
+  "Number" : 8968,
+  "Threehour" : 54,
+  "Weekly" : "259"
+}, {
+  "Alias" : "CARPET TRACTOR  CRAIN",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 11,
+  "Name" : "TRACTOR, CARPET",
+  "Number" : 8943,
+  "Threehour" : 6,
+  "Weekly" : "33"
+}, {
+  "Alias" : "BOSTITCH S 3297-LHF",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 43,
+  "Name" : "STAPLER, FLOOR 3/8 LAMINATE",
+  "Number" : 8946,
+  "Threehour" : 33,
+  "Weekly" : "130"
+}, {
+  "Alias" : "FLOOR, NAILER AIR  PRIMATECH P210",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 49,
+  "Name" : "NAILER, FLOOR AIR",
+  "Number" : 8984,
+  "Threehour" : 38,
+  "Weekly" : "146"
+}, {
+  "Alias" : "LAMINATE FLOORING STRAPS/PR. FLOORING LAMINATE STRAPS/PR.",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 16,
+  "Name" : "STRAPS, LAMINATE FLOORING/PR.",
+  "Number" : 8958,
+  "Threehour" : 11,
+  "Weekly" : "49"
+}, {
+  "Alias" : "PNI 481A",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 49,
+  "Name" : "NAILER, FLOOR AIR 18GA",
+  "Number" : 9007,
+  "Threehour" : 38,
+  "Weekly" : "146"
+}, {
+  "Alias" : "BOSCH 1273",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 30,
+  "Name" : "SANDER, BELT 4X24",
+  "Number" : 9775,
+  "Threehour" : 19,
+  "Weekly" : "88"
+}, {
+  "Alias" : "",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 119,
+  "Name" : "SANDER, FLOOR W/EDGER KIT",
+  "Number" : 9814,
+  "Threehour" : 75,
+  "Weekly" : "475"
+}, {
+  "Alias" : "CLARKE DU8",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 82,
+  "Name" : "SANDER, FLOOR WOOD ONLY DRUM",
+  "Number" : 9804,
+  "Threehour" : 54,
+  "Weekly" : "324"
+}, {
+  "Alias" : "SQUARE BUFF  OBS-18",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 65,
+  "Name" : "SANDER, SQUARE BUFF",
+  "Number" : 9825,
+  "Threehour" : 43,
+  "Weekly" : "259"
+}, {
+  "Alias" : "CLARKE SUPER 7R",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 38,
+  "Name" : "SANDER, FLOOR EDGER 7\"",
+  "Number" : 8760,
+  "Threehour" : 28,
+  "Weekly" : "151"
+}, {
+  "Alias" : "ROCKWELL #304",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 26,
+  "Name" : "SANDER, SPINNER 7\"ROCKWELL",
+  "Number" : 8914,
+  "Threehour" : 17,
+  "Weekly" : "78"
+}, {
+  "Alias" : "MILWAUKEE U-199",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 39,
+  "Name" : "GRINDER, BODY 7\"",
+  "Number" : 8780,
+  "Threehour" : 26,
+  "Weekly" : "116"
+}, {
+  "Alias" : "CHERRYHILL  U-SAND, CHERRYHILL",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 82,
+  "Name" : "SANDER, U-SAND",
+  "Number" : 11420,
+  "Threehour" : 54,
+  "Weekly" : "324"
+}, {
+  "Alias" : "CLARKE FLOOR ABRADER FLOOR ABRADER, CLARKE CLARKE FA-8",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 82,
+  "Name" : "ABRADER, FLOOR",
+  "Number" : 8936,
+  "Threehour" : 54,
+  "Weekly" : "324"
+}, {
+  "Alias" : "",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 33,
+  "Name" : "GRINDER, BODY 4 1/2\"",
+  "Number" : 8725,
+  "Threehour" : 21,
+  "Weekly" : "97"
+}, {
+  "Alias" : "DEWALT DW411",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 17,
+  "Name" : "SANDER, FINISHING",
+  "Number" : 8747,
+  "Threehour" : 11,
+  "Weekly" : "52"
+}, {
+  "Alias" : "SANDER, DRYWALL/VAC",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 65,
+  "Name" : "SANDER, DRYWALL W/VAC",
+  "Number" : 8872,
+  "Threehour" : 43,
+  "Weekly" : "195"
+}, {
+  "Alias" : "FELKER TM-75",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 43,
+  "Name" : "SAW, CERAMIC TILE",
+  "Number" : 7921,
+  "Threehour" : 33,
+  "Weekly" : "130"
+}, {
+  "Alias" : "DEWALT D24000",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 54,
+  "Name" : "SAW, TILE TUB-10\" ELEC. EXLONG/TRAY",
+  "Number" : 8858,
+  "Threehour" : 38,
+  "Weekly" : "162"
+}, {
+  "Alias" : "DITEQ ROCKET STONE SAW 24 X 36 ROCKET STONE & TILE SAW 24X36 ROCKET XL24",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 65,
+  "Name" : "SAW, STONE & TILE 24IN X 36 IN",
+  "Number" : 8910,
+  "Threehour" : 49,
+  "Weekly" : "195"
+}, {
+  "Alias" : "DITEQ PRO 24",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 54,
+  "Name" : "SAW, TILE TUB-10\" ELEC. W/BLADE",
+  "Number" : 8861,
+  "Threehour" : 38,
+  "Weekly" : "162"
+}, {
+  "Alias" : "BRAKE, SIDING W/CUTTER SIDING, BRAKE W/CUTTER ?RO-111C-10",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 75,
+  "Name" : "BENDER, SIDING BRAKE W/CUT",
+  "Number" : 5625,
+  "Threehour" : 54,
+  "Weekly" : "227"
+}, {
+  "Alias" : "'LECTRIC- 5676",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 43,
+  "Name" : "STEAMER, WALL PAPER ELEC",
+  "Number" : 9096,
+  "Threehour" : 33,
+  "Weekly" : "130"
+}, {
+  "Alias" : "",
+  "Category" : "HOME REMOLDING & FLOOR CARE",
+  "Daily" : 5,
+  "Name" : "PERFORATOR, WALL-PAPER",
+  "Number" : 9098,
+  "Weekly" : "16"
+}, {
+  "Alias" : "TRUCK, FORKLIFT 5000LB  KOMATSU FG25C-12",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 216,
+  "Name" : "FORKLIFT, DUAL FUEL 5K",
+  "Number" : 10201,
+  "Threehour" : 162,
+  "Weekly" : "649"
+}, {
+  "Alias" : "EXTENSIONS, FORKLIFT, FORKS",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 33,
+  "Name" : "FORKLIFT EXTENSIONS",
+  "Number" : 10214,
+  "Weekly" : "97"
+}, {
+  "Alias" : "TRUCK, FORKLIFT 6000LB LIFT, FORK PROPANE 6000LB CLARKE C30C",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 238,
+  "Name" : "FORKLIFT, PROPANE 6000LB",
+  "Number" : 10206,
+  "Threehour" : 173,
+  "Weekly" : "714"
+}, {
+  "Alias" : "",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 28,
+  "Name" : "HOIST CHAIN, 1 TON",
+  "Number" : 10766,
+  "Threehour" : 16,
+  "Weekly" : "82"
+}, {
+  "Alias" : "BALLANTINE",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 52,
+  "Name" : "HOIST, ENGINE TOW STANDARD",
+  "Number" : 10839,
+  "Threehour" : 39,
+  "Weekly" : "156"
+}, {
+  "Alias" : "BLUEBIRD 1500",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 52,
+  "Name" : "HOIST, ENGINE KNOCK DOWN",
+  "Number" : 10751,
+  "Threehour" : 39,
+  "Weekly" : "156"
+}, {
+  "Alias" : "DUFF NORTON 2510-A-2",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 28,
+  "Name" : "JACK, RATCHET 25 TON",
+  "Number" : 10715,
+  "Threehour" : 16,
+  "Weekly" : "82"
+}, {
+  "Alias" : "ACROW",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 19,
+  "Name" : "JACK, POST SCREW",
+  "Number" : 10755,
+  "Threehour" : 13,
+  "Weekly" : "58"
+}, {
+  "Alias" : "HARRAH 4'",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 16,
+  "Name" : "JACK, HANDYMAN",
+  "Number" : 10719,
+  "Threehour" : 11,
+  "Weekly" : "49"
+}, {
+  "Alias" : "",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 19,
+  "Name" : "JACK, HYDRAULIC 12 TON",
+  "Number" : 10796,
+  "Threehour" : 13,
+  "Weekly" : "58"
+}, {
+  "Alias" : "DMC W10080",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 43,
+  "Name" : "JACK, TRANSMISSION 1600 LB",
+  "Number" : 10804,
+  "Threehour" : 28,
+  "Weekly" : "173"
+}, {
+  "Alias" : "ALLIED 3 TON",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 28,
+  "Name" : "JACK, FLOOR-3 TON",
+  "Number" : 10677,
+  "Threehour" : 21,
+  "Weekly" : "108"
+}, {
+  "Alias" : "GENIE SLC-18",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 75,
+  "Name" : "JACK, HI-LIFT 18'GENIE 650LB",
+  "Number" : 10826,
+  "Threehour" : 54,
+  "Weekly" : "227"
+}, {
+  "Alias" : "DRYWALL JACK 11' MAX SHEETROCK JACK 11' MAX TELPRO 138-2",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 43,
+  "Name" : "JACK, DRY WALL 11' MAX",
+  "Number" : 10670,
+  "Threehour" : 28,
+  "Weekly" : "130"
+}, {
+  "Alias" : "JET",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 26,
+  "Name" : "JACK, HYDRAULIC 25 TON",
+  "Number" : 10831,
+  "Threehour" : 17,
+  "Weekly" : "78"
+}, {
+  "Alias" : "",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 43,
+  "Name" : "JACK, PALLET 5000 LB",
+  "Number" : 10834,
+  "Threehour" : 33,
+  "Weekly" : "130"
+}, {
+  "Alias" : "",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 43,
+  "Name" : "JACK, RAILROAD  15 TON",
+  "Number" : 10832,
+  "Threehour" : 28,
+  "Weekly" : "173"
+}, {
+  "Alias" : "",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 19,
+  "Name" : "JACK, SCREW 1 3/4 X 10 16T",
+  "Number" : 10739,
+  "Threehour" : 15,
+  "Weekly" : "58"
+}, {
+  "Alias" : "",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 19,
+  "Name" : "JACK, SCREW 2 X 8 20TON",
+  "Number" : 12037,
+  "Threehour" : 15,
+  "Weekly" : "58"
+}, {
+  "Alias" : "",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 21,
+  "Name" : "JACK, SCREW 2 X 12 20TON",
+  "Number" : 11671,
+  "Threehour" : 16,
+  "Weekly" : "65"
+}, {
+  "Alias" : "DRY WALL JACK 4FT EXT. SHEETROCK JACK 4FT EXT",
+  "Category" : "JACKS & MATERIAL HANDLING ",
+  "Daily" : 10,
+  "Name" : "JACK, DRY WALL 4FT EXT.",
+  "Number" : 12310,
+  "Weekly" : "30"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 43,
+  "Name" : "SAW, ELECTRIC POLE TREE",
+  "Number" : 12312,
+  "Threehour" : 32,
+  "Weekly" : "173"
+}, {
+  "Alias" : "POLE  NEWMAN",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 13,
+  "Name" : "SAW, POLE TREE",
+  "Number" : 12315,
+  "Threehour" : 8,
+  "Weekly" : "52"
+}, {
+  "Alias" : "CYCLONE BISW",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 13,
+  "Name" : "SPREADER, CYCLONE PUSH",
+  "Number" : 12149,
+  "Threehour" : 8,
+  "Weekly" : "39"
+}, {
+  "Alias" : "BRINLY BST350BH",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 21,
+  "Name" : "SPREADER, CYCLONE TOWING",
+  "Number" : 12152,
+  "Threehour" : 16,
+  "Weekly" : "65"
+}, {
+  "Alias" : "TRUE TEMPER",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 21,
+  "Name" : "ROLLER, LAWN PUSH",
+  "Number" : 12112,
+  "Threehour" : 16,
+  "Weekly" : "65"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 33,
+  "Name" : "ROLLER, LAWN TOWABLE",
+  "Number" : 12191,
+  "Threehour" : 21,
+  "Weekly" : "97"
+}, {
+  "Alias" : "TOWABLE AERATOR-LARGE LAWN AERATOR-TOWABLE LG. TA10 BLUEBIRD",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 87,
+  "Name" : "AERATOR, LAWN TOWABLE-LG",
+  "Number" : 14556,
+  "Threehour" : 54,
+  "Weekly" : "259"
+}, {
+  "Alias" : "KICK TYPE SOD CUTTER SOD CUTTER-KICK TYPE QUAIL",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 33,
+  "Name" : "CUTTER, SOD-KICK TYPE",
+  "Number" : 12222,
+  "Threehour" : 26,
+  "Weekly" : "97"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 11,
+  "Name" : "DRIVER, POST HAND",
+  "Number" : 11702,
+  "Weekly" : "33"
+}, {
+  "Alias" : "AUGER",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 11,
+  "Name" : "DIGGER, POST HOLE HAND",
+  "Number" : 12295,
+  "Weekly" : "33"
+}, {
+  "Alias" : "WEED BURNER, PROPANE TORCH, WEED BURNER",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 13,
+  "Name" : "BURNER, WEED PROPANE",
+  "Number" : 12301,
+  "Weekly" : "39"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 8,
+  "Name" : "SHOVEL",
+  "Number" : 11986,
+  "Weekly" : "26"
+}, {
+  "Alias" : "LAWN MOWER SELF-PROPELLED 21\" SELF PROPELLED MOWER 21\" LAWNBOY 10685",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 61,
+  "Name" : "MOWER, LAWN 21\"SELF-PROPELLED",
+  "Number" : 11972,
+  "Threehour" : 31,
+  "Weekly" : "245"
+}, {
+  "Alias" : "LAWN MOWER PUSH 21\" PUSH MOWER 21\" HUSQVARNA 56HT",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 52,
+  "Name" : "MOWER, LAWN 21\" PUSH",
+  "Number" : 11680,
+  "Threehour" : 26,
+  "Weekly" : "208"
+}, {
+  "Alias" : "RIDING MOWER, ZERO TURN 52 INCH ZERO TURN 52 IN MOWER",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 162,
+  "Name" : "MOWER, ZERO TURN 48 TO 60 INCH",
+  "Number" : 12158,
+  "Threehour" : 108,
+  "Weekly" : "811"
+}, {
+  "Alias" : "HONDA F5O1K2A1",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 110,
+  "Name" : "TILLER, 5 HP 26\"/ MID-TINE",
+  "Number" : 12115,
+  "Threehour" : 55,
+  "Weekly" : "441"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 97,
+  "Name" : "SNOW BLOWER 21\" ELECTRIC START",
+  "Number" : 11696,
+  "Threehour" : 49,
+  "Weekly" : "292"
+}, {
+  "Alias" : "BILLY GOAT BRUSH MOWER BRUSH CUTTER MOWER 24INCH 112400H",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 143,
+  "Name" : "MOWER, BRUSH CUTTER 24IN",
+  "Number" : 11997,
+  "Threehour" : 71,
+  "Weekly" : "571"
+}, {
+  "Alias" : "LITTLE WONDER",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 49,
+  "Name" : "TRIMMER, HEDGE ELEC 16\"",
+  "Number" : 11693,
+  "Threehour" : 30,
+  "Weekly" : "146"
+}, {
+  "Alias" : "LITTLE WONDER 30",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 54,
+  "Name" : "TRIMMER, HEDGE ELEC 30\"",
+  "Number" : 11942,
+  "Threehour" : 33,
+  "Weekly" : "162"
+}, {
+  "Alias" : "BILLY GOAT OS550H, SEEDER, VERTICUT",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 97,
+  "Name" : "SLICER W/ SEEDBOX",
+  "Number" : 12155,
+  "Threehour" : 58,
+  "Weekly" : "485"
+}, {
+  "Alias" : "BLUEBIRD 120K, SEEDER",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 97,
+  "Name" : "SLICER, POWER (VERTICUT)",
+  "Number" : 18100,
+  "Threehour" : 58,
+  "Weekly" : "485"
+}, {
+  "Alias" : "BLUE BIRD F20B",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 97,
+  "Name" : "RAKE, POWER",
+  "Number" : 11960,
+  "Threehour" : 58,
+  "Weekly" : "485"
+}, {
+  "Alias" : "TANAKA TLE-550  EDGE MASTER",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 77,
+  "Name" : "EDGER, LAWN GAS",
+  "Number" : 11783,
+  "Threehour" : 46,
+  "Weekly" : "306"
+}, {
+  "Alias" : "VERTICUT, RENOVATOR, LAWN SELFPROPELLED OVERSEEDER, LAWN, SEEDER",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 171,
+  "Name" : "RENOVATOR BILLY GOAT SELFPROPELLED",
+  "Number" : 11716,
+  "Threehour" : 86,
+  "Weekly" : "857"
+}, {
+  "Alias" : "RAYCO STUMP GRNDR 35HP HYD. STUMP GRINDER 35HP HYDRAULIC RAYCO 1625JR",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 204,
+  "Name" : "GRINDER, STUMP 29HP HYDRAULIC",
+  "Number" : 11711,
+  "Threehour" : 122,
+  "Weekly" : "1,020.00"
+}, {
+  "Alias" : "LAWN RENOVATOR-SULKY ATTACHMENT RENOVATOR SULKY ATTACHMENT",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 30,
+  "Name" : "SULKY ATTACH-LAWN RENOVATIOR",
+  "Number" : 11752,
+  "Threehour" : 19,
+  "Weekly" : "116"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 77,
+  "Name" : "GRAZOR CRACK CLEANER",
+  "Number" : 11912,
+  "Threehour" : 31,
+  "Weekly" : "306"
+}, {
+  "Alias" : "CLASSEN SC-24",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 195,
+  "Name" : "CUTTER, SOD GAS 24\"",
+  "Number" : 11956,
+  "Threehour" : 97,
+  "Weekly" : "778"
+}, {
+  "Alias" : "CLASSEN SC-18",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 173,
+  "Name" : "CUTTER, SOD GAS 18\"",
+  "Number" : 11630,
+  "Threehour" : 87,
+  "Weekly" : "719"
+}, {
+  "Alias" : "AUGER",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 130,
+  "Name" : "DIGGER, POST HOLE SELF-PROP",
+  "Number" : 11658,
+  "Threehour" : 82,
+  "Weekly" : "519"
+}, {
+  "Alias" : "BILLY GOAT KD502H  BILLY GOAT KD50CIC",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 82,
+  "Name" : "VACUUM, LAWN",
+  "Number" : 17906,
+  "Threehour" : 49,
+  "Weekly" : "324"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 33,
+  "Name" : "VACUUM, LAWN HOSE ATTACH",
+  "Number" : 9689,
+  "Threehour" : 19,
+  "Weekly" : "130"
+}, {
+  "Alias" : "HUSQVARNA 326HS75",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 82,
+  "Name" : "TRIMMER, HEDGE GAS 30\"",
+  "Number" : 11705,
+  "Threehour" : 49,
+  "Weekly" : "244"
+}, {
+  "Alias" : "BILLYGOAT AE401",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 107,
+  "Name" : "AERATOR, LAWN BILLY GOAT",
+  "Number" : 11804,
+  "Threehour" : 64,
+  "Weekly" : "536"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 10,
+  "Name" : "AUGER, P.H. 2-MAN 6\"",
+  "Number" : 11824,
+  "Weekly" : "39"
+}, {
+  "Alias" : "AUGER",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 82,
+  "Name" : "DIGGER, POST HOLE GAS 2MAN",
+  "Number" : 16055,
+  "Threehour" : 51,
+  "Weekly" : "408"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 11,
+  "Name" : "AUGER, P.H. 2-MAN 10\"",
+  "Number" : 12268,
+  "Weekly" : "43"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 13,
+  "Name" : "AUGER, P.H. 2-MAN 12\"",
+  "Number" : 14800,
+  "Weekly" : "52"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 11,
+  "Name" : "EXTENSION, POST HOLE 1'",
+  "Number" : 11617,
+  "Weekly" : "43"
+}, {
+  "Alias" : "AUGER",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 65,
+  "Name" : "DIGGER, POST HOLE GAS 1MAN",
+  "Number" : 11625,
+  "Threehour" : 38,
+  "Weekly" : "259"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 11,
+  "Name" : "AUGER, P.H. 2-MAN 8\"",
+  "Number" : 11970,
+  "Weekly" : "43"
+}, {
+  "Alias" : "HUSQVARNA 225RJ",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 46,
+  "Name" : "WEEDEATER, GAS W/STRING",
+  "Number" : 12228,
+  "Threehour" : 28,
+  "Weekly" : "230"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Name" : "WEEDEATER, GAS PLUS/BLADE",
+  "Number" : 11756,
+  "Weekly" : ""
+}, {
+  "Alias" : "ECHO PB200",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 58,
+  "Name" : "BLOWER, BACK-PACK",
+  "Number" : 12261,
+  "Threehour" : 30,
+  "Weekly" : "175"
+}, {
+  "Alias" : "MAXIM RM30B",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 91,
+  "Name" : "TILLER, 3 HP 18\"",
+  "Number" : 12288,
+  "Threehour" : 46,
+  "Weekly" : "363"
+}, {
+  "Alias" : "CULTIVATOR MANTIS MANTIS",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 78,
+  "Name" : "TILLER, CULTIVATOR MANTIS",
+  "Number" : 12281,
+  "Threehour" : 39,
+  "Weekly" : "311"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 122,
+  "Name" : "BED EDGER",
+  "Number" : 11793,
+  "Threehour" : 73,
+  "Weekly" : "612"
+}, {
+  "Alias" : "LOG SPLITTER  34TON HUSKIE",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 97,
+  "Name" : "SPLITTER, LOG",
+  "Number" : 11800,
+  "Threehour" : 65,
+  "Weekly" : "390"
+}, {
+  "Alias" : "BARRETO 3X4 TBT",
+  "Category" : "LAWN EQUIPMENT",
+  "Name" : "TRAILER, BARRETO TILLER",
+  "Number" : 12032,
+  "Weekly" : ""
+}, {
+  "Alias" : "REAR TINE, BARRETO BARRETO, HYD TILLER BARRETO 1320-H",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 168,
+  "Name" : "TILLER, HYD BARRETO",
+  "Number" : 12022,
+  "Threehour" : 85,
+  "Weekly" : "674"
+}, {
+  "Alias" : "BRUSH CHIPPER 12\" MAX  VERMEER BC1000XL",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 324,
+  "Name" : "CHIPPER, BRUSH 12\" MAX",
+  "Number" : 12009,
+  "Threehour" : 162,
+  "Weekly" : "1,297.00"
+}, {
+  "Alias" : "BRUSH CHIPPER 6\" MAX  VERMEER BC625A",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 216,
+  "Name" : "CHIPPER, BRUSH 6\" MAX",
+  "Number" : 12219,
+  "Threehour" : 108,
+  "Weekly" : "865"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Name" : "AUGER SELECTION-2 MAN",
+  "Number" : 12194,
+  "Weekly" : ""
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 10,
+  "Name" : "AUGER, P.H. 1-MAN 4\"",
+  "Number" : 10886,
+  "Weekly" : "39"
+}, {
+  "Alias" : "",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 10,
+  "Name" : "AUGER, P.H. 1-MAN 6\"",
+  "Number" : 10899,
+  "Weekly" : "39"
+}, {
+  "Alias" : "SPRAY, BACK PACK, LAWN, WEED",
+  "Category" : "LAWN EQUIPMENT",
+  "Daily" : 15,
+  "Name" : "SPRAYER, BACKPACK 4 GALLON",
+  "Number" : 10887,
+  "Weekly" : "46"
+}, {
+  "Alias" : "A-1 PLANK",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 31,
+  "Name" : "DOLLY, DRY WALL",
+  "Number" : 8410,
+  "Weekly" : "91"
+}, {
+  "Alias" : "WESCO",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 19,
+  "Name" : "DOLLY, APPLIANCE STAIRCLIM",
+  "Number" : 8304,
+  "Threehour" : 13,
+  "Weekly" : "58"
+}, {
+  "Alias" : "5SCORT SRT-M-66",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 26,
+  "Name" : "DOLLY, DEEP FREEZE",
+  "Number" : 8232,
+  "Threehour" : 19,
+  "Weekly" : "78"
+}, {
+  "Alias" : "JACKSON 450",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 17,
+  "Name" : "DOLLY, BARREL SMALL",
+  "Number" : 8281,
+  "Threehour" : 11,
+  "Weekly" : "69"
+}, {
+  "Alias" : "ALL WOOD",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 10,
+  "Name" : "DOLLY, 4-WHEEL",
+  "Number" : 8379,
+  "Threehour" : 6,
+  "Weekly" : "39"
+}, {
+  "Alias" : "",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 19,
+  "Name" : "DOLLY, PIANO+ORGAN .5 TON",
+  "Number" : 8389,
+  "Threehour" : 13,
+  "Weekly" : "78"
+}, {
+  "Alias" : "CONSOLIDATED FREIGHT",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 17,
+  "Name" : "DOLLY, MULE PRY BAR",
+  "Number" : 8275,
+  "Threehour" : 13,
+  "Weekly" : "52"
+}, {
+  "Alias" : "ELKAY 30 IN. ALUM.",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 21,
+  "Name" : "RAMP, LOADING 10'",
+  "Number" : 8227,
+  "Threehour" : 16,
+  "Weekly" : "65"
+}, {
+  "Alias" : "MOVING, BLANKETS, MATS",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 2,
+  "Name" : "PADS, FURNITURE 6'X6' EACH",
+  "Number" : 8359,
+  "Weekly" : "3"
+}, {
+  "Alias" : "MOVING, BLANKETS, MATS",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 17,
+  "Name" : "PADS, FURNITURE 6'X6' DOZ.",
+  "Number" : 8349,
+  "Weekly" : "35"
+}, {
+  "Alias" : "DOLLY, DRUM-55 GALLON DRUM DOLLY-55 GALLON HARPER",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 26,
+  "Name" : "DOLLY, BARREL-55 GALLON",
+  "Number" : 8376,
+  "Threehour" : 19,
+  "Weekly" : "78"
+}, {
+  "Alias" : "MSRHP",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 19,
+  "Name" : "RAMPS, PICKUP TRUCK",
+  "Number" : 8373,
+  "Threehour" : 13,
+  "Weekly" : "78"
+}, {
+  "Alias" : "",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 28,
+  "Name" : "DOLLY, CART 4-WHEEL",
+  "Number" : 8368,
+  "Threehour" : 16,
+  "Weekly" : "82"
+}, {
+  "Alias" : "WOODS PWR GRIP N4000",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 26,
+  "Name" : "CUPS, SUCTION-PER PAIR",
+  "Number" : 8382,
+  "Threehour" : 17,
+  "Weekly" : "78"
+}, {
+  "Alias" : "DOLLY, INFLATABLE, BOUNCE HOUSE",
+  "Category" : "MOVING EQUIPMENT",
+  "Name" : "POWERED MULTI MOVER XT HAND TRUCK",
+  "Number" : 8076,
+  "Weekly" : ""
+}, {
+  "Alias" : "MACHINE, BANDING STL 3/8\"",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 21,
+  "Name" : "BANDING MACHINE STEEL 3/8\"",
+  "Number" : 8054,
+  "Weekly" : "65"
+}, {
+  "Alias" : "MACHINE, BANDING STL 3/4\"  SIGNODE ST",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 21,
+  "Name" : "BANDING MACHINE-STEEL 3/4\"",
+  "Number" : 8109,
+  "Weekly" : "65"
+}, {
+  "Alias" : "STEEL BANDING MACHINE 1/2\" MACHINE, BANDING STEEL 1/2\"",
+  "Category" : "MOVING EQUIPMENT",
+  "Daily" : 21,
+  "Name" : "BANDING MACHINE-STEEL 1/2\"",
+  "Number" : 8082,
+  "Weekly" : "65"
+}, {
+  "Alias" : "RIDGID-KOLLMANN K-39",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 65,
+  "Name" : "AUGER, SEWER ELEC 3/8X25",
+  "Number" : 8073,
+  "Threehour" : 49,
+  "Weekly" : "195"
+}, {
+  "Alias" : "GENERAL LR-20053-7",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 87,
+  "Name" : "AUGER, SEWER ELEC 5/8X75",
+  "Number" : 8099,
+  "Threehour" : 65,
+  "Weekly" : "259"
+}, {
+  "Alias" : "SEWER AUGER, 1/2 X 75ELEC",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 83,
+  "Name" : "AUGER, SEWER ELEC 1/2X75",
+  "Number" : 8094,
+  "Threehour" : 61,
+  "Weekly" : "247"
+}, {
+  "Alias" : "GENERAL E-Z ROOTER",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 97,
+  "Name" : "AUGER, SEWER ELEC 5/8X100",
+  "Number" : 8103,
+  "Threehour" : 73,
+  "Weekly" : "292"
+}, {
+  "Alias" : "BURTON",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 39,
+  "Name" : "AUGER, SEWER HAND 3/8X25",
+  "Number" : 17593,
+  "Threehour" : 30,
+  "Weekly" : "116"
+}, {
+  "Alias" : "ELECTRIC EEL",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 54,
+  "Name" : "AUGER, SEWER HAND 1/2 X 50",
+  "Number" : 11295,
+  "Threehour" : 41,
+  "Weekly" : "162"
+}, {
+  "Alias" : "GENERAL TA-3",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 31,
+  "Name" : "AUGER, TOILET/CLOSET HAND",
+  "Number" : 11194,
+  "Threehour" : 22,
+  "Weekly" : "91"
+}, {
+  "Alias" : "GENERAL MINI ROOTER",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 83,
+  "Name" : "AUGER, SEWER ELEC 3/8X50",
+  "Number" : 11293,
+  "Threehour" : 61,
+  "Weekly" : "247"
+}, {
+  "Alias" : "LINE LOCATE, LOCATE,",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 60,
+  "Name" : "CABLE PIPE & WIRE LOCATOR",
+  "Number" : 11203,
+  "Threehour" : 39,
+  "Weekly" : "242"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 19,
+  "Name" : "THREADER, PIPE 1/8-1\"W/OIL",
+  "Number" : 11291,
+  "Threehour" : 13,
+  "Weekly" : "58"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 21,
+  "Name" : "THREADER PIPE 1.25-2\"W/OIL",
+  "Number" : 11206,
+  "Threehour" : 16,
+  "Weekly" : "65"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 33,
+  "Name" : "TAP, PIPE 2 1/2\"- 3\" W/OIL",
+  "Number" : 11254,
+  "Threehour" : 26,
+  "Weekly" : "97"
+}, {
+  "Alias" : "PIPE, TAP",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 43,
+  "Name" : "TAP, PIPE 3 1/2\"- 4\" W/OIL",
+  "Number" : 11278,
+  "Threehour" : 33,
+  "Weekly" : "130"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 11,
+  "Name" : "TAP, PIPE 1/8-1\" W/OIL",
+  "Number" : 11283,
+  "Threehour" : 7,
+  "Weekly" : "33"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 17,
+  "Name" : "TAP, PIPE 1 1/4-2\" W/OIL",
+  "Number" : 11211,
+  "Threehour" : 13,
+  "Weekly" : "52"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 16,
+  "Name" : "CUTTER, PIPE 1/8-2\"",
+  "Number" : 11263,
+  "Threehour" : 11,
+  "Weekly" : "49"
+}, {
+  "Alias" : "RIGID 44-S",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 38,
+  "Name" : "CUTTER, PIPE 2-4\"",
+  "Number" : 11191,
+  "Threehour" : 28,
+  "Weekly" : "113"
+}, {
+  "Alias" : "RIGID 206",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 39,
+  "Name" : "CUTTER, SOIL PIPE CHAIN",
+  "Number" : 11188,
+  "Threehour" : 26,
+  "Weekly" : "116"
+}, {
+  "Alias" : "REED MFG 1",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 16,
+  "Name" : "REAMER, PIPE",
+  "Number" : 11186,
+  "Threehour" : 11,
+  "Weekly" : "49"
+}, {
+  "Alias" : "8\" PENENS 4108",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 10,
+  "Name" : "WRENCH, PIPE TO 14\"",
+  "Number" : 11187,
+  "Threehour" : 6,
+  "Weekly" : "30"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 13,
+  "Name" : "WRENCH, PIPE 18\"",
+  "Number" : 11181,
+  "Threehour" : 8,
+  "Weekly" : "39"
+}, {
+  "Alias" : "PROTO 824",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 16,
+  "Name" : "WRENCH, PIPE 24\"",
+  "Number" : 11176,
+  "Threehour" : 11,
+  "Weekly" : "49"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 13,
+  "Name" : "WRENCH, CHAIN/STRAP SMALL",
+  "Number" : 11268,
+  "Threehour" : 8,
+  "Weekly" : "39"
+}, {
+  "Alias" : "TRIMONT 13",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 21,
+  "Name" : "WRENCH, CHAIN LARGE",
+  "Number" : 11275,
+  "Threehour" : 16,
+  "Weekly" : "43"
+}, {
+  "Alias" : "RIGID 300-T2",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 82,
+  "Name" : "VISE, PIPE POWER 2\" CAP",
+  "Number" : 11271,
+  "Threehour" : 54,
+  "Weekly" : "244"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 33,
+  "Name" : "VISE, PIPE MAN TRIPOD 2\"",
+  "Number" : 11266,
+  "Threehour" : 21,
+  "Weekly" : "97"
+}, {
+  "Alias" : "RIDGID",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 21,
+  "Name" : "WRENCH, PIPE 36\"",
+  "Number" : 11242,
+  "Threehour" : 16,
+  "Weekly" : "65"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 15,
+  "Name" : "KEY, WATER",
+  "Number" : 11238,
+  "Weekly" : "46"
+}, {
+  "Alias" : "RIGID 1017",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 8,
+  "Name" : "WRENCH, BASIN",
+  "Number" : 11257,
+  "Weekly" : "17"
+}, {
+  "Alias" : "CHICAGO 3060-64",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 13,
+  "Name" : "SOCKETS, PLUMBERS 5+1 HNDL",
+  "Number" : 11234,
+  "Threehour" : 8,
+  "Weekly" : "39"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 33,
+  "Name" : "TORCH, PRESTO-LITE W/GAS",
+  "Number" : 11216,
+  "Threehour" : 21,
+  "Weekly" : "97"
+}, {
+  "Alias" : "PIPE",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 38,
+  "Name" : "THREADER, PIPE ADUST 1-2\"",
+  "Number" : 11225,
+  "Threehour" : 28,
+  "Weekly" : "113"
+}, {
+  "Alias" : "RIGID 459",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 13,
+  "Name" : "TOOL, FLARING W/CUTTER",
+  "Number" : 11245,
+  "Threehour" : 10,
+  "Weekly" : "39"
+}, {
+  "Alias" : "CAL-VAN 163",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 13,
+  "Name" : "TOOL, DBL FLARE W/CUTTER",
+  "Number" : 11286,
+  "Threehour" : 10,
+  "Weekly" : "39"
+}, {
+  "Alias" : "TRINDL P300A  TRINDL P300A",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 75,
+  "Name" : "THAWER, PIPE ELEC W/2LEADS",
+  "Number" : 11213,
+  "Threehour" : 46,
+  "Weekly" : "303"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 13,
+  "Name" : "THAWER, PIPE 20' EXT. LEAD",
+  "Number" : 7960,
+  "Threehour" : 6,
+  "Weekly" : "52"
+}, {
+  "Alias" : "CRIMPING TOOL PVC 1/2\"PIPE  MERRIAM TOOL 36EA4",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 19,
+  "Name" : "PVC CRIMPING TOOL 1/2\"PIPE",
+  "Number" : 14966,
+  "Threehour" : 13,
+  "Weekly" : "58"
+}, {
+  "Alias" : "CRIMPING TOOL PVC 3/4\"PIPE  3/4 PVC CRIMP",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 19,
+  "Name" : "PVC CRIMPING TOOL 3/4\"PIPE",
+  "Number" : 7965,
+  "Threehour" : 13,
+  "Weekly" : "58"
+}, {
+  "Alias" : "RIGID 48",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 26,
+  "Name" : "WRENCH, PIPE 48\"",
+  "Number" : 16471,
+  "Threehour" : 17,
+  "Weekly" : "78"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 10,
+  "Name" : "CUTTER, PLASTIC PIPE 1/4-2",
+  "Number" : 7956,
+  "Weekly" : "30"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 21,
+  "Name" : "CUTTER, PIPE 1-3\"",
+  "Number" : 8003,
+  "Threehour" : 16,
+  "Weekly" : "65"
+}, {
+  "Alias" : "",
+  "Category" : "PLUMBING TOOLS & SEWER EQUIPMENT",
+  "Daily" : 7,
+  "Name" : "CUTTER, COPPER TUBING",
+  "Number" : 7999,
+  "Weekly" : "22"
+}, {
+  "Alias" : "PRESSURE, CLEANER, DEGREASER, SALTGUARD, PROSOCO",
+  "Category" : "PRESSURE WASHERS & AUTO SCRUBBERS",
+  "Daily" : 71,
+  "Name" : "WHIRL-A-WAY / 2500 PSI KIT",
+  "Number" : 16050,
+  "Threehour" : 51,
+  "Weekly" : ""
+}, {
+  "Alias" : "CLEANER, PRESSURE, WASHER",
+  "Category" : "PRESSURE WASHERS & AUTO SCRUBBERS",
+  "Daily" : 21,
+  "Name" : "20\" WHIRL-A-WAY SURFACE CLEANER",
+  "Number" : 17987,
+  "Threehour" : 16,
+  "Weekly" : "65"
+}, {
+  "Alias" : "PRESSURE WASHER 3200 PSI HOT WATER  EASY KLEEN",
+  "Category" : "PRESSURE WASHERS & AUTO SCRUBBERS",
+  "Daily" : 130,
+  "Name" : "PRESSURE WASHER 3200 PSI HOT WATER",
+  "Number" : 17043,
+  "Threehour" : 97,
+  "Weekly" : "519"
+}, {
+  "Alias" : "HIGH REACH WAND TELESCOPING BE PRESSURE",
+  "Category" : "PRESSURE WASHERS & AUTO SCRUBBERS",
+  "Daily" : 28,
+  "Name" : "18' TELESCOPING PW WAND",
+  "Number" : 16028,
+  "Threehour" : 16,
+  "Weekly" : "82"
+}, {
+  "Alias" : "PRESSURE WASHER 2500 PSI  MI-T-M WP-2403-3MHB",
+  "Category" : "PRESSURE WASHERS & AUTO SCRUBBERS",
+  "Daily" : 65,
+  "Name" : "PRESSURE WASHER 2500 PSI",
+  "Number" : 15828,
+  "Threehour" : 43,
+  "Weekly" : "259"
+}, {
+  "Alias" : "",
+  "Category" : "PRESSURE WASHERS & AUTO SCRUBBERS",
+  "Daily" : 65,
+  "Name" : "PRESSURE WASHER 2700 PSI",
+  "Number" : 10141,
+  "Threehour" : 43,
+  "Weekly" : "259"
+}, {
+  "Alias" : "WASHER, ROTARY TIP ROTATING TIP-PRES.WASH",
+  "Category" : "PRESSURE WASHERS & AUTO SCRUBBERS",
+  "Daily" : 8,
+  "Name" : "ROTARY TIP FOR PRESSURE WASHER",
+  "Number" : 15763,
+  "Weekly" : "35"
+}, {
+  "Alias" : "PRESSURE WASHER 3500 PSI  COLEMAN 3500",
+  "Category" : "PRESSURE WASHERS & AUTO SCRUBBERS",
+  "Daily" : 82,
+  "Name" : "PRESSURE WASHER 3500 PSI",
+  "Number" : 10165,
+  "Threehour" : 54,
+  "Weekly" : "324"
+}, {
+  "Alias" : "",
+  "Category" : "PRESSURE WASHERS & AUTO SCRUBBERS",
+  "Daily" : 190,
+  "Name" : "SCRUBBER, AUTO-RIDE ON 20\" iSCRUB",
+  "Number" : 10183,
+  "Threehour" : 124,
+  "Weekly" : "757"
+}, {
+  "Alias" : "CLARKE",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 35,
+  "Name" : "POLISHER, FLOOR 13\"",
+  "Number" : 15787,
+  "Threehour" : 23,
+  "Weekly" : "139"
+}, {
+  "Alias" : "FLOOR  POWR-FLITE P171SD",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 48,
+  "Name" : "POLISHER, FLOOR 17\"",
+  "Number" : 15781,
+  "Threehour" : 35,
+  "Weekly" : "191"
+}, {
+  "Alias" : "GENERAL 2000DC-4",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 60,
+  "Name" : "POLISHER, FLOOR HI SPD 20\"",
+  "Number" : 10157,
+  "Threehour" : 39,
+  "Weekly" : "242"
+}, {
+  "Alias" : "ALTO C2000",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 60,
+  "Name" : "POLISHER, FLOOR 20\"",
+  "Number" : 10199,
+  "Threehour" : 39,
+  "Weekly" : "242"
+}, {
+  "Alias" : "",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 82,
+  "Name" : "27\" PROPANE FLOOR BURNISHER",
+  "Number" : 18928,
+  "Threehour" : 57,
+  "Weekly" : "326"
+}, {
+  "Alias" : "",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 541,
+  "Name" : "RIDE ON FLOOR SCRAPER ELECTRIC",
+  "Number" : 10086,
+  "Threehour" : 270,
+  "Weekly" : "2,162.00"
+}, {
+  "Alias" : "5600, 5700, RIDE ON SCRAPER, RIDE ON",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 21,
+  "Name" : "RIDE ON FLOOR SCRAPER TILE BOX",
+  "Number" : 10178,
+  "Threehour" : 16,
+  "Weekly" : "65"
+}, {
+  "Alias" : "5600, 5700, RIDE ON SCRAPER, RIDE ON",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 38,
+  "Name" : "RIDE ON HD 4X6 CERAMIC STRAIGHT CARBIDE",
+  "Number" : 9017,
+  "Threehour" : 33,
+  "Weekly" : "113"
+}, {
+  "Alias" : "5600, 5700, RIDE ON SCRAPER, RIDE ON",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 43,
+  "Name" : "RIDE ON HD 6X6 CERAMIC CARBIDE BLADE",
+  "Number" : 10144,
+  "Threehour" : 38,
+  "Weekly" : "130"
+}, {
+  "Alias" : "5600, 5700, RIDE ON SCRAPER, RIDE ON",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 38,
+  "Name" : "RIDE ON HD 2X6 CERAMIC CARBIDE BLADE",
+  "Number" : 10104,
+  "Threehour" : 33,
+  "Weekly" : "113"
+}, {
+  "Alias" : "5600, 5700, RIDE ON SCRAPER, RIDE ON",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 31,
+  "Name" : "RIDE ON HD 8\" CUTTING HEAD WOOD",
+  "Number" : 18590,
+  "Threehour" : 15,
+  "Weekly" : "92"
+}, {
+  "Alias" : "BOSCH POLISHER/SANDER  BOSCH 601 366",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 33,
+  "Name" : "POLISHER, CAR 7\" HD",
+  "Number" : 10127,
+  "Threehour" : 21,
+  "Weekly" : "97"
+}, {
+  "Alias" : "DITEQ TEQ-SHINE, COUNTERTOP POLISHER",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 54,
+  "Name" : "GRINDER POLISHER HAND 4INCH",
+  "Number" : 8990,
+  "Threehour" : 38,
+  "Weekly" : "162"
+}, {
+  "Alias" : "",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 54,
+  "Name" : "5\" TUCKPOINTER GRINDER",
+  "Number" : 8649,
+  "Threehour" : 38,
+  "Weekly" : "162"
+}, {
+  "Alias" : "",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 13,
+  "Name" : "ACETONE PUMP SPRAYER 3.5 GALLON",
+  "Number" : 8664,
+  "Weekly" : "52"
+}, {
+  "Alias" : "TUCK, TUCKPOINTER",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 87,
+  "Name" : "5\" TUCKPOINT GRINDER KIT WITH VAC",
+  "Number" : 8687,
+  "Threehour" : 54,
+  "Weekly" : "259"
+}, {
+  "Alias" : "EDCO",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 173,
+  "Name" : "CUTTER SET, CARBIDE FINE",
+  "Number" : 8677,
+  "Threehour" : 119,
+  "Weekly" : "519"
+}, {
+  "Alias" : "EDCO SEC 1.5L",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 108,
+  "Name" : "GRINDER, FLOOR ELECTRIC-SINGLE HEAD",
+  "Number" : 14747,
+  "Threehour" : 75,
+  "Weekly" : "432"
+}, {
+  "Alias" : "CONCRETE PLANER, PUSH 8IN GAS  EDCO CPM8-9H, SCARIFIER",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 108,
+  "Name" : "PLANER, CONCRETE PUSH 8IN GAS",
+  "Number" : 14751,
+  "Threehour" : 75,
+  "Weekly" : "432"
+}, {
+  "Alias" : "EDGE GRINDER GRINDER EDGE LAVINA, 7\" EDGE GRINDER, POLISHER",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 108,
+  "Name" : "7\" CONCRETE EDGE GRINDER POLISHER",
+  "Number" : 14763,
+  "Threehour" : 65,
+  "Weekly" : "324"
+}, {
+  "Alias" : "CONCRETE GRINDER 8\"DITEQ  DITEQ",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 282,
+  "Name" : "GRINDER, CONC 8\"DITEQ",
+  "Number" : 14752,
+  "Threehour" : 195,
+  "Weekly" : "1,124.00"
+}, {
+  "Alias" : "CONCRETE POLISHER 25\"  LAVINA 25",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 350,
+  "Name" : "CONCRETE POLISHER 25\"",
+  "Number" : 14761,
+  "Threehour" : 231,
+  "Weekly" : "1,400.00"
+}, {
+  "Alias" : "",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 562,
+  "Name" : "CONCRETE POLISHER 20\" KIT",
+  "Number" : 14771,
+  "Threehour" : 378,
+  "Weekly" : "2,249.00"
+}, {
+  "Alias" : "EDCO DIAMOND INSERTS SINGLE DYMA-SERTS=EDCO SINGLE",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 108,
+  "Name" : "DIAMOND INSERTS-SINGLE EDCO",
+  "Number" : 8395,
+  "Threehour" : 75,
+  "Weekly" : "432"
+}, {
+  "Alias" : "CONCRETE POLISHER 20\"  LAVINA 20",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 250,
+  "Name" : "CONCRETE POLISHER 20\"",
+  "Number" : 8431,
+  "Threehour" : 167.5,
+  "Weekly" : "1,000.00"
+}, {
+  "Alias" : "CONCRETE POLISHER 32\"  LAVINA",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 500,
+  "Name" : "CONCRETE POLISHER 32\"",
+  "Number" : 8466,
+  "Threehour" : 315,
+  "Weekly" : "1,905.00"
+}, {
+  "Alias" : "LAVINA, CONCRETE POLISHER",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 282,
+  "Name" : "CONCRETE POLISHER 21\"",
+  "Number" : 16284,
+  "Threehour" : 195,
+  "Weekly" : "1,124.00"
+}, {
+  "Alias" : "",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 454,
+  "Name" : "CONCRETE POLISHER 21\" KIT",
+  "Number" : 8188,
+  "Weekly" : "1,817.00"
+}, {
+  "Alias" : "CONCRETE POLISHER, LAVINA",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 400,
+  "Name" : "CONCRETE POLISHER 25/30\" PROPANE",
+  "Number" : 8447,
+  "Weekly" : "1,600.00"
+}, {
+  "Alias" : "CONCRETE PLANER, PUSH 8IN GAS  EDCO CPM8-9H, SCARIFIER",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 185,
+  "Name" : "PLANER, CONCRETE 8IN 230V ELECTRIC",
+  "Number" : 8450,
+  "Threehour" : 92.5,
+  "Weekly" : "740"
+}, {
+  "Alias" : "POLISHER, LAVINA, GRINDER, PROPANE",
+  "Category" : "SURFACE PREPARATION",
+  "Daily" : 400,
+  "Name" : "CONCRETE POLISHING KIT FOR 20\" & 25\"",
+  "Number" : 15336,
+  "Weekly" : "1,600.00"
+}, {
+  "Alias" : "EQUIPMENT TRAILER  PARKHURST",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 82,
+  "Name" : "TRAILER, EQUIP",
+  "Number" : 8453,
+  "Threehour" : 54,
+  "Weekly" : "324"
+}, {
+  "Alias" : "",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 30,
+  "Name" : "TRAILER, UTILITY 4X5",
+  "Number" : 8149,
+  "Threehour" : 19,
+  "Weekly" : "116"
+}, {
+  "Alias" : "EQUIPMENT TRAILER 12000 MAX  TOW MASTER C-12",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 97,
+  "Name" : "TRAILER, EQUIP 12000 MAX",
+  "Number" : 15718,
+  "Threehour" : 65,
+  "Weekly" : "390"
+}, {
+  "Alias" : "EQUIPMENT TRAILER 8000 MAX  REGION WELDING",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 82,
+  "Name" : "TRAILER, EQUIP. 8000 MAX",
+  "Number" : 16047,
+  "Threehour" : 54,
+  "Weekly" : "324"
+}, {
+  "Alias" : "CROFT",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 33,
+  "Name" : "TRAILER, UTILITY 4X7",
+  "Number" : 8153,
+  "Threehour" : 21,
+  "Weekly" : "130"
+}, {
+  "Alias" : "DUMP TRAILER, REGION 1400-DT",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 108,
+  "Name" : "TRAILER, DUMP 5 YARD 14 X 6.5 HEAVY DUTY",
+  "Number" : 8140,
+  "Threehour" : 65,
+  "Weekly" : "432"
+}, {
+  "Alias" : "",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 39,
+  "Name" : "TRAILER, UTILITY 5X8",
+  "Number" : 8225,
+  "Threehour" : 26,
+  "Weekly" : "156"
+}, {
+  "Alias" : "KEIFER 6 X 8",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 43,
+  "Name" : "TRAILER, CLOSED 5X8",
+  "Number" : 8392,
+  "Threehour" : 33,
+  "Weekly" : "173"
+}, {
+  "Alias" : "CROFT",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 43,
+  "Name" : "TRAILER, UTILITY 5X10",
+  "Number" : 8145,
+  "Threehour" : 33,
+  "Weekly" : "173"
+}, {
+  "Alias" : "CROFT",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 54,
+  "Name" : "TRAILER, UTILITY 5X12",
+  "Number" : 8172,
+  "Threehour" : 38,
+  "Weekly" : "216"
+}, {
+  "Alias" : "REGION WELDING 16,000 LB 18' TRAILER 50D",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 97,
+  "Name" : "TRAILER, EQUIP 16000 MAX 18'",
+  "Number" : 8194,
+  "Threehour" : 65,
+  "Weekly" : "390"
+}, {
+  "Alias" : "CROFT",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 39,
+  "Name" : "TRAILER, UTILITY 5X9",
+  "Number" : 8199,
+  "Threehour" : 26,
+  "Weekly" : "156"
+}, {
+  "Alias" : "OVERSEEDER, VERTICUT,",
+  "Category" : "TRUCKS & TRAILERS",
+  "Name" : "TRAILER, BILLY GOAT RENOVATOR",
+  "Number" : 8177,
+  "Weekly" : ""
+}, {
+  "Alias" : "FLAT BED TRAILER 7X14        X  MIDWEST TRAILER",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 87,
+  "Name" : "TRAILER, FLAT BED 7X14",
+  "Number" : 8213,
+  "Threehour" : 54,
+  "Weekly" : "346"
+}, {
+  "Alias" : "",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 65,
+  "Name" : "TRAILER, ROLLER",
+  "Number" : 8436,
+  "Threehour" : 43,
+  "Weekly" : "195"
+}, {
+  "Alias" : "RENT-A-KADDY",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 65,
+  "Name" : "TOW DOLLY",
+  "Number" : 8442,
+  "Threehour" : 44,
+  "Weekly" : "195"
+}, {
+  "Alias" : "",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 54,
+  "Name" : "TRAILER W/SKID LOADER",
+  "Number" : 8440,
+  "Threehour" : 33,
+  "Weekly" : "162"
+}, {
+  "Alias" : "REGION WELDING",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 54,
+  "Name" : "TRAILER, W/17 EXCAVATOR",
+  "Number" : 10661,
+  "Threehour" : 33,
+  "Weekly" : "162"
+}, {
+  "Alias" : "TRAILER, FIREWOOD HAULER TRAILER, 5X8 WOOD HAULER CROFT",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 65,
+  "Name" : "TRAILER, WOOD HAUL=5X8",
+  "Number" : 10658,
+  "Threehour" : 43,
+  "Weekly" : "195"
+}, {
+  "Alias" : "RAYCO 1625TR",
+  "Category" : "TRUCKS & TRAILERS",
+  "Name" : "TRAILER, W/STUMP GRINDER",
+  "Number" : 16022,
+  "Weekly" : ""
+}, {
+  "Alias" : "ROADMASTER",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 58,
+  "Name" : "TRAILER, CLOSED 6X12",
+  "Number" : 11481,
+  "Threehour" : 40,
+  "Weekly" : "233"
+}, {
+  "Alias" : "KIEFER KKPT 7X7X12",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 65,
+  "Name" : "TRAILER, CLOSED 7X12",
+  "Number" : 11556,
+  "Threehour" : 43,
+  "Weekly" : "259"
+}, {
+  "Alias" : "DUMP TRAILER LARGE  REDI HAUL RH1427DT",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 87,
+  "Name" : "TRAILER, DUMP 5.3 YARD",
+  "Number" : 11571,
+  "Threehour" : 54,
+  "Weekly" : "346"
+}, {
+  "Alias" : "TRAILER, U-CART AGITATING U-CART CONCRETE TRAILER CART-AWAY CMT100",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 151,
+  "Name" : "TRAILER, AGITATING CONCRETE",
+  "Number" : 11445,
+  "Threehour" : 46,
+  "Weekly" : "454"
+}, {
+  "Alias" : "",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 97,
+  "Name" : "TRAILER, EQUIP TILT BED 12000 MAX",
+  "Number" : 11455,
+  "Threehour" : 65,
+  "Weekly" : "390"
+}, {
+  "Alias" : "BOX TRUCK",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 108,
+  "Name" : "TRUCK, VAN 24'",
+  "Number" : 17753,
+  "Weekly" : "541"
+}, {
+  "Alias" : "FORD F650",
+  "Category" : "TRUCKS & TRAILERS",
+  "Daily" : 270,
+  "Name" : "TRUCK, DUMP 10' 6 YARD",
+  "Number" : 8721,
+  "Threehour" : 162,
+  "Weekly" : "1,081.00"
+}, {
+  "Alias" : "SHOP VAC",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 31,
+  "Name" : "SHOP VAC VACUUM, SMALL",
+  "Number" : 8699,
+  "Threehour" : 21,
+  "Weekly" : "121"
+}, {
+  "Alias" : "POWERFLITE PF25",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 42,
+  "Name" : "LRG COMMERCIAL 20G VACUUM",
+  "Number" : 10110,
+  "Threehour" : 29,
+  "Weekly" : "168"
+}, {
+  "Alias" : "DUST CONTROL",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 43,
+  "Name" : "13 GALLON DUST CONTROL VACUUM",
+  "Number" : 17667,
+  "Threehour" : 33,
+  "Weekly" : "130"
+}, {
+  "Alias" : "WET DRY VAC",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 42,
+  "Name" : "WET/DRY VACUUM 18 GALLON SQUEEGEE",
+  "Number" : 11079,
+  "Threehour" : 29,
+  "Weekly" : "168"
+}, {
+  "Alias" : "DUST CONTROL VACUUM  BLASTRAC TURBO-VAC2",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 108,
+  "Name" : "VACUUM, DUST CONTROL",
+  "Number" : 11131,
+  "Threehour" : 75,
+  "Weekly" : "432"
+}, {
+  "Alias" : "30ACH",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 33,
+  "Name" : "FAN, 30 INCH PEDESTAL",
+  "Number" : 11127,
+  "Weekly" : "97"
+}, {
+  "Alias" : "DIAMOND BRITE",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 43,
+  "Name" : "FAN, 42\" DRUM LARGE",
+  "Number" : 11159,
+  "Weekly" : "130"
+}, {
+  "Alias" : "BLOWER, CARPET DRYER",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 23,
+  "Name" : "AIR MOVERS",
+  "Number" : 11049,
+  "Weekly" : "71"
+}, {
+  "Alias" : "GE AHG40LB",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 21,
+  "Name" : "DEHUMIDIFIER 40 PINTS",
+  "Number" : 11107,
+  "Weekly" : "65"
+}, {
+  "Alias" : "BD80",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 43,
+  "Name" : "DEHUMIDIFIER 70 PINTS",
+  "Number" : 11011,
+  "Weekly" : "130"
+}, {
+  "Alias" : "",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 43,
+  "Name" : "HEPA AIR SCRUBBER A600",
+  "Number" : 20001,
+  "Weekly" : "171"
+}, {
+  "Alias" : "INSULATION, VACUUM",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 100,
+  "Name" : "INSULATION BLOWER",
+  "Number" : 20002,
+  "Weekly" : "398"
+}, {
+  "Alias" : "INSULATION, VACUUM, BLOWER",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 100,
+  "Name" : "INSULATION VACUUM",
+  "Number" : 20003,
+  "Weekly" : "398"
+}, {
+  "Alias" : "",
+  "Category" : "VACUUMS, BLOWERS & AIR FILTRATION",
+  "Daily" : 80,
+  "Name" : "DEHUMIDIFIER 130 PINTS",
+  "Number" : 20004,
+  "Weekly" : "240"
+}, {
+  "Alias" : "",
+  "Category" : "WATER PUMPS",
+  "Daily" : 33,
+  "Name" : "PUMP, SUB 3/4\" NO HOSE",
+  "Number" : 20005,
+  "Threehour" : 21,
+  "Weekly" : "130"
+}, {
+  "Alias" : "LITTLE GIANT 8-CIM",
+  "Category" : "WATER PUMPS",
+  "Daily" : 44,
+  "Name" : "PUMP, SUB 1 1/4\"W/15' HOSE",
+  "Number" : 20006,
+  "Threehour" : 33,
+  "Weekly" : "132"
+}, {
+  "Alias" : "TSURUMI TE-2 WIS",
+  "Category" : "WATER PUMPS",
+  "Daily" : 65,
+  "Name" : "PUMP, 2\" GAS W/2 HOSES",
+  "Number" : 20007,
+  "Threehour" : 43,
+  "Weekly" : "259"
+}, {
+  "Alias" : "KOSHIN PB65011",
+  "Category" : "WATER PUMPS",
+  "Daily" : 49,
+  "Name" : "PUMP, SUB 2\" W/25' HOSE",
+  "Number" : 20008,
+  "Threehour" : 38,
+  "Weekly" : "195"
+}, {
+  "Alias" : "TSURUMI TE 80RW",
+  "Category" : "WATER PUMPS",
+  "Daily" : 92,
+  "Name" : "PUMP, 3\" GAS W/2 HOSES",
+  "Number" : 20009,
+  "Threehour" : 59,
+  "Weekly" : "367"
+}, {
+  "Alias" : "TSURUMI EPT2-50HA",
+  "Category" : "WATER PUMPS",
+  "Daily" : 87,
+  "Name" : "PUMP, 2\" TRASH W/2 HOSES",
+  "Number" : 20010,
+  "Threehour" : 54,
+  "Weekly" : "346"
+}, {
+  "Alias" : "KAWASAKI KWT-30A",
+  "Category" : "WATER PUMPS",
+  "Daily" : 103,
+  "Name" : "PUMP, 3\" TRASH W/2 HOSES",
+  "Number" : 20011,
+  "Threehour" : 70,
+  "Weekly" : "411"
+} ]
