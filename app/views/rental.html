@@ -87,7 +87,15 @@
 											<th>&nbsp;</th> -->
 										</thead>
 										<tbody>
-											<tr ng-repeat="product in filteredProducts | orderBy: 'Name' | filter:currentCategory() | filter:query" >
+											<tr
+												dir-paginate="product in products | itemsPerPage: itemsPpg | orderBy: 'Name' | filter:query | filter:currentCategory()"
+										    [current-page="currentPage"]
+										    [pagination-id=""]
+										    [total-items=""]
+										    >
+											
+											
+										<!-- 	<tr ng-repeat="product in products | orderBy: 'Name' | filter:currentCategory() | filter:query" > -->
 												<td>&nbsp;</td>
 												<td>{{product.Name}}</td>
 
@@ -107,14 +115,25 @@
 												<td>
 													<a href="#">Remove</a>
 												</td> -->
-												<pagination total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" ng-change="pageChanged()"></pagination>
-											</tr>
+												<!-- <pagination total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" ng-change="pageChanged()"></pagination> -->
 											
-											<tr>
+											</tr>
+											<!-- </tr>
+											 -->
+											<dir-pagination-controls
+										    [max-size=""]
+										    [direction-links=""]
+										    [boundary-links=""]
+										    [on-page-change=""]
+										    [pagination-id=""]
+										    [template-url=""]
+										    [auto-hide=""]>
+    									</dir-pagination-controls>
+										<!-- 	<tr>
 												Items per page: {{itemsPerPage}}
 												Page Count:  {{pageCount()}}
 												Total Items: {{}}
-											</tr>
+											</tr> -->
 											<pagination></pagination>
 										</tbody>
 									</table>

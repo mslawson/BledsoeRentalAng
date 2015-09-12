@@ -20,7 +20,8 @@ var app = angular.module('angfireApp',
     'ngSanitize',
     'ngTouch',
     'ui.bootstrap',
-    'firebase'
+    'firebase',
+    'angularUtils.directives.dirPagination'
   ]);
 
 app.factory('productsBase', ['$firebaseArray',

@@ -325,22 +325,22 @@ app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, items) {
 
   $scope.products = productsFactory.query();
 
-  $scope.itemsPerPage = 30;
+  $scope.itemsPpg = 25;
   $scope.currentPage = 1;
   // $scope.prods = products.query
-  $scope.pageCount = function(){
-    return Math.ceil($scope.products.length / $scope.itemsPerPage);
-  };
+  // $scope.pageCount = function(){
+  //   return Math.ceil($scope.products.length / $scope.itemsPerPage);
+  // };
 
-  $scope.products.$promise.then(function () {
-    $scope.totalItems = $scope.products.length;
-    $scope.$watch('currentPage + itemsPerPage', function() {
-      var begin = (($scope.currentPage - 1) * $scope.itemsPerPage),
-        end = begin + $scope.itemsPerPage;
+  // $scope.products.$promise.then(function () {
+  //   $scope.totalItems = $scope.products.length;
+  //   $scope.$watch('currentPage + itemsPerPage', function() {
+  //     var begin = (($scope.currentPage - 1) * $scope.itemsPerPage),
+  //       end = begin + $scope.itemsPerPage;
 
-      $scope.filteredProducts = $scope.products.slice(begin, end);
-    });
-  });
+  //     $scope.filteredProducts = $scope.products.slice(begin, end);
+  //   });
+  // });
 
 
   // Logic for dropdown menu

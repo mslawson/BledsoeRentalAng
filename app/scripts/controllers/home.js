@@ -11,6 +11,11 @@
 
  var app = angular.module('angfireApp');
 
+ // app.controller('TestPage', TestPage);
+ // function TestPage($scope){
+ //   sc
+ // }
+
  app.controller('HomeCtrl',function($scope, $location, servCategory, servEquipment) {  
 
  	$scope.category = servCategory.getName;
