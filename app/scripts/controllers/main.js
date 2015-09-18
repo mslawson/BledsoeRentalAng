@@ -11,9 +11,9 @@
 
  var app = angular.module('angfireApp');
 
- app.factory('productsFactory', function($resource) {
-  return $resource('products.json');
- });
+ // app.factory('productsFactory', function($resource) {
+ //  return $resource('products.json');
+ // });
 
 
  app.controller('CarouselDemoCtrl', function ($scope) {
@@ -295,7 +295,7 @@ app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, items) {
 });
 
 
- app.controller('MainCtrl', function ($scope, $location, productsBase, servCategory, servEquipment, productsFactory, $anchorScroll ) {
+ app.controller('MainCtrl', function ($scope, $location, productsBase, servCategory, servEquipment, $anchorScroll ) {
     // var productsRef = new Firebase('https://bledsoe.firebaseio.com/');
 
     // var products = $firebaseArray(productsRef);
@@ -323,7 +323,7 @@ app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, items) {
 
   // Pagination Logic
 
-  $scope.products = productsFactory.query();
+  // $scope.products = productsFactory.query();
 
   $scope.itemsPpg = 25;
   $scope.currentPage = 1;
@@ -569,7 +569,7 @@ app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, items) {
 
 
   // logic for products
-  // $scope.products = productsBase;
+  $scope.products = productsBase;
 
   $scope.addProduct = function(){
     var addp = $scope.products.$add({

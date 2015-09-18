@@ -88,7 +88,7 @@
 										</thead>
 										<tbody>
 											<tr
-												dir-paginate="product in products | itemsPerPage: itemsPpg | orderBy: 'Name' | filter:query | filter:currentCategory()"
+												dir-paginate="product in products | orderBy: 'Name' | filter:query | filter:currentCategory() | itemsPerPage: itemsPpg "
 										    [current-page="currentPage"]
 										    [pagination-id=""]
 										    [total-items=""]
