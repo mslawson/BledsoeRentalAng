@@ -87,12 +87,11 @@
 											<th>&nbsp;</th> -->
 										</thead>
 										<tbody>
-											<tr
-												dir-paginate="product in products | orderBy: 'Name' | filter:query | filter:currentCategory() | itemsPerPage: itemsPpg "
-										    [current-page="currentPage"]
+											<tr dir-paginate="product in products | orderBy: 'Name' | filter:query | filter:currentCategory() | itemsPerPage: itemsPpg ">
+										  <!--  [current-page="currentPage"]
 										    [pagination-id=""]
-										    [total-items=""]
-										    >
+										    [total-items=""] -->
+										  
 											
 											
 										<!-- 	<tr ng-repeat="product in products | orderBy: 'Name' | filter:currentCategory() | filter:query" > -->
@@ -120,14 +119,8 @@
 											</tr>
 											<!-- </tr>
 											 -->
-											<dir-pagination-controls
-										    [max-size=""]
-										    [direction-links=""]
-										    [boundary-links=""]
-										    [on-page-change=""]
-										    [pagination-id=""]
-										    [template-url=""]
-										    [auto-hide=""]>
+											<dir-pagination-controls>
+									
     									</dir-pagination-controls>
 										<!-- 	<tr>
 												Items per page: {{itemsPerPage}}
