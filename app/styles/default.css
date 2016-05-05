@@ -125,6 +125,17 @@ hr {
 	display: none;
 }
 
+.call {
+	text-decoration:none;
+  cursor:default;
+}
+
+.no-touch a.call {
+  color: black;            /* use default text color */
+  pointer-events: none;    /* prevents click event */
+  cursor: text;            /* use text highlight cursor*/
+}
+
 .popup-btn{
 	width: 50%;
 }
