@@ -140,10 +140,6 @@ app.config(function ($routeProvider, $locationProvider) {
         templateUrl: 'views/lsn.html',
         controller: 'HomeCtrl'
       })
-      .when('/store-lss',{
-        templateUrl: 'views/lss.html',
-        controller: 'HomeCtrl'
-      })
       .when('/store-ola',{
         templateUrl: 'views/olathe.html',
         controller: 'HomeCtrl'
