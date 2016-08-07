@@ -101,6 +101,11 @@ app.config(function ($routeProvider, $locationProvider) {
         templateUrl: 'views/ucart.html',
         controller: 'MainCtrl'
       })
+      .when('/mowers', {
+        templateUrl: 'views/mowers.html',
+        controller: 'MainCtrl'
+      })
+
       // Advertisements
       .when('/ad-lawn', {
         templateUrl: 'views/advertisements/ad-lawn.html',
