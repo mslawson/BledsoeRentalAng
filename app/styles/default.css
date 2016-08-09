@@ -49,6 +49,51 @@ div.alginleft{
 	float: left;
 }
 
+
+
+a.mowerBtn {
+	width: 400px;
+	margin: 25px auto;
+	background-color: #45704b; /* BobCat Green */
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+a.mowerBtn:hover {
+	color: white;
+	background-color: #c00000;  /* BobCat Red */
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+
+
+table.mowerDetails{
+	width: 100%;
+	float: left;
+}
+
+tr.bordBot th{
+	border-bottom: 2px solid #45704b;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	color: #45704b;
+}
+
+table.mowerDetails th{
+	text-align: left;
+}
+
+table.mowerDetails th td{
+	padding: 10px;
+}
 /*.tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
@@ -58,6 +103,19 @@ div.alginleft{
 .nav-tabs {
     margin-bottom: 0;
 }*/
+.mower {
+	background-color: #c00000;
+	padding: 10px 15px;
+	color: white;
+	text-transform: uppercase;
+	width: 200px;
+	display: inline-block;
+
+}
+
+.heading-row {
+	 border-bottom: 2px solid #c00000;
+}
 
 #bouncedims{
 	display: block;
@@ -119,6 +177,7 @@ img.alignright {
 
 img.aligncenter {
 	margin: 0px auto;
+	display: block;
 }
 
 hr {
